@@ -10,8 +10,9 @@ import yaml
 
 from calendar_builder import build_ics
 from fetchers.movies import fetch_upcoming_movies
-from fetchers.events import fetch_eventbrite_events, fetch_sistic_events
-from fetchers.ticketmaster import fetch_ticketmaster_events
+from fetchers.events import fetch_eventbrite_events
+from fetchers.scraper_sg import fetch_sistic_events, fetch_esplanade_events
+from fetchers.bandsintown import fetch_artist_concerts
 
 logging.basicConfig(level=logging.INFO, format="%(levelname)s %(name)s: %(message)s")
 logger = logging.getLogger(__name__)
@@ -77,12 +78,15 @@ def main():
             lookahead_days=lookahead,
         )
 
-        tm_key = events_cfg.get("ticketmaster_api_key", "")
-        if tm_key and tm_key != "YOUR_TICKETMASTER_API_KEY":
-            all_events += fetch_ticketmaster_events(
-                api_key=tm_key,
-                categories=events_cfg.get("categories", []),
-                keywords=keywords,
+        all_events += fetch_esplanade_events(
+            keywords=keywords,
+            lookahead_days=lookahead,
+        )
+
+        artists = events_cfg.get("artists", [])
+        if artists:
+            all_events += fetch_artist_concerts(
+                artists=artists,
                 lookahead_days=lookahead,
             )
 

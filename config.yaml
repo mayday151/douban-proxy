@@ -69,10 +69,7 @@ movies:
 # --- CONCERTS & PERFORMANCES ---
 events:
   enabled: true
-  # Ticketmaster Discovery API - free key at https://developer.ticketmaster.com/
-  # Best source for concerts and musicals in Singapore
-  ticketmaster_api_key: "YOUR_TICKETMASTER_API_KEY"
-  # Eventbrite API key - optional, get free one at https://www.eventbrite.com/platform/api
+  # Eventbrite API key - optional
   eventbrite_api_key: "YOUR_EVENTBRITE_API_KEY"
   # Event categories to fetch
   categories:
@@ -96,11 +93,15 @@ events:
     - "Wild Rice"
     - "Broadway"
     - "West End"
-    # Add artist names here, e.g.:
+  # Artists to track via Bandsintown (free, no key needed)
+  # Add any artist name — will alert you when they have a Singapore show
+  artists:
+    []
+    # Examples:
     # - "Taylor Swift"
     # - "Jay Chou"
-    # - "BTS"
     # - "Coldplay"
+    # - "Bruno Mars"
   # Always track events at these venues (regardless of keyword match)
   tracked_venues:
     - "Esplanade"
