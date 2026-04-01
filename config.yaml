@@ -10,7 +10,8 @@ movies:
   lookahead_days: 120
   # Minimum TMDB popularity score (higher = more popular films only)
   # 5 = most releases in SG, 20 = mainstream only, 50 = blockbusters only
-  min_popularity: 5
+  # 30 = mainstream blockbusters, 10 = include mid-tier releases
+  min_popularity: 30
   # Only show movies with these genres (leave empty [] for all genres)
   # Options: Action, Adventure, Animation, Comedy, Crime, Documentary,
   #          Drama, Fantasy, Horror, Music, Mystery, Romance, Sci-Fi, Thriller
@@ -24,14 +25,46 @@ movies:
     - Fantasy
     - Mystery
   # Add to calendar even if below popularity threshold if title contains these keywords
+  # These bypass all filters — always added regardless of genre/popularity
   must_watch_keywords:
+    # Franchises
     - "Marvel"
+    - "Avengers"
+    - "Spider-Man"
     - "DC"
+    - "Batman"
+    - "Superman"
     - "Star Wars"
+    - "Mission: Impossible"
     - "Mission Impossible"
     - "Fast & Furious"
+    - "Fast X"
+    - "John Wick"
+    - "Avatar"
+    - "Jurassic"
+    - "Transformers"
+    - "Godzilla"
+    - "Kong"
+    - "Alien"
+    - "Predator"
+    - "Indiana Jones"
+    - "James Bond"
+    - "007"
+    - "Planet of the Apes"
     - "Dune"
+    - "Matrix"
+    - "Top Gun"
+    - "Gladiator"
+    # Directors known for IMAX / visually spectacular films
+    - "Nolan"
+    - "Villeneuve"
+    - "Cameron"
+    - "Spielberg"
+    - "Ridley Scott"
+    - "Zack Snyder"
+    # Specific upcoming films
     - "Odyssey"
+    - "Minecraft"
 
 # --- CONCERTS & PERFORMANCES ---
 events:
