@@ -11,6 +11,7 @@ import yaml
 from calendar_builder import build_ics
 from fetchers.movies import fetch_upcoming_movies
 from fetchers.events import fetch_eventbrite_events, fetch_sistic_events
+from fetchers.ticketmaster import fetch_ticketmaster_events
 
 logging.basicConfig(level=logging.INFO, format="%(levelname)s %(name)s: %(message)s")
 logger = logging.getLogger(__name__)
@@ -27,6 +28,8 @@ def load_config() -> dict:
         cfg.setdefault("movies", {})["tmdb_api_key"] = os.environ["TMDB_API_KEY"]
     if os.getenv("EVENTBRITE_API_KEY"):
         cfg.setdefault("events", {})["eventbrite_api_key"] = os.environ["EVENTBRITE_API_KEY"]
+    if os.getenv("TICKETMASTER_API_KEY"):
+        cfg.setdefault("events", {})["ticketmaster_api_key"] = os.environ["TICKETMASTER_API_KEY"]
 
     return cfg
 
@@ -73,6 +76,15 @@ def main():
             tracked_venues=tracked_venues,
             lookahead_days=lookahead,
         )
+
+        tm_key = events_cfg.get("ticketmaster_api_key", "")
+        if tm_key and tm_key != "YOUR_TICKETMASTER_API_KEY":
+            all_events += fetch_ticketmaster_events(
+                api_key=tm_key,
+                categories=events_cfg.get("categories", []),
+                keywords=keywords,
+                lookahead_days=lookahead,
+            )
 
     ics_data = build_ics(
         movies=all_movies,

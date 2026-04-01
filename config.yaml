@@ -69,37 +69,52 @@ movies:
 # --- CONCERTS & PERFORMANCES ---
 events:
   enabled: true
-  # Eventbrite API key - get free one at https://www.eventbrite.com/platform/api
+  # Ticketmaster Discovery API - free key at https://developer.ticketmaster.com/
+  # Best source for concerts and musicals in Singapore
+  ticketmaster_api_key: "YOUR_TICKETMASTER_API_KEY"
+  # Eventbrite API key - optional, get free one at https://www.eventbrite.com/platform/api
   eventbrite_api_key: "YOUR_EVENTBRITE_API_KEY"
-  # Event categories to track
-  # Options: music, arts, film, food, sports, comedy, theatre, dance
+  # Event categories to fetch
   categories:
     - music
     - arts
     - theatre
-    - comedy
-  # Keywords to search for (artist names, event types, etc.)
+    - musical
+  # Search keywords — add artist names you want to track here
   keywords:
+    # Types of events
     - "concert"
     - "live music"
-    - "stand-up comedy"
     - "musical"
     - "ballet"
     - "orchestra"
+    - "opera"
+    - "stand-up comedy"
+    # Recurring SG events worth tracking
     - "Singapore Symphony"
-    - "Esplanade"
-  # Venues to always track regardless of category
+    - "Singapore Repertory Theatre"
+    - "Wild Rice"
+    - "Broadway"
+    - "West End"
+    # Add artist names here, e.g.:
+    # - "Taylor Swift"
+    # - "Jay Chou"
+    # - "BTS"
+    # - "Coldplay"
+  # Always track events at these venues (regardless of keyword match)
   tracked_venues:
     - "Esplanade"
     - "Singapore Indoor Stadium"
     - "Fort Canning Park"
     - "Capitol Theatre"
     - "Victoria Theatre"
+    - "Sands Theatre"
+    - "MasterCard Theatres"
     - "Gardens by the Bay"
-  # Max price in SGD (0 = no limit)
-  max_price_sgd: 0
+    - "Star Theatre"
+    - "The Star Performing Arts Centre"
   # How many days ahead to look
-  lookahead_days: 60
+  lookahead_days: 90
 
 # --- CALENDAR SETTINGS ---
 calendar:

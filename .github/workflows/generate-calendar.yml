@@ -27,6 +27,7 @@ jobs:
         env:
           TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
           EVENTBRITE_API_KEY: ${{ secrets.EVENTBRITE_API_KEY }}
+          TICKETMASTER_API_KEY: ${{ secrets.TICKETMASTER_API_KEY }}
         run: python generate_ics.py
 
       - name: Commit and push updated ICS
