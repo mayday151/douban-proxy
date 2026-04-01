@@ -30,6 +30,8 @@ movies:
     - "Star Wars"
     - "Mission Impossible"
     - "Fast & Furious"
+    - "Dune"
+    - "Odyssey"
 
 # --- CONCERTS & PERFORMANCES ---
 events:
