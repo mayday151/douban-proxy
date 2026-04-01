@@ -2,7 +2,7 @@ name: Generate Singapore Events Calendar
 
 on:
   schedule:
-    - cron: "0 1 * * *"   # 每天 09:00 新加坡时间 (UTC+8 = UTC 01:00)
+    - cron: "*/30 * * * *"   # 每 30 分钟
   workflow_dispatch:        # 允许手动触发
 
 permissions:
