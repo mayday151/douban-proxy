@@ -1,0 +1,74 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Singapore Events Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+REFRESH-INTERVAL;VALUE=DURATION:PT60M
+X-PUBLISHED-TTL:PT60M
+X-WR-CALDESC:Upcoming movies and events in Singapore
+X-WR-CALNAME:Singapore Events
+X-WR-TIMEZONE:Asia/Singapore
+BEGIN:VEVENT
+SUMMARY:[Movie] The Drama
+DTSTART;VALUE=DATE:20260416
+DTEND;VALUE=DATE:20260417
+DTSTAMP:20260401T091733Z
+UID:movie-1325734@sg-events-calendar
+ATTACH:https://image.tmdb.org/t/p/w500/ikcNOWB6Qo1ER1H1BJL6Vf0W22s.jpg
+CATEGORIES:Movies,Singapore
+DESCRIPTION:Genres: Comedy\, Romance\n\nA happily engaged couple is put to
+  the test when an unexpected turn sends their wedding week off the rails.\
+ n\nTMDB: https://www.themoviedb.org/movie/1325734
+TRANSP:TRANSPARENT
+URL:https://www.themoviedb.org/movie/1325734
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Event Reminder
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Movie] The Super Mario Galaxy Movie
+DTSTART;VALUE=DATE:20260401
+DTEND;VALUE=DATE:20260402
+DTSTAMP:20260401T091733Z
+UID:movie-1226863@sg-events-calendar
+ATTACH:https://image.tmdb.org/t/p/w500/eJGWx219ZcEMVQJhAgMiqo8tYY.jpg
+CATEGORIES:Movies,Singapore
+DESCRIPTION:Genres: Comedy\, Adventure\, Fantasy\, Animation\n\nHaving thw
+ arted Bowser's previous plot to marry Princess Peach\, Mario and Luigi now
+  face a fresh threat in Bowser Jr.\, who is determined to liberate his fat
+ her from captivity and restore the family legacy. Alongside companions new
+  and old\, the brothers travel across the stars to stop the young heir's c
+ rusade.\n\nTMDB: https://www.themoviedb.org/movie/1226863
+TRANSP:TRANSPARENT
+URL:https://www.themoviedb.org/movie/1226863
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Event Reminder
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Movie] Star Wars: The Mandalorian and Grogu
+DTSTART;VALUE=DATE:20260521
+DTEND;VALUE=DATE:20260522
+DTSTAMP:20260401T091733Z
+UID:movie-1228710@sg-events-calendar
+ATTACH:https://image.tmdb.org/t/p/w500/7QujwMB124KqSPbWlLRHBO5wygE.jpg
+CATEGORIES:Movies,Singapore
+DESCRIPTION:Genres: Action\, Adventure\, Sci-Fi\n\nThe evil Empire has fal
+ len\, and Imperial warlords remain scattered throughout the galaxy. As the
+  fledgling New Republic works to protect everything the Rebellion fought f
+ or\, they have enlisted the help of legendary Mandalorian bounty hunter Di
+ n Djarin and his young apprentice Grogu.\n\nTMDB: https://www.themoviedb.o
+ rg/movie/1228710
+TRANSP:TRANSPARENT
+URL:https://www.themoviedb.org/movie/1228710
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Event Reminder
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR
