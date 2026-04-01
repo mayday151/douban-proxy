@@ -10,7 +10,7 @@ import httpx
 logger = logging.getLogger(__name__)
 
 TMDB_BASE = "https://api.themoviedb.org/3"
-TMDB_IMAGE_BASE = "https://image.tmdb.org/t/p/w500"
+TMDB_IMAGE_BASE = "https://image.tmdb.org/t/p/w342"
 
 # TMDB genre IDs
 GENRE_MAP = {

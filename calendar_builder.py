@@ -59,7 +59,12 @@ def _movie_to_event(movie: dict, reminder_minutes: int) -> Event:
     ev.add("url", movie.get("tmdb_url", ""))
 
     if movie.get("poster_url"):
-        ev.add("attach", movie["poster_url"])
+        # RFC 7986 IMAGE property — displayed as thumbnail in Apple Calendar
+        from icalendar import vUri
+        img = vUri(movie["poster_url"])
+        img.params["VALUE"] = "URI"
+        img.params["DISPLAY"] = "THUMBNAIL"
+        ev.add("image", img)
 
     ev.add("categories", ["Movies", "Singapore"])
     ev.add("dtstamp", datetime.now(timezone.utc))
