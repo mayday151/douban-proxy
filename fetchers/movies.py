@@ -46,17 +46,84 @@ def fetch_upcoming_movies(
     lookahead_days: int,
 ) -> list[dict]:
     """
-    Returns a list of movie event dicts:
-      { title, release_date, overview, genres, popularity, poster_url, tmdb_url }
+    Returns a list of movie event dicts combining:
+    - Now playing in Singapore cinemas
+    - Upcoming releases within lookahead_days
     """
     today = date.today()
     end_date = today + timedelta(days=lookahead_days)
+    # Also look back 30 days to catch movies currently in theaters
+    start_date = today - timedelta(days=30)
     wanted_genre_ids = set(_genre_ids(genres))
 
     movies = []
     seen_ids = set()
 
+    def _collect(results: list[dict]) -> None:
+        for movie in results:
+            mid = movie["id"]
+            if mid in seen_ids:
+                return
+            seen_ids.add(mid)
+
+            title = movie.get("title", "")
+            popularity = movie.get("popularity", 0)
+            movie_genre_ids = set(movie.get("genre_ids", []))
+            overview = movie.get("overview", "")
+
+            is_must_watch = any(
+                kw.lower() in title.lower() for kw in must_watch_keywords
+            )
+
+            if not is_must_watch:
+                if wanted_genre_ids and not (movie_genre_ids & wanted_genre_ids):
+                    return
+                if popularity < min_popularity:
+                    return
+
+            release_str = movie.get("release_date", "")
+            if not release_str:
+                return
+            try:
+                release_date = date.fromisoformat(release_str)
+            except ValueError:
+                return
+
+            poster_path = movie.get("poster_path", "")
+            movies.append(
+                {
+                    "id": f"movie-{mid}",
+                    "title": title,
+                    "release_date": release_date,
+                    "overview": overview,
+                    "popularity": popularity,
+                    "poster_url": f"{TMDB_IMAGE_BASE}{poster_path}" if poster_path else "",
+                    "tmdb_url": f"https://www.themoviedb.org/movie/{mid}",
+                    "genres": _genre_names(movie_genre_ids),
+                    "type": "movie",
+                }
+            )
+
     with httpx.Client(timeout=15) as client:
+        # 1. Now playing in SG cinemas
+        for page in range(1, 6):
+            resp = client.get(
+                f"{TMDB_BASE}/movie/now_playing",
+                params={
+                    "api_key": api_key,
+                    "region": SG_REGION,
+                    "page": page,
+                    "language": "en-US",
+                },
+            )
+            resp.raise_for_status()
+            data = resp.json()
+            for movie in data.get("results", []):
+                _collect([movie])
+            if page >= data.get("total_pages", 1):
+                break
+
+        # 2. Upcoming releases
         page = 1
         while True:
             resp = client.get(
@@ -76,60 +143,14 @@ def fetch_upcoming_movies(
             results = data.get("results", [])
             if not results:
                 break
-
             for movie in results:
-                mid = movie["id"]
-                if mid in seen_ids:
-                    continue
-                seen_ids.add(mid)
-
-                title = movie.get("title", "")
-                popularity = movie.get("popularity", 0)
-                movie_genre_ids = set(movie.get("genre_ids", []))
-                overview = movie.get("overview", "")
-
-                # Check must-watch keywords first (bypass filters)
-                is_must_watch = any(
-                    kw.lower() in title.lower() for kw in must_watch_keywords
-                )
-
-                if not is_must_watch:
-                    # Apply genre filter
-                    if wanted_genre_ids and not (movie_genre_ids & wanted_genre_ids):
-                        continue
-                    # Apply popularity filter
-                    if popularity < min_popularity:
-                        continue
-
-                release_str = movie.get("release_date", "")
-                if not release_str:
-                    continue
-
-                try:
-                    release_date = date.fromisoformat(release_str)
-                except ValueError:
-                    continue
-
-                poster_path = movie.get("poster_path", "")
-                movies.append(
-                    {
-                        "id": f"movie-{mid}",
-                        "title": title,
-                        "release_date": release_date,
-                        "overview": overview,
-                        "popularity": popularity,
-                        "poster_url": f"{TMDB_IMAGE_BASE}{poster_path}" if poster_path else "",
-                        "tmdb_url": f"https://www.themoviedb.org/movie/{mid}",
-                        "genres": _genre_names(movie_genre_ids),
-                        "type": "movie",
-                    }
-                )
-
+                _collect([movie])
             if page >= data.get("total_pages", 1):
                 break
             page += 1
 
-    logger.info("Fetched %d upcoming movies for Singapore", len(movies))
+    movies.sort(key=lambda m: m["release_date"])
+    logger.info("Fetched %d movies for Singapore (now playing + upcoming)", len(movies))
     return movies
 
 
