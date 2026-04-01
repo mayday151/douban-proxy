@@ -1,0 +1,72 @@
+# Singapore Event Calendar - User Preferences
+# Edit this file to customize what gets added to your Apple Calendar
+
+# --- MOVIES ---
+movies:
+  enabled: true
+  # TMDB API key - get free one at https://www.themoviedb.org/settings/api
+  tmdb_api_key: "YOUR_TMDB_API_KEY"
+  # How many days ahead to look for upcoming releases
+  lookahead_days: 90
+  # Minimum TMDB popularity score (higher = more popular films only)
+  min_popularity: 20
+  # Only show movies with these genres (leave empty [] for all genres)
+  # Options: Action, Adventure, Animation, Comedy, Crime, Documentary,
+  #          Drama, Fantasy, Horror, Music, Mystery, Romance, Sci-Fi, Thriller
+  genres:
+    - Action
+    - Sci-Fi
+    - Animation
+    - Comedy
+    - Thriller
+  # Add to calendar even if below popularity threshold if title contains these keywords
+  must_watch_keywords:
+    - "Marvel"
+    - "DC"
+    - "Star Wars"
+    - "Mission Impossible"
+    - "Fast & Furious"
+
+# --- CONCERTS & PERFORMANCES ---
+events:
+  enabled: true
+  # Eventbrite API key - get free one at https://www.eventbrite.com/platform/api
+  eventbrite_api_key: "YOUR_EVENTBRITE_API_KEY"
+  # Event categories to track
+  # Options: music, arts, film, food, sports, comedy, theatre, dance
+  categories:
+    - music
+    - arts
+    - theatre
+    - comedy
+  # Keywords to search for (artist names, event types, etc.)
+  keywords:
+    - "concert"
+    - "live music"
+    - "stand-up comedy"
+    - "musical"
+    - "ballet"
+    - "orchestra"
+    - "Singapore Symphony"
+    - "Esplanade"
+  # Venues to always track regardless of category
+  tracked_venues:
+    - "Esplanade"
+    - "Singapore Indoor Stadium"
+    - "Fort Canning Park"
+    - "Capitol Theatre"
+    - "Victoria Theatre"
+    - "Gardens by the Bay"
+  # Max price in SGD (0 = no limit)
+  max_price_sgd: 0
+  # How many days ahead to look
+  lookahead_days: 60
+
+# --- CALENDAR SETTINGS ---
+calendar:
+  name: "Singapore Events"
+  timezone: "Asia/Singapore"
+  # Add a reminder N minutes before event (0 = no reminder)
+  reminder_minutes: 1440  # 24 hours before
+  # Refresh interval in minutes (how often Apple Calendar pulls updates)
+  refresh_interval: 60
