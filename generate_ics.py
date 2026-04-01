@@ -51,6 +51,7 @@ def main():
                 must_watch_keywords=movies_cfg.get("must_watch_keywords", []),
                 min_popularity=movies_cfg.get("min_popularity", 20),
                 lookahead_days=movies_cfg.get("lookahead_days", 90),
+                language=movies_cfg.get("language", "zh-CN"),
             )
         else:
             logger.warning("TMDB API key not set")

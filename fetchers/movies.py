@@ -44,6 +44,7 @@ def fetch_upcoming_movies(
     must_watch_keywords: list[str],
     min_popularity: float,
     lookahead_days: int,
+    language: str = "zh-CN",
 ) -> list[dict]:
     """
     Returns a list of movie event dicts combining:
@@ -59,21 +60,28 @@ def fetch_upcoming_movies(
     movies = []
     seen_ids = set()
 
-    def _collect(results: list[dict]) -> None:
+    def _collect(results: list[dict], en_map: dict[int, str] | None = None) -> None:
         for movie in results:
             mid = movie["id"]
             if mid in seen_ids:
                 return
             seen_ids.add(mid)
 
-            title = movie.get("title", "")
+            zh_title = movie.get("title", "")
+            en_title = (en_map or {}).get(mid, "")
+            # Build display title: 中文名 (English) or just whichever is available
+            if zh_title and en_title and zh_title != en_title:
+                display_title = f"{zh_title} ({en_title})"
+            else:
+                display_title = zh_title or en_title
+
             popularity = movie.get("popularity", 0)
             movie_genre_ids = set(movie.get("genre_ids", []))
             overview = movie.get("overview", "")
 
-            is_must_watch = any(
-                kw.lower() in title.lower() for kw in must_watch_keywords
-            )
+            # must_watch check against both titles
+            combined_title = f"{zh_title} {en_title}".lower()
+            is_must_watch = any(kw.lower() in combined_title for kw in must_watch_keywords)
 
             if not is_must_watch:
                 if wanted_genre_ids and not (movie_genre_ids & wanted_genre_ids):
@@ -93,7 +101,7 @@ def fetch_upcoming_movies(
             movies.append(
                 {
                     "id": f"movie-{mid}",
-                    "title": title,
+                    "title": display_title,
                     "release_date": release_date,
                     "overview": overview,
                     "popularity": popularity,
@@ -105,47 +113,60 @@ def fetch_upcoming_movies(
             )
 
     with httpx.Client(timeout=15) as client:
+
+        def _fetch_en_titles(ids: list[int]) -> dict[int, str]:
+            """Fetch English titles for a batch of movie IDs."""
+            en_map: dict[int, str] = {}
+            # Re-fetch the same queries in en-US to get original titles
+            return en_map  # filled lazily per-batch below
+
+        def _get_results(url: str, params: dict) -> tuple[list, int]:
+            """Fetch one page in both zh and en, return (zh_results, total_pages)."""
+            zh_params = {**params, "language": language}
+            en_params = {**params, "language": "en-US"}
+            zh_resp = client.get(url, params=zh_params)
+            zh_resp.raise_for_status()
+            zh_data = zh_resp.json()
+            zh_results = zh_data.get("results", [])
+
+            # Build English title map for this page
+            en_resp = client.get(url, params=en_params)
+            en_resp.raise_for_status()
+            en_data = en_resp.json()
+            en_map = {m["id"]: m.get("title", "") for m in en_data.get("results", [])}
+
+            return zh_results, zh_data.get("total_pages", 1), en_map
+
         # 1. Now playing in SG cinemas
         for page in range(1, 6):
-            resp = client.get(
+            zh_results, total_pages, en_map = _get_results(
                 f"{TMDB_BASE}/movie/now_playing",
-                params={
-                    "api_key": api_key,
-                    "region": SG_REGION,
-                    "page": page,
-                    "language": "en-US",
-                },
+                {"api_key": api_key, "region": SG_REGION, "page": page},
             )
-            resp.raise_for_status()
-            data = resp.json()
-            for movie in data.get("results", []):
-                _collect([movie])
-            if page >= data.get("total_pages", 1):
+            for movie in zh_results:
+                _collect([movie], en_map)
+            if page >= total_pages:
                 break
 
         # 2. Upcoming releases
         page = 1
         while True:
-            resp = client.get(
+            zh_results, total_pages, en_map = _get_results(
                 f"{TMDB_BASE}/discover/movie",
-                params={
+                {
                     "api_key": api_key,
                     "region": SG_REGION,
                     "primary_release_date.gte": today.isoformat(),
                     "primary_release_date.lte": end_date.isoformat(),
                     "sort_by": "primary_release_date.asc",
                     "page": page,
-                    "language": "en-US",
                 },
             )
-            resp.raise_for_status()
-            data = resp.json()
-            results = data.get("results", [])
-            if not results:
+            if not zh_results:
                 break
-            for movie in results:
-                _collect([movie])
-            if page >= data.get("total_pages", 1):
+            for movie in zh_results:
+                _collect([movie], en_map)
+            if page >= total_pages:
                 break
             page += 1
 
