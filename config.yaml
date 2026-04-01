@@ -5,7 +5,7 @@
 movies:
   enabled: true
   # TMDB API key - get free one at https://www.themoviedb.org/settings/api
-  tmdb_api_key: "YOUR_TMDB_API_KEY"
+  tmdb_api_key: "298e40de162c0be0d34ea91261a50cde"
   # How many days ahead to look for upcoming releases
   lookahead_days: 90
   # Minimum TMDB popularity score (higher = more popular films only)
