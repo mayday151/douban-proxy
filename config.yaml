@@ -127,4 +127,4 @@ calendar:
   # Add a reminder N minutes before event (0 = no reminder)
   reminder_minutes: 1440  # 24 hours before
   # Refresh interval in minutes (how often Apple Calendar pulls updates)
-  refresh_interval: 30
+  refresh_interval: 10
