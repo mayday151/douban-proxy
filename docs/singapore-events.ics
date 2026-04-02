@@ -3,22 +3,31 @@ VERSION:2.0
 PRODID:-//Singapore Events Calendar//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-REFRESH-INTERVAL;VALUE=DURATION:PT60M
-X-PUBLISHED-TTL:PT60M
+REFRESH-INTERVAL;VALUE=DURATION:PT30M
+X-PUBLISHED-TTL:PT30M
 X-WR-CALDESC:Upcoming movies and events in Singapore
 X-WR-CALNAME:Singapore Events
 X-WR-TIMEZONE:Asia/Singapore
 BEGIN:VEVENT
-SUMMARY:[Movie] The Drama
-DTSTART;VALUE=DATE:20260416
-DTEND;VALUE=DATE:20260417
-DTSTAMP:20260401T091733Z
-UID:movie-1325734@sg-events-calendar
-ATTACH:https://image.tmdb.org/t/p/w500/ikcNOWB6Qo1ER1H1BJL6Vf0W22s.jpg
+SUMMARY:[Movie] 洛杉矶劫案 (Crime 101)
+DTSTART;VALUE=DATE:20260226
+DTEND;VALUE=DATE:20260227
+DTSTAMP:20260402T173710Z
+UID:movie-1171145@sg-events-calendar
 CATEGORIES:Movies,Singapore
-DESCRIPTION:Genres: Comedy\, Romance\n\nA happily engaged couple is put to the test when an unexpected turn sends their wedding week off the rails.\n\nTMDB: https://www.themoviedb.org/movie/1325734
+DESCRIPTION:Genres: Crime\, Thriller\n\n　　当多年来从未失手的
+ 珠宝大盗（克里斯·海姆斯沃斯 饰）决心干票大的就金
+ 盆洗手时，人生失意的保险公司高管（哈莉·贝瑞 饰）
+ 却意外加入，两人被迫联手。与此同时，一位警探（马
+ 克·鲁法洛 饰）正通过蛛丝马迹的线索将矛头对准他们
+ 。监守自盗的内鬼，黑吃黑的争斗，交错的阴谋下谁将
+ 成为这场惊天劫案的最终赢家？ 　　影片改编自《纽约
+ 时报》榜首畅销书作者唐·温斯洛同名小说。\n\nTMDB: https
+ ://www.themoviedb.org/movie/1171145
+IMAGE;DISPLAY=THUMBNAIL;VALUE=URI:https://image.tmdb.org/t/p/w342/vzOl0Dgv
+ axuGMPJhncUeOqIxjyi.jpg
 TRANSP:TRANSPARENT
-URL:https://www.themoviedb.org/movie/1325734
+URL:https://www.themoviedb.org/movie/1171145
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Event Reminder
@@ -26,14 +35,199 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[Movie] The Super Mario Galaxy Movie
+SUMMARY:[Movie] 惊声尖叫7 (Scream 7)
+DTSTART;VALUE=DATE:20260305
+DTEND;VALUE=DATE:20260306
+DTSTAMP:20260402T173710Z
+UID:movie-1159559@sg-events-calendar
+CATEGORIES:Movies,Singapore
+DESCRIPTION:Genres: Mystery\, Crime\, Horror\n\n当新的鬼脸杀手出
+ 现在西德妮·普雷斯科特归隐的宁静小镇时，她最深的恐
+ 惧化为现实——这一次，屠刀指向了她的女儿。为守护
+ 仅存的安宁，这位曾经的幸存者必须再度直面血色的过
+ 往，与纠缠半生的梦魇进行最后的清算。\n\nTMDB: https://ww
+ w.themoviedb.org/movie/1159559
+IMAGE;DISPLAY=THUMBNAIL;VALUE=URI:https://image.tmdb.org/t/p/w342/1enQDc50
+ cQ5ChHKUwpLMLTzfC2d.jpg
+TRANSP:TRANSPARENT
+URL:https://www.themoviedb.org/movie/1159559
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Event Reminder
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Movie] 河狸变身计划 (Hoppers)
+DTSTART;VALUE=DATE:20260312
+DTEND;VALUE=DATE:20260313
+DTSTAMP:20260402T173710Z
+UID:movie-1327819@sg-events-calendar
+CATEGORIES:Movies,Singapore
+DESCRIPTION:Genres: Comedy\, Adventure\, Sci-Fi\, Animation\n\n　　梅
+ 宝是一位对动物世界充满好奇的年轻女孩，她利用先进
+ 的意识上传技术，将自己的思维注入一只机械河狸体内
+ 。以这种独特的形态，梅宝结识了河狸王国的乔治国王
+ 等动物伙伴。然而，一个由房地产开发计划带来的威胁
+ ，正试图破坏动物们的栖息地。梅宝与她的新朋友们联
+ 手，利用机械河狸的能力和人类的智慧，共同对抗这个
+ 危机，守护动物们的家园。\n\nTMDB: https://www.themoviedb.org/m
+ ovie/1327819
+IMAGE;DISPLAY=THUMBNAIL;VALUE=URI:https://image.tmdb.org/t/p/w342/fAKE5cez
+ L6eOezlNCz8U2coDd86.jpg
+TRANSP:TRANSPARENT
+URL:https://www.themoviedb.org/movie/1327819
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Event Reminder
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Movie] 挽救计划 (Project Hail Mary)
+DTSTART;VALUE=DATE:20260319
+DTEND;VALUE=DATE:20260320
+DTSTAMP:20260402T173710Z
+UID:movie-687163@sg-events-calendar
+CATEGORIES:Movies,Singapore
+DESCRIPTION:Genres: Adventure\, Sci-Fi\n\n　　太阳即将熄灭，地
+ 球命悬一线，对太空一窍不通的中学老师瑞恩（瑞恩·高
+ 斯林 饰）竟成为全人类的希望。被迫成为宇航员的他，
+ 踏上有去无回的太空孤旅。他能否力挽狂澜，为人类带
+ 来新的黎明？ 　　影片改编自安迪·威尔的同名畅销科
+ 幻小说。\n\nTMDB: https://www.themoviedb.org/movie/687163
+IMAGE;DISPLAY=THUMBNAIL;VALUE=URI:https://image.tmdb.org/t/p/w342/qf8HaEGN
+ UFXU6nVAq9BVEk4Tiqb.jpg
+TRANSP:TRANSPARENT
+URL:https://www.themoviedb.org/movie/687163
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Event Reminder
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Movie] 征服者2 (Dhurandhar: The Revenge)
+DTSTART;VALUE=DATE:20260319
+DTEND;VALUE=DATE:20260320
+DTSTAMP:20260402T173710Z
+UID:movie-1582770@sg-events-calendar
+CATEGORIES:Movies,Singapore
+DESCRIPTION:Genres: Crime\, Action\, Thriller\n\n　　当敌对帮派、
+ 腐败官员和冷酷的伊克巴尔少校步步紧逼，哈姆扎为国
+ 家而战的使命逐渐沦陷为一场血腥的个人复仇。在利亚
+ 里的街头，爱国者与恶魔的界限逐渐模糊。\n\nTMDB: https:/
+ /www.themoviedb.org/movie/1582770
+IMAGE;DISPLAY=THUMBNAIL;VALUE=URI:https://image.tmdb.org/t/p/w342/ov8vrRLZ
+ GoXHpYjSY9Vpv1tHJX7.jpg
+TRANSP:TRANSPARENT
+URL:https://www.themoviedb.org/movie/1582770
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Event Reminder
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Movie] 如何大赚一笔 (How to Make a Killing)
+DTSTART;VALUE=DATE:20260319
+DTEND;VALUE=DATE:20260320
+DTSTAMP:20260402T173710Z
+UID:movie-467905@sg-events-calendar
+CATEGORIES:Movies,Singapore
+DESCRIPTION:Genres: Comedy\, Thriller\n\n　　本是豪门继承人的贝
+ 克特·雷德费洛被家族抛弃，为了确保成为巨额遗产的唯
+ 一继承人，他不择手段干掉了七个亲戚。\n\nTMDB: https://ww
+ w.themoviedb.org/movie/467905
+IMAGE;DISPLAY=THUMBNAIL;VALUE=URI:https://image.tmdb.org/t/p/w342/ePqVAEjK
+ VgBh1fWaMUyfVTLHj5J.jpg
+TRANSP:TRANSPARENT
+URL:https://www.themoviedb.org/movie/467905
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Event Reminder
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Movie] 蛊降 (Kong Tao)
+DTSTART;VALUE=DATE:20260319
+DTEND;VALUE=DATE:20260320
+DTSTAMP:20260402T173710Z
+UID:movie-1529513@sg-events-calendar
+CATEGORIES:Movies,Singapore
+DESCRIPTION:Genres: Adventure\, Thriller\n\nTMDB: https://www.themoviedb.o
+ rg/movie/1529513
+IMAGE;DISPLAY=THUMBNAIL;VALUE=URI:https://image.tmdb.org/t/p/w342/hoIwuX4t
+ k22hfnAGXT4yHn2ePmw.jpg
+TRANSP:TRANSPARENT
+URL:https://www.themoviedb.org/movie/1529513
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Event Reminder
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Movie] 准备好了没2：我来了 (Ready or Not: Here I Come)
+DTSTART;VALUE=DATE:20260326
+DTEND;VALUE=DATE:20260327
+DTSTAMP:20260402T173710Z
+UID:movie-1266127@sg-events-calendar
+CATEGORIES:Movies,Singapore
+DESCRIPTION:Genres: Comedy\, Horror\, Action\n\n　　格蕾丝侥幸逃
+ 过勒多马斯家族的追杀后，发现游戏并未结束，而是进
+ 入了下一阶段，这次她疏远已久的妹妹也被卷入其中。
+ 面临四个敌对家族猎杀的格蕾丝必须活下来、保护妹妹
+ ，同时争夺掌控世界的议会王座。\n\nTMDB: https://www.themovi
+ edb.org/movie/1266127
+IMAGE;DISPLAY=THUMBNAIL;VALUE=URI:https://image.tmdb.org/t/p/w342/6101Vi0R
+ XKjzjzu92PiXQg8ZkkP.jpg
+TRANSP:TRANSPARENT
+URL:https://www.themoviedb.org/movie/1266127
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Event Reminder
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Movie] 杀的就是你 (They Will Kill You)
+DTSTART;VALUE=DATE:20260326
+DTEND;VALUE=DATE:20260327
+DTSTAMP:20260402T173710Z
+UID:movie-1292695@sg-events-calendar
+CATEGORIES:Movies,Singapore
+DESCRIPTION:Genres: Horror\, Comedy\, Action\n\n一个从事打扫工作
+ 的女子为纽约一座摩天大楼中的富人家工作，却被告知
+ 这里有一个供奉撒旦的邪教，每个月要杀一个人作为祭
+ 品，“今晚，选中了你……”\n\nTMDB: https://www.themoviedb.or
+ g/movie/1292695
+IMAGE;DISPLAY=THUMBNAIL;VALUE=URI:https://image.tmdb.org/t/p/w342/4qTTIh9O
+ Xaye99qMeocIOoPzaOJ.jpg
+TRANSP:TRANSPARENT
+URL:https://www.themoviedb.org/movie/1292695
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Event Reminder
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Movie] 超级马力欧银河大电影 (The Super Mario Galaxy Mov
+ ie)
 DTSTART;VALUE=DATE:20260401
 DTEND;VALUE=DATE:20260402
-DTSTAMP:20260401T091733Z
+DTSTAMP:20260402T173710Z
 UID:movie-1226863@sg-events-calendar
-ATTACH:https://image.tmdb.org/t/p/w500/eJGWx219ZcEMVQJhAgMiqo8tYY.jpg
 CATEGORIES:Movies,Singapore
-DESCRIPTION:Genres: Comedy\, Adventure\, Fantasy\, Animation\n\nHaving thwarted Bowser's previous plot to marry Princess Peach\, Mario and Luigi now face a fresh threat in Bowser Jr.\, who is determined to liberate his father from captivity and restore the family legacy.\n\nTMDB: https://www.themoviedb.org/movie/1226863
+DESCRIPTION:Genres: Comedy\, Adventure\, Fantasy\, Animation\n\n　　重
+ 返奇妙世界，探索浩瀚宇宙，罗莎塔公主、酷霸Jr.、耀
+ 西等更多惊喜角色登场，开拓更宏大酷炫的版图，呈现
+ 更精彩纷呈的冒险。\n\nTMDB: https://www.themoviedb.org/movie/1226
+ 863
+IMAGE;DISPLAY=THUMBNAIL;VALUE=URI:https://image.tmdb.org/t/p/w342/tavRK9y9
+ yGuBUQpXIXgocqFHx72.jpg
 TRANSP:TRANSPARENT
 URL:https://www.themoviedb.org/movie/1226863
 BEGIN:VALARM
@@ -43,16 +237,160 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[Movie] Star Wars: The Mandalorian and Grogu
+SUMMARY:[Movie] NO GOOD！歐吉桑 (Uncle Odyssey)
+DTSTART;VALUE=DATE:20260416
+DTEND;VALUE=DATE:20260417
+DTSTAMP:20260402T173710Z
+UID:movie-1509802@sg-events-calendar
+CATEGORIES:Movies,Singapore
+DESCRIPTION:Genres: Comedy\n\nTMDB: https://www.themoviedb.org/movie/15098
+ 02
+IMAGE;DISPLAY=THUMBNAIL;VALUE=URI:https://image.tmdb.org/t/p/w342/aUDcTCDO
+ SOucqFwmJFMCpoCnmRa.jpg
+TRANSP:TRANSPARENT
+URL:https://www.themoviedb.org/movie/1509802
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Event Reminder
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Movie] เห้งเจียแจ๊ส (Wukong Jazz)
+DTSTART;VALUE=DATE:20260430
+DTEND;VALUE=DATE:20260501
+DTSTAMP:20260402T173710Z
+UID:movie-1532494@sg-events-calendar
+CATEGORIES:Movies,Singapore
+DESCRIPTION:Genres: Comedy\, Adventure\, Fantasy\n\nTMDB: https://www.them
+ oviedb.org/movie/1532494
+IMAGE;DISPLAY=THUMBNAIL;VALUE=URI:https://image.tmdb.org/t/p/w342/99IxBvza
+ CRGHScq8uByPKAAOrci.jpg
+TRANSP:TRANSPARENT
+URL:https://www.themoviedb.org/movie/1532494
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Event Reminder
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Movie] Ждун 2 (Snorp: My Alien Friend 2)
+DTSTART;VALUE=DATE:20260430
+DTEND;VALUE=DATE:20260501
+DTSTAMP:20260402T173710Z
+UID:movie-1455109@sg-events-calendar
+CATEGORIES:Movies,Singapore
+DESCRIPTION:Genres: Comedy\, Fantasy\n\nTMDB: https://www.themoviedb.org/m
+ ovie/1455109
+IMAGE;DISPLAY=THUMBNAIL;VALUE=URI:https://image.tmdb.org/t/p/w342/qK7F1MUu
+ XHyKqKSW5T0Cp5DHAY1.jpg
+TRANSP:TRANSPARENT
+URL:https://www.themoviedb.org/movie/1455109
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Event Reminder
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Movie] Mädchen weinen nicht (Girls Don't Cry)
+DTSTART;VALUE=DATE:20260430
+DTEND;VALUE=DATE:20260501
+DTSTAMP:20260402T173710Z
+UID:movie-1444587@sg-events-calendar
+CATEGORIES:Movies,Singapore
+DESCRIPTION:Genres: Documentary\n\nTMDB: https://www.themoviedb.org/movie/
+ 1444587
+IMAGE;DISPLAY=THUMBNAIL;VALUE=URI:https://image.tmdb.org/t/p/w342/nobUGe9T
+ PHg8Olzor2PTs45fbuE.jpg
+TRANSP:TRANSPARENT
+URL:https://www.themoviedb.org/movie/1444587
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Event Reminder
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Movie] Ajith Kumar - Life Of A Gladiator
+DTSTART;VALUE=DATE:20260501
+DTEND;VALUE=DATE:20260502
+DTSTAMP:20260402T173710Z
+UID:movie-1606196@sg-events-calendar
+CATEGORIES:Movies,Singapore
+DESCRIPTION:Genres: Documentary\n\nTMDB: https://www.themoviedb.org/movie/
+ 1606196
+TRANSP:TRANSPARENT
+URL:https://www.themoviedb.org/movie/1606196
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Event Reminder
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Movie] 曼达洛人与古古 (Star Wars: The Mandalorian and Grog
+ u)
 DTSTART;VALUE=DATE:20260521
 DTEND;VALUE=DATE:20260522
-DTSTAMP:20260401T091733Z
+DTSTAMP:20260402T173710Z
 UID:movie-1228710@sg-events-calendar
-ATTACH:https://image.tmdb.org/t/p/w500/7QujwMB124KqSPbWlLRHBO5wygE.jpg
 CATEGORIES:Movies,Singapore
-DESCRIPTION:Genres: Action\, Adventure\, Sci-Fi\n\nThe evil Empire has fallen\, and Imperial warlords remain scattered throughout the galaxy. Din Djarin and his young apprentice Grogu face new threats.\n\nTMDB: https://www.themoviedb.org/movie/1228710
+DESCRIPTION:Genres: Action\, Adventure\, Sci-Fi\n\n“曼达洛人”丁·
+ 贾伦和“尤达宝宝”古古的星际冒险全面升级，“此乃
+ 正道”的誓言响彻宇宙，原力将继续与你同在。\n\nTMDB: h
+ ttps://www.themoviedb.org/movie/1228710
+IMAGE;DISPLAY=THUMBNAIL;VALUE=URI:https://image.tmdb.org/t/p/w342/cafHjxEv
+ hslX9MpBMxmPWxC5GWB.jpg
 TRANSP:TRANSPARENT
 URL:https://www.themoviedb.org/movie/1228710
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Event Reminder
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Movie] 奥德赛 (The Odyssey)
+DTSTART;VALUE=DATE:20260716
+DTEND;VALUE=DATE:20260717
+DTSTAMP:20260402T173710Z
+UID:movie-1368337@sg-events-calendar
+CATEGORIES:Movies,Singapore
+DESCRIPTION:Genres: Drama\, Adventure\, Fantasy\n\n克里斯托弗·诺兰
+ 新片官宣：神话动作史诗电影《奥德赛》将采用全新IMAX
+ 电影技术拍摄，讲述奥德修斯（马特·达蒙 饰）的故事
+ ，以及他在特洛伊战争后10年的回家之旅。\n\nTMDB: https://
+ www.themoviedb.org/movie/1368337
+IMAGE;DISPLAY=THUMBNAIL;VALUE=URI:https://image.tmdb.org/t/p/w342/mPh1Lxi6
+ sOuT3RGH8CxTTc8O1a4.jpg
+TRANSP:TRANSPARENT
+URL:https://www.themoviedb.org/movie/1368337
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Event Reminder
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Movie] 蜘蛛侠：崭新之日 (Spider-Man: Brand New Day)
+DTSTART;VALUE=DATE:20260730
+DTEND;VALUE=DATE:20260731
+DTSTAMP:20260402T173710Z
+UID:movie-969681@sg-events-calendar
+CATEGORIES:Movies,Singapore
+DESCRIPTION:Genres: Action\, Adventure\, Sci-Fi\n\n重建普通生活后
+ ，彼得一边在大学完成学业、一边从事兼职以维持生计
+ ，同时仍肩负着守护纽约街头的蜘蛛侠责任。然而，当
+ 一个神秘力量从内部腐蚀这座城市的安全与秩序，彼得
+ 被迫再次披上战衣。他必须在强大的敌人与昔日纽带之
+ 间找到平衡，并重新定义英雄的意义。\n\nTMDB: https://www.t
+ hemoviedb.org/movie/969681
+IMAGE;DISPLAY=THUMBNAIL;VALUE=URI:https://image.tmdb.org/t/p/w342/ucQ0QBXX
+ QPSxeUmWfh4YQenIuB9.jpg
+TRANSP:TRANSPARENT
+URL:https://www.themoviedb.org/movie/969681
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Event Reminder
