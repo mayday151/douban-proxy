@@ -1,11 +1,12 @@
 """
 Scrapers for Singapore event platforms that don't require API keys:
-- SISTIC (main SG ticketing platform)
+- SISTIC (main SG ticketing platform) — scrapes category pages
 - Esplanade (performing arts centre)
+- Marina Bay Sands Theatre
 """
 import logging
 import re
-from datetime import datetime, timedelta, timezone
+from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
 
 import httpx
@@ -20,8 +21,19 @@ HEADERS = {
         "AppleWebKit/537.36 (KHTML, like Gecko) "
         "Chrome/124.0.0.0 Safari/537.36"
     ),
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
     "Accept-Language": "en-US,en;q=0.9",
 }
+
+# SISTIC category pages — more reliable than the main listing
+SISTIC_CATEGORIES = [
+    "https://www.sistic.com.sg/events/concerts",
+    "https://www.sistic.com.sg/events/musicals-theatre",
+    "https://www.sistic.com.sg/events/family",
+    "https://www.sistic.com.sg/events/dance-ballet",
+    "https://www.sistic.com.sg/events/classical-music",
+    "https://www.sistic.com.sg/events/comedy",
+]
 
 
 # ---------------------------------------------------------------------------
@@ -37,96 +49,28 @@ def fetch_sistic_events(
     filter_terms = [t.lower() for t in keywords + tracked_venues]
     now = datetime.now(SG_TZ)
     end = now + timedelta(days=lookahead_days)
-
-    # SISTIC uses paginated event listing
-    page = 1
-    seen = set()
+    seen: set[str] = set()
 
     with httpx.Client(timeout=20, follow_redirects=True) as client:
-        while page <= 5:
+        for url in SISTIC_CATEGORIES:
             try:
-                resp = client.get(
-                    "https://www.sistic.com.sg/events",
-                    params={"page": page},
-                    headers=HEADERS,
-                )
+                resp = client.get(url, headers=HEADERS)
                 resp.raise_for_status()
             except Exception as e:
-                logger.warning("SISTIC page %d failed: %s", page, e)
-                break
+                logger.warning("SISTIC %s failed: %s", url, e)
+                continue
 
             soup = BeautifulSoup(resp.text, "lxml")
+            cards = _find_cards(soup)
+            logger.debug("SISTIC %s: found %d cards", url, len(cards))
 
-            # Try multiple card selectors across SISTIC's layouts
-            cards = (
-                soup.select(".event-item") or
-                soup.select(".event-listing-item") or
-                soup.select("article[class*='event']") or
-                soup.select(".card-event") or
-                soup.select("[data-event-id]")
-            )
-
-            if not cards:
-                break
-
-            new_this_page = 0
             for card in cards:
-                ev = _parse_sistic_card(card, filter_terms, now, end, seen)
+                ev = _parse_card(card, filter_terms, now, end, seen, "sistic", "https://www.sistic.com.sg")
                 if ev:
                     events.append(ev)
-                    new_this_page += 1
-
-            if new_this_page == 0:
-                break
-            page += 1
 
     logger.info("Fetched %d events from SISTIC", len(events))
     return events
-
-
-def _parse_sistic_card(
-    card, filter_terms: list[str], now: datetime, end: datetime, seen: set
-) -> dict | None:
-    title_el = card.select_one("h2, h3, h4, .event-title, .title, [class*='title']")
-    title = title_el.get_text(strip=True) if title_el else ""
-    if not title or title in seen:
-        return None
-
-    desc_el = card.select_one(".description, .summary, p")
-    desc = desc_el.get_text(strip=True) if desc_el else ""
-    combined = (title + " " + desc).lower()
-
-    if filter_terms and not any(t in combined for t in filter_terms):
-        return None
-
-    seen.add(title)
-
-    date_el = card.select_one("time, .date, .event-date, [class*='date']")
-    date_text = date_el.get("datetime", "") or (date_el.get_text(strip=True) if date_el else "")
-    start_dt = _parse_sg_date(date_text) or now
-
-    if start_dt > end:
-        return None
-
-    link_el = card.select_one("a[href]")
-    href = link_el["href"] if link_el else ""
-    url = href if href.startswith("http") else f"https://www.sistic.com.sg{href}"
-
-    venue_el = card.select_one(".venue, [class*='venue'], .location")
-    venue = venue_el.get_text(strip=True) if venue_el else "Singapore"
-
-    return {
-        "id": f"sistic-{re.sub(r'[^a-z0-9]', '-', title.lower())[:50]}",
-        "title": title,
-        "start_dt": start_dt,
-        "end_dt": None,
-        "description": f"{desc}\n\nMore info: {url}".strip(),
-        "url": url,
-        "venue": venue,
-        "address": "Singapore",
-        "type": "event",
-        "source": "sistic",
-    }
 
 
 # ---------------------------------------------------------------------------
@@ -141,73 +85,120 @@ def fetch_esplanade_events(
     filter_terms = [t.lower() for t in keywords] if keywords else []
     now = datetime.now(SG_TZ)
     end = now + timedelta(days=lookahead_days)
-    seen = set()
+    seen: set[str] = set()
+
+    urls = [
+        "https://www.esplanade.com/whats-on",
+        "https://www.esplanade.com/whats-on/arts/music",
+        "https://www.esplanade.com/whats-on/arts/theatre",
+        "https://www.esplanade.com/whats-on/arts/dance",
+    ]
 
     with httpx.Client(timeout=20, follow_redirects=True) as client:
-        try:
-            resp = client.get(
-                "https://www.esplanade.com/whats-on",
-                headers=HEADERS,
-            )
-            resp.raise_for_status()
-        except Exception as e:
-            logger.warning("Esplanade fetch failed: %s", e)
-            return []
+        for url in urls:
+            try:
+                resp = client.get(url, headers=HEADERS)
+                resp.raise_for_status()
+            except Exception as e:
+                logger.warning("Esplanade %s failed: %s", url, e)
+                continue
 
-    soup = BeautifulSoup(resp.text, "lxml")
+            soup = BeautifulSoup(resp.text, "lxml")
+            cards = _find_cards(soup)
+            logger.debug("Esplanade %s: found %d cards", url, len(cards))
 
-    cards = (
-        soup.select(".event-card") or
-        soup.select(".programme-item") or
-        soup.select("article") or
-        soup.select("[class*='event']")
-    )
-
-    for card in cards:
-        title_el = card.select_one("h2, h3, h4, .title, [class*='title']")
-        title = title_el.get_text(strip=True) if title_el else ""
-        if not title or title in seen:
-            continue
-
-        desc_el = card.select_one("p, .description, .summary")
-        desc = desc_el.get_text(strip=True) if desc_el else ""
-        combined = (title + " " + desc).lower()
-
-        if filter_terms and not any(t in combined for t in filter_terms):
-            continue
-
-        seen.add(title)
-
-        date_el = card.select_one("time, .date, [class*='date']")
-        date_text = date_el.get("datetime", "") or (date_el.get_text(strip=True) if date_el else "")
-        start_dt = _parse_sg_date(date_text) or now
-
-        if start_dt > end:
-            continue
-
-        link_el = card.select_one("a[href]")
-        href = link_el["href"] if link_el else ""
-        url = href if href.startswith("http") else f"https://www.esplanade.com{href}"
-
-        events.append({
-            "id": f"esplanade-{re.sub(r'[^a-z0-9]', '-', title.lower())[:50]}",
-            "title": title,
-            "start_dt": start_dt,
-            "end_dt": None,
-            "description": f"{desc}\n\nMore info: {url}".strip(),
-            "url": url,
-            "venue": "Esplanade – Theatres on the Bay",
-            "address": "1 Esplanade Dr, Singapore 038981",
-            "type": "event",
-            "source": "esplanade",
-        })
+            for card in cards:
+                ev = _parse_card(card, filter_terms, now, end, seen, "esplanade", "https://www.esplanade.com")
+                if ev:
+                    ev["venue"] = "Esplanade – Theatres on the Bay"
+                    ev["address"] = "1 Esplanade Dr, Singapore 038981"
+                    events.append(ev)
 
     logger.info("Fetched %d events from Esplanade", len(events))
     return events
 
 
 # ---------------------------------------------------------------------------
-# Helpers
+# Generic helpers
+# ---------------------------------------------------------------------------
+
+def _find_cards(soup: BeautifulSoup) -> list:
+    """Try a series of selectors to find event cards."""
+    for selector in [
+        "article",
+        ".event-item",
+        ".event-card",
+        ".event-listing-item",
+        ".programme-item",
+        ".card",
+        "[class*='event']",
+        "[class*='programme']",
+        "[class*='show']",
+    ]:
+        cards = soup.select(selector)
+        if cards:
+            return cards
+    return []
+
+
+def _parse_card(
+    card,
+    filter_terms: list[str],
+    now: datetime,
+    end: datetime,
+    seen: set,
+    source: str,
+    base_url: str,
+) -> dict | None:
+    title_el = card.select_one("h2, h3, h4, [class*='title'], [class*='name']")
+    title = title_el.get_text(strip=True) if title_el else ""
+    if not title or len(title) < 3 or title in seen:
+        return None
+
+    desc_el = card.select_one("p, [class*='desc'], [class*='summary'], [class*='excerpt']")
+    desc = desc_el.get_text(strip=True) if desc_el else ""
+    combined = (title + " " + desc).lower()
+
+    # Apply keyword filter (skip if no filter terms — accept all)
+    if filter_terms and not any(t in combined for t in filter_terms):
+        return None
+
+    seen.add(title)
+
+    date_el = card.select_one("time, [class*='date'], [class*='when']")
+    date_text = ""
+    if date_el:
+        date_text = date_el.get("datetime", "") or date_el.get_text(strip=True)
+    start_dt = _parse_sg_date(date_text) or now
+
+    if start_dt > end:
+        return None
+
+    link_el = card.select_one("a[href]")
+    href = link_el["href"] if link_el else ""
+    if href and not href.startswith("http"):
+        href = base_url + href
+    url = href or base_url
+
+    venue_el = card.select_one("[class*='venue'], [class*='location'], [class*='place']")
+    venue = venue_el.get_text(strip=True) if venue_el else "Singapore"
+
+    return {
+        "id": f"{source}-{re.sub(r'[^a-z0-9]', '-', title.lower())[:50]}",
+        "title": title,
+        "start_dt": start_dt,
+        "end_dt": None,
+        "description": f"{desc}\n\nMore info: {url}".strip(),
+        "url": url,
+        "venue": venue,
+        "address": "Singapore",
+        "type": "event",
+        "source": source,
+    }
+
+
+# ---------------------------------------------------------------------------
+# Date parser
 # ---------------------------------------------------------------------------
 
 def _parse_sg_date(text: str) -> datetime | None:
@@ -223,7 +214,6 @@ def _parse_sg_date(text: str) -> datetime | None:
             return datetime.strptime(text.strip(), fmt).replace(tzinfo=SG_TZ)
         except ValueError:
             continue
-    # ISO datetime
     try:
         return datetime.fromisoformat(text).astimezone(SG_TZ)
     except Exception:

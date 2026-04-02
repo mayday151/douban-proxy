@@ -9,6 +9,14 @@ movies:
   # Language for movie titles and descriptions
   # zh-CN = 简体中文, zh-TW = 繁體中文, en-US = English
   language: "zh-CN"
+  # Exclude movies by original language (TMDB language codes)
+  # hi=Hindi, ta=Tamil, te=Telugu, ml=Malayalam, kn=Kannada
+  exclude_languages:
+    - hi
+    - ta
+    - te
+    - ml
+    - kn
   # How many days ahead to look for upcoming releases
   lookahead_days: 120
   # Minimum TMDB popularity score (higher = more popular films only)
@@ -80,22 +88,15 @@ events:
     - arts
     - theatre
     - musical
-  # Search keywords — add artist names you want to track here
-  keywords:
-    # Types of events
-    - "concert"
-    - "live music"
-    - "musical"
-    - "ballet"
-    - "orchestra"
-    - "opera"
-    - "stand-up comedy"
-    # Recurring SG events worth tracking
-    - "Singapore Symphony"
-    - "Singapore Repertory Theatre"
-    - "Wild Rice"
-    - "Broadway"
-    - "West End"
+  # Keywords to filter events — leave empty [] to get ALL events from SISTIC/Esplanade
+  # Add specific artist names or types to narrow down
+  keywords: []
+  # Examples:
+  # keywords:
+  #   - "Taylor Swift"
+  #   - "Jay Chou"
+  #   - "musical"
+  #   - "Singapore Symphony"
   # Artists to track via Bandsintown (free, no key needed)
   # Add any artist name — will alert you when they have a Singapore show
   artists:

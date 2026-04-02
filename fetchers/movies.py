@@ -45,6 +45,7 @@ def fetch_upcoming_movies(
     min_popularity: float,
     lookahead_days: int,
     language: str = "zh-CN",
+    exclude_languages: list[str] | None = None,
 ) -> list[dict]:
     """
     Returns a list of movie event dicts combining:
@@ -53,9 +54,8 @@ def fetch_upcoming_movies(
     """
     today = date.today()
     end_date = today + timedelta(days=lookahead_days)
-    # Also look back 30 days to catch movies currently in theaters
-    start_date = today - timedelta(days=30)
     wanted_genre_ids = set(_genre_ids(genres))
+    _excluded_langs = set(exclude_languages or [])
 
     movies = []
     seen_ids = set()
@@ -66,6 +66,10 @@ def fetch_upcoming_movies(
             if mid in seen_ids:
                 return
             seen_ids.add(mid)
+
+            # Filter out excluded original languages (e.g. Indian films)
+            if _excluded_langs and movie.get("original_language", "") in _excluded_langs:
+                return
 
             zh_title = movie.get("title", "")
             en_title = (en_map or {}).get(mid, "")

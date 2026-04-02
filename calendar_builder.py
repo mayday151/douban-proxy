@@ -41,7 +41,7 @@ def build_ics(
 def _movie_to_event(movie: dict, reminder_minutes: int) -> Event:
     ev = Event()
     ev.add("uid", f"{movie['id']}@sg-events-calendar")
-    ev.add("summary", f"[Movie] {movie['title']}")
+    ev.add("summary", f"🎬 {movie['title']}")
 
     release: date = movie["release_date"]
     ev.add("dtstart", release)
@@ -79,7 +79,7 @@ def _movie_to_event(movie: dict, reminder_minutes: int) -> Event:
 def _event_to_ical(event: dict, reminder_minutes: int) -> Event:
     ev = Event()
     ev.add("uid", f"{event['id']}@sg-events-calendar")
-    ev.add("summary", f"[Event] {event['title']}")
+    ev.add("summary", f"🎭 {event['title']}")
 
     start_dt: datetime = event["start_dt"]
     if not start_dt.tzinfo:
