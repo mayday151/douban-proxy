@@ -12,7 +12,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 洛杉矶劫案 (Crime 101)
 DTSTART;VALUE=DATE:20260226
 DTEND;VALUE=DATE:20260227
-DTSTAMP:20260405T180107Z
+DTSTAMP:20260405T190150Z
 UID:movie-1171145@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Crime\, Thriller\n\n　　当多年来从未失手的
@@ -38,7 +38,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 至尊马蒂 (Marty Supreme)
 DTSTART;VALUE=DATE:20260226
 DTEND;VALUE=DATE:20260227
-DTSTAMP:20260405T180107Z
+DTSTAMP:20260405T190150Z
 UID:movie-1317288@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Drama\, Thriller\n\n为了实现一个无人相信的
@@ -63,7 +63,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 惊声尖叫7 (Scream 7)
 DTSTART;VALUE=DATE:20260305
 DTEND;VALUE=DATE:20260306
-DTSTAMP:20260405T180107Z
+DTSTAMP:20260405T190150Z
 UID:movie-1159559@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Mystery\, Crime\, Horror\n\n当新的鬼脸杀手出
@@ -86,17 +86,18 @@ BEGIN:VEVENT
 SUMMARY:🎬 河狸变身计划 (Hoppers)
 DTSTART;VALUE=DATE:20260312
 DTEND;VALUE=DATE:20260313
-DTSTAMP:20260405T180107Z
+DTSTAMP:20260405T190150Z
 UID:movie-1327819@sg-events-calendar
 CATEGORIES:Movies,Singapore
-DESCRIPTION:Genres: Animation\, Drama\, Sci-Fi\n\n　　梅宝是一位对
- 动物世界充满好奇的年轻女孩，她利用先进的意识上传
- 技术，将自己的思维注入一只机械河狸体内。以这种独
- 特的形态，梅宝结识了河狸王国的乔治国王等动物伙伴
- 。然而，一个由房地产开发计划带来的威胁，正试图破
- 坏动物们的栖息地。梅宝与她的新朋友们联手，利用机
- 械河狸的能力和人类的智慧，共同对抗这个危机，守护
- 动物们的家园。\n\nTMDB: https://www.themoviedb.org/movie/1327819
+DESCRIPTION:Genres: Comedy\, Adventure\, Sci-Fi\, Animation\n\n　　梅
+ 宝是一位对动物世界充满好奇的年轻女孩，她利用先进
+ 的意识上传技术，将自己的思维注入一只机械河狸体内
+ 。以这种独特的形态，梅宝结识了河狸王国的乔治国王
+ 等动物伙伴。然而，一个由房地产开发计划带来的威胁
+ ，正试图破坏动物们的栖息地。梅宝与她的新朋友们联
+ 手，利用机械河狸的能力和人类的智慧，共同对抗这个
+ 危机，守护动物们的家园。\n\nTMDB: https://www.themoviedb.org/m
+ ovie/1327819
 IMAGE;DISPLAY=THUMBNAIL;VALUE=URI:https://image.tmdb.org/t/p/w342/fAKE5cez
  L6eOezlNCz8U2coDd86.jpg
 TRANSP:TRANSPARENT
@@ -111,7 +112,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 挽救计划 (Project Hail Mary)
 DTSTART;VALUE=DATE:20260319
 DTEND;VALUE=DATE:20260320
-DTSTAMP:20260405T180107Z
+DTSTAMP:20260405T190150Z
 UID:movie-687163@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Adventure\, Sci-Fi\n\n　　太阳即将熄灭，地
@@ -134,7 +135,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 如何大赚一笔 (How to Make a Killing)
 DTSTART;VALUE=DATE:20260319
 DTEND;VALUE=DATE:20260320
-DTSTAMP:20260405T180107Z
+DTSTAMP:20260405T190150Z
 UID:movie-467905@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Comedy\, Thriller\n\n　　本是豪门继承人的贝
@@ -155,7 +156,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 蛊降 (Kong Tao)
 DTSTART;VALUE=DATE:20260319
 DTEND;VALUE=DATE:20260320
-DTSTAMP:20260405T180107Z
+DTSTAMP:20260405T190150Z
 UID:movie-1529513@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Adventure\, Thriller\n\nTMDB: https://www.themoviedb.o
@@ -174,7 +175,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 准备好了没2：我来了 (Ready or Not: Here I Come)
 DTSTART;VALUE=DATE:20260326
 DTEND;VALUE=DATE:20260327
-DTSTAMP:20260405T180107Z
+DTSTAMP:20260405T190150Z
 UID:movie-1266127@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Comedy\, Horror\n\n　　格蕾丝侥幸逃过勒多
@@ -197,7 +198,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 杀的就是你 (They Will Kill You)
 DTSTART;VALUE=DATE:20260326
 DTEND;VALUE=DATE:20260327
-DTSTAMP:20260405T180107Z
+DTSTAMP:20260405T190150Z
 UID:movie-1292695@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Comedy\, Horror\, Action\n\n一个从事打扫工作
@@ -219,14 +220,14 @@ BEGIN:VEVENT
 SUMMARY:🎬 超级马力欧银河大电影 (The Super Mario Galaxy Movie)
 DTSTART;VALUE=DATE:20260401
 DTEND;VALUE=DATE:20260402
-DTSTAMP:20260405T180107Z
+DTSTAMP:20260405T190150Z
 UID:movie-1226863@sg-events-calendar
 CATEGORIES:Movies,Singapore
-DESCRIPTION:Genres: Adventure\, Sci-Fi\, Fantasy\, Animation\n\n　　重
- 返奇妙世界，探索浩瀚宇宙，罗莎塔公主、酷霸Jr.、耀
- 西等更多惊喜角色登场，开拓更宏大酷炫的版图，呈现
- 更精彩纷呈的冒险。\n\nTMDB: https://www.themoviedb.org/movie/1226
- 863
+DESCRIPTION:Genres: Comedy\, Adventure\, Sci-Fi\, Fantasy\, Animation\, Ac
+ tion\n\n　　重返奇妙世界，探索浩瀚宇宙，罗莎塔公主、
+ 酷霸Jr.、耀西等更多惊喜角色登场，开拓更宏大酷炫的
+ 版图，呈现更精彩纷呈的冒险。\n\nTMDB: https://www.themoviedb
+ .org/movie/1226863
 IMAGE;DISPLAY=THUMBNAIL;VALUE=URI:https://image.tmdb.org/t/p/w342/tavRK9y9
  yGuBUQpXIXgocqFHx72.jpg
 TRANSP:TRANSPARENT
@@ -241,7 +242,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 Alex & MOR: A Love Odyssey
 DTSTART;VALUE=DATE:20260410
 DTEND;VALUE=DATE:20260411
-DTSTAMP:20260405T180107Z
+DTSTAMP:20260405T190150Z
 UID:movie-1556978@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Romance\, Sci-Fi\n\nTMDB: https://www.themoviedb.org/m
@@ -260,7 +261,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 NO GOOD！歐吉桑 (Uncle Odyssey)
 DTSTART;VALUE=DATE:20260416
 DTEND;VALUE=DATE:20260417
-DTSTAMP:20260405T180107Z
+DTSTAMP:20260405T190150Z
 UID:movie-1509802@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Comedy\n\nTMDB: https://www.themoviedb.org/movie/15098
@@ -279,7 +280,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 เห้งเจียแจ๊ส (Wukong Jazz)
 DTSTART;VALUE=DATE:20260430
 DTEND;VALUE=DATE:20260501
-DTSTAMP:20260405T180107Z
+DTSTAMP:20260405T190150Z
 UID:movie-1532494@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Comedy\, Adventure\, Fantasy\n\nTMDB: https://www.them
@@ -298,7 +299,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 Ждун 2 (Snorp: My Alien Friend 2)
 DTSTART;VALUE=DATE:20260430
 DTEND;VALUE=DATE:20260501
-DTSTAMP:20260405T180107Z
+DTSTAMP:20260405T190150Z
 UID:movie-1455109@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Comedy\, Fantasy\n\nTMDB: https://www.themoviedb.org/m
@@ -317,7 +318,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 Mädchen weinen nicht (Girls Don't Cry)
 DTSTART;VALUE=DATE:20260430
 DTEND;VALUE=DATE:20260501
-DTSTAMP:20260405T180107Z
+DTSTAMP:20260405T190150Z
 UID:movie-1444587@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Documentary\n\nTMDB: https://www.themoviedb.org/movie/
@@ -336,7 +337,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 曼达洛人与古古 (Star Wars: The Mandalorian and Grogu)
 DTSTART;VALUE=DATE:20260521
 DTEND;VALUE=DATE:20260522
-DTSTAMP:20260405T180107Z
+DTSTAMP:20260405T190150Z
 UID:movie-1228710@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Action\, Adventure\, Sci-Fi\n\n“曼达洛人”丁·
@@ -357,7 +358,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 奥德赛 (The Odyssey)
 DTSTART;VALUE=DATE:20260716
 DTEND;VALUE=DATE:20260717
-DTSTAMP:20260405T180107Z
+DTSTAMP:20260405T190150Z
 UID:movie-1368337@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Drama\, Adventure\, Fantasy\n\n克里斯托弗·诺兰
@@ -379,7 +380,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 蜘蛛侠：崭新之日 (Spider-Man: Brand New Day)
 DTSTART;VALUE=DATE:20260730
 DTEND;VALUE=DATE:20260731
-DTSTAMP:20260405T180107Z
+DTSTAMP:20260405T190150Z
 UID:movie-969681@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Action\, Adventure\, Sci-Fi\n\n重建普通生活后
