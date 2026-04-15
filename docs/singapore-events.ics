@@ -9,59 +9,10 @@ X-WR-CALDESC:Upcoming movies and events in Singapore
 X-WR-CALNAME:Singapore Events
 X-WR-TIMEZONE:Asia/Singapore
 BEGIN:VEVENT
-SUMMARY:🎬 暗黑新娘！
-DTSTART;VALUE=DATE:20260305
-DTEND;VALUE=DATE:20260306
-DTSTAMP:20260415T054915Z
-UID:movie-1159831@sg-events-calendar
-CATEGORIES:Movies,Singapore
-DESCRIPTION:Genres: Horror\, Sci-Fi\, Fantasy\n\n　　孤独的科学怪
- 人弗兰肯斯坦（克里斯蒂安·贝尔 饰）来到了1930年代的
- 芝加哥，恳请顶级科学家尤弗洛尼斯博士（安妮特·贝宁
-  饰）为他创造一位伴侣。两人成功复活了一名遭到谋杀
- 的年轻女子，“新娘”（杰西·巴克利 饰）就此诞生。
- 然而事态发展却远超两人想象：谋杀接踵而至，占有欲
- 疯狂滋生，一场激进的文化运动席卷社会，更有一对亡
- 命鸳鸯，上演一段狂烈炽热的禁忌之恋。\n\nTMDB: https://ww
- w.themoviedb.org/movie/1159831
-IMAGE;DISPLAY=THUMBNAIL;VALUE=URI:https://image.tmdb.org/t/p/w342/X8oYS7jR
- agGIAPfYARvpQWY8pv.jpg
-TRANSP:TRANSPARENT
-URL:https://www.themoviedb.org/movie/1159831
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Event Reminder
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎬 惊声尖叫7
-DTSTART;VALUE=DATE:20260305
-DTEND;VALUE=DATE:20260306
-DTSTAMP:20260415T054915Z
-UID:movie-1159559@sg-events-calendar
-CATEGORIES:Movies,Singapore
-DESCRIPTION:Genres: Mystery\, Crime\, Horror\n\n当新的鬼脸杀手出
- 现在西德妮·普雷斯科特归隐的宁静小镇时，她最深的恐
- 惧化为现实——这一次，屠刀指向了她的女儿。为守护
- 仅存的安宁，这位曾经的幸存者必须再度直面血色的过
- 往，与纠缠半生的梦魇进行最后的清算。\n\nTMDB: https://ww
- w.themoviedb.org/movie/1159559
-IMAGE;DISPLAY=THUMBNAIL;VALUE=URI:https://image.tmdb.org/t/p/w342/1enQDc50
- cQ5ChHKUwpLMLTzfC2d.jpg
-TRANSP:TRANSPARENT
-URL:https://www.themoviedb.org/movie/1159559
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Event Reminder
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:🎬 河狸变身计划 (Hoppers)
 DTSTART;VALUE=DATE:20260312
 DTEND;VALUE=DATE:20260313
-DTSTAMP:20260415T054915Z
+DTSTAMP:20260415T071340Z
 UID:movie-1327819@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Comedy\, Adventure\, Sci-Fi\, Animation\n\n　　梅
@@ -87,7 +38,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 挽救计划 (Project Hail Mary)
 DTSTART;VALUE=DATE:20260319
 DTEND;VALUE=DATE:20260320
-DTSTAMP:20260415T054915Z
+DTSTAMP:20260415T071340Z
 UID:movie-687163@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Adventure\, Sci-Fi\n\n　　太阳即将熄灭，地
@@ -107,31 +58,10 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🎬 如何大赚一笔 (How to Make a Killing)
-DTSTART;VALUE=DATE:20260319
-DTEND;VALUE=DATE:20260320
-DTSTAMP:20260415T054915Z
-UID:movie-467905@sg-events-calendar
-CATEGORIES:Movies,Singapore
-DESCRIPTION:Genres: Comedy\, Thriller\n\n　　本是豪门继承人的贝
- 克特·雷德费洛被家族抛弃，为了确保成为巨额遗产的唯
- 一继承人，他不择手段干掉了七个亲戚。\n\nTMDB: https://ww
- w.themoviedb.org/movie/467905
-IMAGE;DISPLAY=THUMBNAIL;VALUE=URI:https://image.tmdb.org/t/p/w342/ePqVAEjK
- VgBh1fWaMUyfVTLHj5J.jpg
-TRANSP:TRANSPARENT
-URL:https://www.themoviedb.org/movie/467905
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Event Reminder
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:🎬 蛊降 (Kong Tao)
 DTSTART;VALUE=DATE:20260319
 DTEND;VALUE=DATE:20260320
-DTSTAMP:20260415T054915Z
+DTSTAMP:20260415T071340Z
 UID:movie-1529513@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Adventure\, Thriller\n\nTMDB: https://www.themoviedb.o
@@ -150,7 +80,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 准备好了没2：我来了 (Ready or Not: Here I Come)
 DTSTART;VALUE=DATE:20260326
 DTEND;VALUE=DATE:20260327
-DTSTAMP:20260415T054915Z
+DTSTAMP:20260415T071340Z
 UID:movie-1266127@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Comedy\, Horror\n\n　　格蕾丝侥幸逃过勒多
@@ -173,7 +103,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 超级马力欧银河大电影 (The Super Mario Galaxy Movie)
 DTSTART;VALUE=DATE:20260401
 DTEND;VALUE=DATE:20260402
-DTSTAMP:20260415T054915Z
+DTSTAMP:20260415T071340Z
 UID:movie-1226863@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Comedy\, Adventure\, Fantasy\, Animation\n\n　　重
@@ -192,10 +122,54 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:🎬 爱情抓马 (The Drama)
+DTSTART;VALUE=DATE:20260416
+DTEND;VALUE=DATE:20260417
+DTSTAMP:20260415T071340Z
+UID:movie-1325734@sg-events-calendar
+CATEGORIES:Movies,Singapore
+DESCRIPTION:Genres: Drama\, Comedy\, Romance\n\n艾玛（赞达亚 饰）
+ 和查理（罗伯特·帕丁森 饰）是一对即将完婚的情侣，
+ 然而婚礼前夕忽然发生了让人意想不到的抓马故事，两
+ 人的感情面临前所未有的考验。\n\nTMDB: https://www.themoviedb
+ .org/movie/1325734
+IMAGE;DISPLAY=THUMBNAIL;VALUE=URI:https://image.tmdb.org/t/p/w342/sUNGNCNY
+ pAGJ3wBoolBFEdinIS0.jpg
+TRANSP:TRANSPARENT
+URL:https://www.themoviedb.org/movie/1325734
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Event Reminder
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎬 木乃伊 (Lee Cronin's The Mummy)
+DTSTART;VALUE=DATE:20260416
+DTEND;VALUE=DATE:20260417
+DTSTAMP:20260415T071340Z
+UID:movie-1304313@sg-events-calendar
+CATEGORIES:Movies,Singapore
+DESCRIPTION:Genres: Mystery\, Horror\n\n　　影片讲述一位记者的
+ 年幼女儿在沙漠中神秘失踪并音讯全无——八年后，当
+ 她突然出现在家人面前时，这个早已破碎的家庭震惊不
+ 已；原本应该是重逢的喜悦，却逐渐演变成一场活生生
+ 的恶梦。\n\nTMDB: https://www.themoviedb.org/movie/1304313
+IMAGE;DISPLAY=THUMBNAIL;VALUE=URI:https://image.tmdb.org/t/p/w342/AvTLGC3I
+ qPqMv53C7selgh0SmyX.jpg
+TRANSP:TRANSPARENT
+URL:https://www.themoviedb.org/movie/1304313
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Event Reminder
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:🎬 NO GOOD！歐吉桑 (Uncle Odyssey)
 DTSTART;VALUE=DATE:20260416
 DTEND;VALUE=DATE:20260417
-DTSTAMP:20260415T054915Z
+DTSTAMP:20260415T071340Z
 UID:movie-1509802@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Comedy\n\nTMDB: https://www.themoviedb.org/movie/15098
@@ -211,10 +185,10 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🎬 Мой 2007 (My 2007)
+SUMMARY:🎬 Мой 2007
 DTSTART;VALUE=DATE:20260417
 DTEND;VALUE=DATE:20260418
-DTSTAMP:20260415T054915Z
+DTSTAMP:20260415T071340Z
 UID:movie-1670504@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Drama\n\nTMDB: https://www.themoviedb.org/movie/167050
@@ -231,7 +205,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 Ждун 2 (Snorp: My Alien Friend 2)
 DTSTART;VALUE=DATE:20260430
 DTEND;VALUE=DATE:20260501
-DTSTAMP:20260415T054915Z
+DTSTAMP:20260415T071340Z
 UID:movie-1455109@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Comedy\, Fantasy\n\nTMDB: https://www.themoviedb.org/m
@@ -250,7 +224,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 Mädchen weinen nicht (Girls Don't Cry)
 DTSTART;VALUE=DATE:20260430
 DTEND;VALUE=DATE:20260501
-DTSTAMP:20260415T054915Z
+DTSTAMP:20260415T071340Z
 UID:movie-1444587@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Documentary\n\nTMDB: https://www.themoviedb.org/movie/
@@ -269,7 +243,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 曼达洛人与古古 (Star Wars: The Mandalorian and Grogu)
 DTSTART;VALUE=DATE:20260521
 DTEND;VALUE=DATE:20260522
-DTSTAMP:20260415T054915Z
+DTSTAMP:20260415T071340Z
 UID:movie-1228710@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Action\, Adventure\, Sci-Fi\n\n“曼达洛人”丁·
@@ -290,7 +264,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 Batman: Gotham's New Day (Imaginext)
 DTSTART;VALUE=DATE:20260619
 DTEND;VALUE=DATE:20260620
-DTSTAMP:20260415T054915Z
+DTSTAMP:20260415T071340Z
 UID:movie-1656487@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Comedy\, Action\n\nTMDB: https://www.themoviedb.org/mo
@@ -309,7 +283,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 奥德赛 (The Odyssey)
 DTSTART;VALUE=DATE:20260716
 DTEND;VALUE=DATE:20260717
-DTSTAMP:20260415T054915Z
+DTSTAMP:20260415T071340Z
 UID:movie-1368337@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Drama\, Adventure\, Fantasy\n\n克里斯托弗·诺兰
@@ -328,10 +302,10 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🎬 蜘蛛侠：崭新之日 (Spider-Man: Brand New Day)
+SUMMARY:🎬 蜘蛛侠：崭新之日
 DTSTART;VALUE=DATE:20260730
 DTEND;VALUE=DATE:20260731
-DTSTAMP:20260415T054915Z
+DTSTAMP:20260415T071340Z
 UID:movie-969681@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Action\, Adventure\, Sci-Fi\n\n重建普通生活后
