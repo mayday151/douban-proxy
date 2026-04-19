@@ -12,7 +12,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 河狸变身计划 (Hoppers)
 DTSTART;VALUE=DATE:20260312
 DTEND;VALUE=DATE:20260313
-DTSTAMP:20260419T132344Z
+DTSTAMP:20260419T140843Z
 UID:movie-1327819@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Comedy\, Adventure\, Sci-Fi\, Animation\n\n　　梅
@@ -38,7 +38,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 挽救计划 (Project Hail Mary)
 DTSTART;VALUE=DATE:20260319
 DTEND;VALUE=DATE:20260320
-DTSTAMP:20260419T132344Z
+DTSTAMP:20260419T140843Z
 UID:movie-687163@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Adventure\, Sci-Fi\n\n　　太阳即将熄灭，地
@@ -61,7 +61,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 如何大赚一笔 (How to Make a Killing)
 DTSTART;VALUE=DATE:20260319
 DTEND;VALUE=DATE:20260320
-DTSTAMP:20260419T132344Z
+DTSTAMP:20260419T140843Z
 UID:movie-467905@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Comedy\, Thriller\n\n　　本是豪门继承人的贝
@@ -82,7 +82,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 蛊降 (Kong Tao)
 DTSTART;VALUE=DATE:20260319
 DTEND;VALUE=DATE:20260320
-DTSTAMP:20260419T132344Z
+DTSTAMP:20260419T140843Z
 UID:movie-1529513@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Adventure\, Thriller\n\nTMDB: https://www.themoviedb.o
@@ -101,7 +101,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 准备好了没2：我来了 (Ready or Not: Here I Come)
 DTSTART;VALUE=DATE:20260326
 DTEND;VALUE=DATE:20260327
-DTSTAMP:20260419T132344Z
+DTSTAMP:20260419T140843Z
 UID:movie-1266127@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Comedy\, Horror\n\n　　格蕾丝侥幸逃过勒多
@@ -124,7 +124,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 超级马力欧银河大电影 (The Super Mario Galaxy Movie)
 DTSTART;VALUE=DATE:20260401
 DTEND;VALUE=DATE:20260402
-DTSTAMP:20260419T132344Z
+DTSTAMP:20260419T140843Z
 UID:movie-1226863@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Comedy\, Adventure\, Fantasy\, Animation\n\n　　重
@@ -146,7 +146,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 木乃伊 (Lee Cronin's The Mummy)
 DTSTART;VALUE=DATE:20260416
 DTEND;VALUE=DATE:20260417
-DTSTAMP:20260419T132344Z
+DTSTAMP:20260419T140843Z
 UID:movie-1304313@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Mystery\, Horror\n\n　　影片讲述一位记者的
@@ -168,7 +168,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 爱情抓马 (The Drama)
 DTSTART;VALUE=DATE:20260416
 DTEND;VALUE=DATE:20260417
-DTSTAMP:20260419T132344Z
+DTSTAMP:20260419T140843Z
 UID:movie-1325734@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Drama\, Comedy\, Romance\n\n艾玛（赞达亚 饰）
@@ -190,7 +190,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 NO GOOD！歐吉桑 (Uncle Odyssey)
 DTSTART;VALUE=DATE:20260416
 DTEND;VALUE=DATE:20260417
-DTSTAMP:20260419T132344Z
+DTSTAMP:20260419T140843Z
 UID:movie-1509802@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Comedy\n\nTMDB: https://www.themoviedb.org/movie/15098
@@ -209,7 +209,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 Ждун 2 (Snorp: My Alien Friend 2)
 DTSTART;VALUE=DATE:20260430
 DTEND;VALUE=DATE:20260501
-DTSTAMP:20260419T132344Z
+DTSTAMP:20260419T140843Z
 UID:movie-1455109@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Comedy\, Fantasy\n\nTMDB: https://www.themoviedb.org/m
@@ -228,7 +228,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 Mädchen weinen nicht (Girls Don't Cry)
 DTSTART;VALUE=DATE:20260430
 DTEND;VALUE=DATE:20260501
-DTSTAMP:20260419T132344Z
+DTSTAMP:20260419T140843Z
 UID:movie-1444587@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Documentary\n\nTMDB: https://www.themoviedb.org/movie/
@@ -244,53 +244,10 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🎬 曼达洛人与古古 (Star Wars: The Mandalorian and Grogu)
-DTSTART;VALUE=DATE:20260521
-DTEND;VALUE=DATE:20260522
-DTSTAMP:20260419T132344Z
-UID:movie-1228710@sg-events-calendar
-CATEGORIES:Movies,Singapore
-DESCRIPTION:Genres: Action\, Adventure\, Sci-Fi\n\n“曼达洛人”丁·
- 贾伦和“尤达宝宝”古古的星际冒险全面升级，“此乃
- 正道”的誓言响彻宇宙，原力将继续与你同在。\n\nTMDB: h
- ttps://www.themoviedb.org/movie/1228710
-IMAGE;DISPLAY=THUMBNAIL;VALUE=URI:https://image.tmdb.org/t/p/w342/cafHjxEv
- hslX9MpBMxmPWxC5GWB.jpg
-TRANSP:TRANSPARENT
-URL:https://www.themoviedb.org/movie/1228710
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Event Reminder
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎬 奥德赛 (The Odyssey)
-DTSTART;VALUE=DATE:20260716
-DTEND;VALUE=DATE:20260717
-DTSTAMP:20260419T132344Z
-UID:movie-1368337@sg-events-calendar
-CATEGORIES:Movies,Singapore
-DESCRIPTION:Genres: Drama\, Adventure\, Fantasy\n\n克里斯托弗·诺兰
- 新片官宣：神话动作史诗电影《奥德赛》将采用全新IMAX
- 电影技术拍摄，讲述奥德修斯（马特·达蒙 饰）的故事
- ，以及他在特洛伊战争后10年的回家之旅。\n\nTMDB: https://
- www.themoviedb.org/movie/1368337
-IMAGE;DISPLAY=THUMBNAIL;VALUE=URI:https://image.tmdb.org/t/p/w342/mPh1Lxi6
- sOuT3RGH8CxTTc8O1a4.jpg
-TRANSP:TRANSPARENT
-URL:https://www.themoviedb.org/movie/1368337
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Event Reminder
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:🎬 蜘蛛侠：崭新之日 (Spider-Man: Brand New Day)
 DTSTART;VALUE=DATE:20260730
 DTEND;VALUE=DATE:20260731
-DTSTAMP:20260419T132344Z
+DTSTAMP:20260419T140843Z
 UID:movie-969681@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Action\, Adventure\, Sci-Fi\n\n重建普通生活后
