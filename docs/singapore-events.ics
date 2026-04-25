@@ -12,7 +12,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 挽救计划 (Project Hail Mary)
 DTSTART;VALUE=DATE:20260319
 DTEND;VALUE=DATE:20260320
-DTSTAMP:20260424T232829Z
+DTSTAMP:20260425T000702Z
 UID:movie-687163@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Adventure\, Sci-Fi\n\n　　太阳即将熄灭，地
@@ -35,7 +35,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 蛊降 (Kong Tao)
 DTSTART;VALUE=DATE:20260319
 DTEND;VALUE=DATE:20260320
-DTSTAMP:20260424T232829Z
+DTSTAMP:20260425T000702Z
 UID:movie-1529513@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Adventure\, Thriller\n\nTMDB: https://www.themoviedb.o
@@ -54,7 +54,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 准备好了没2：我来了 (Ready or Not 2: Here I Come)
 DTSTART;VALUE=DATE:20260326
 DTEND;VALUE=DATE:20260327
-DTSTAMP:20260424T232829Z
+DTSTAMP:20260425T000702Z
 UID:movie-1266127@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Comedy\, Horror\n\n　　格蕾丝侥幸逃过勒多
@@ -77,7 +77,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 超级马力欧银河大电影 (The Super Mario Galaxy Movie)
 DTSTART;VALUE=DATE:20260401
 DTEND;VALUE=DATE:20260402
-DTSTAMP:20260424T232829Z
+DTSTAMP:20260425T000702Z
 UID:movie-1226863@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Comedy\, Adventure\, Fantasy\, Animation\n\n　　重
@@ -99,7 +99,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 木乃伊 (Lee Cronin's The Mummy)
 DTSTART;VALUE=DATE:20260416
 DTEND;VALUE=DATE:20260417
-DTSTAMP:20260424T232829Z
+DTSTAMP:20260425T000702Z
 UID:movie-1304313@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Mystery\, Horror\n\n　　影片讲述一位记者的
@@ -121,7 +121,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 爱情抓马 (The Drama)
 DTSTART;VALUE=DATE:20260416
 DTEND;VALUE=DATE:20260417
-DTSTAMP:20260424T232829Z
+DTSTAMP:20260425T000702Z
 UID:movie-1325734@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Drama\, Comedy\, Romance\n\n艾玛（赞达亚 饰）
@@ -143,7 +143,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 NO GOOD！歐吉桑 (Uncle Odyssey)
 DTSTART;VALUE=DATE:20260416
 DTEND;VALUE=DATE:20260417
-DTSTAMP:20260424T232829Z
+DTSTAMP:20260425T000702Z
 UID:movie-1509802@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Comedy\n\nTMDB: https://www.themoviedb.org/movie/15098
@@ -162,7 +162,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 团战之夜 (Good Luck\, Have Fun\, Don't Die)
 DTSTART;VALUE=DATE:20260423
 DTEND;VALUE=DATE:20260424
-DTSTAMP:20260424T232829Z
+DTSTAMP:20260425T000702Z
 UID:movie-1119449@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Comedy\, Action\, Sci-Fi\n\n　　故事围绕着一
@@ -185,7 +185,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 穿普拉达的女王2 (The Devil Wears Prada 2)
 DTSTART;VALUE=DATE:20260430
 DTEND;VALUE=DATE:20260501
-DTSTAMP:20260424T232829Z
+DTSTAMP:20260425T000702Z
 UID:movie-1314481@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Drama\, Comedy\n\n　　随着传统出版业的式微
@@ -208,7 +208,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 Ждун 2 (Snorp: My Alien Friend 2)
 DTSTART;VALUE=DATE:20260430
 DTEND;VALUE=DATE:20260501
-DTSTAMP:20260424T232829Z
+DTSTAMP:20260425T000702Z
 UID:movie-1455109@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Comedy\, Fantasy\n\nTMDB: https://www.themoviedb.org/m
@@ -227,7 +227,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 Mädchen weinen nicht (Girls Don't Cry)
 DTSTART;VALUE=DATE:20260430
 DTEND;VALUE=DATE:20260501
-DTSTAMP:20260424T232829Z
+DTSTAMP:20260425T000702Z
 UID:movie-1444587@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Documentary\n\nTMDB: https://www.themoviedb.org/movie/
@@ -236,6 +236,93 @@ IMAGE;DISPLAY=THUMBNAIL;VALUE=URI:https://image.tmdb.org/t/p/w342/nobUGe9T
  PHg8Olzor2PTs45fbuE.jpg
 TRANSP:TRANSPARENT
 URL:https://www.themoviedb.org/movie/1444587
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Event Reminder
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎬 惩罚者：最后一击 (A Marvel Television Special Present
+ ation - The Punisher: One Last Kill)
+DTSTART;VALUE=DATE:20260513
+DTEND;VALUE=DATE:20260514
+DTSTAMP:20260425T000702Z
+UID:movie-1439930@sg-events-calendar
+CATEGORIES:Movies,Singapore
+DESCRIPTION:Genres: Crime\, Drama\, Action\n\nTMDB: https://www.themoviedb
+ .org/movie/1439930
+IMAGE;DISPLAY=THUMBNAIL;VALUE=URI:https://image.tmdb.org/t/p/w342/q8edtuak
+ hxxEffTHCEkRCJsuZ7b.jpg
+TRANSP:TRANSPARENT
+URL:https://www.themoviedb.org/movie/1439930
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Event Reminder
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎬 曼达洛人与古古 (Star Wars: The Mandalorian and Grogu)
+DTSTART;VALUE=DATE:20260521
+DTEND;VALUE=DATE:20260522
+DTSTAMP:20260425T000702Z
+UID:movie-1228710@sg-events-calendar
+CATEGORIES:Movies,Singapore
+DESCRIPTION:Genres: Action\, Adventure\, Sci-Fi\n\n“曼达洛人”丁·
+ 贾伦和“尤达宝宝”古古的星际冒险全面升级，“此乃
+ 正道”的誓言响彻宇宙，原力将继续与你同在。\n\nTMDB: h
+ ttps://www.themoviedb.org/movie/1228710
+IMAGE;DISPLAY=THUMBNAIL;VALUE=URI:https://image.tmdb.org/t/p/w342/cafHjxEv
+ hslX9MpBMxmPWxC5GWB.jpg
+TRANSP:TRANSPARENT
+URL:https://www.themoviedb.org/movie/1228710
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Event Reminder
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎬 奥德赛 (The Odyssey)
+DTSTART;VALUE=DATE:20260716
+DTEND;VALUE=DATE:20260717
+DTSTAMP:20260425T000702Z
+UID:movie-1368337@sg-events-calendar
+CATEGORIES:Movies,Singapore
+DESCRIPTION:Genres: Drama\, Adventure\, Fantasy\n\n克里斯托弗·诺兰
+ 新片官宣：神话动作史诗电影《奥德赛》将采用全新IMAX
+ 电影技术拍摄，讲述奥德修斯（马特·达蒙 饰）的故事
+ ，以及他在特洛伊战争后10年的回家之旅。\n\nTMDB: https://
+ www.themoviedb.org/movie/1368337
+IMAGE;DISPLAY=THUMBNAIL;VALUE=URI:https://image.tmdb.org/t/p/w342/mPh1Lxi6
+ sOuT3RGH8CxTTc8O1a4.jpg
+TRANSP:TRANSPARENT
+URL:https://www.themoviedb.org/movie/1368337
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Event Reminder
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎬 蜘蛛侠：崭新之日 (Spider-Man: Brand New Day)
+DTSTART;VALUE=DATE:20260730
+DTEND;VALUE=DATE:20260731
+DTSTAMP:20260425T000702Z
+UID:movie-969681@sg-events-calendar
+CATEGORIES:Movies,Singapore
+DESCRIPTION:Genres: Action\, Adventure\, Sci-Fi\n\n重建普通生活后
+ ，彼得一边在大学完成学业、一边从事兼职以维持生计
+ ，同时仍肩负着守护纽约街头的蜘蛛侠责任。然而，当
+ 一个神秘力量从内部腐蚀这座城市的安全与秩序，彼得
+ 被迫再次披上战衣。他必须在强大的敌人与昔日纽带之
+ 间找到平衡，并重新定义英雄的意义。\n\nTMDB: https://www.t
+ hemoviedb.org/movie/969681
+IMAGE;DISPLAY=THUMBNAIL;VALUE=URI:https://image.tmdb.org/t/p/w342/9zFVOpQ0
+ QSg0pOHQdFtNj7NDamp.jpg
+TRANSP:TRANSPARENT
+URL:https://www.themoviedb.org/movie/969681
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Event Reminder
