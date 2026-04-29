@@ -9,33 +9,10 @@ X-WR-CALDESC:Upcoming movies and events in Singapore
 X-WR-CALNAME:Singapore Events
 X-WR-TIMEZONE:Asia/Singapore
 BEGIN:VEVENT
-SUMMARY:🎬 挽救计划 (Project Hail Mary)
-DTSTART;VALUE=DATE:20260319
-DTEND;VALUE=DATE:20260320
-DTSTAMP:20260429T012141Z
-UID:movie-687163@sg-events-calendar
-CATEGORIES:Movies,Singapore
-DESCRIPTION:Genres: Adventure\, Sci-Fi\n\n　　太阳即将熄灭，地
- 球命悬一线，对太空一窍不通的中学老师瑞恩（瑞恩·高
- 斯林 饰）竟成为全人类的希望。被迫成为宇航员的他，
- 踏上有去无回的太空孤旅。他能否力挽狂澜，为人类带
- 来新的黎明？ 　　影片改编自安迪·威尔的同名畅销科
- 幻小说。\n\nTMDB: https://www.themoviedb.org/movie/687163
-IMAGE;DISPLAY=THUMBNAIL;VALUE=URI:https://image.tmdb.org/t/p/w342/qf8HaEGN
- UFXU6nVAq9BVEk4Tiqb.jpg
-TRANSP:TRANSPARENT
-URL:https://www.themoviedb.org/movie/687163
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Event Reminder
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:🎬 蛊降 (Kong Tao)
 DTSTART;VALUE=DATE:20260319
 DTEND;VALUE=DATE:20260320
-DTSTAMP:20260429T012141Z
+DTSTAMP:20260429T045016Z
 UID:movie-1529513@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Adventure\, Thriller\n\nTMDB: https://www.themoviedb.o
@@ -54,7 +31,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 杀的就是你 (They Will Kill You)
 DTSTART;VALUE=DATE:20260326
 DTEND;VALUE=DATE:20260327
-DTSTAMP:20260429T012141Z
+DTSTAMP:20260429T045016Z
 UID:movie-1292695@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Comedy\, Horror\, Action\n\n一个从事打扫工作
@@ -76,7 +53,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 准备好了没2：我来了 (Ready or Not 2: Here I Come)
 DTSTART;VALUE=DATE:20260326
 DTEND;VALUE=DATE:20260327
-DTSTAMP:20260429T012141Z
+DTSTAMP:20260429T045016Z
 UID:movie-1266127@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Comedy\, Horror\n\n　　格蕾丝侥幸逃过勒多
@@ -99,7 +76,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 超级马力欧银河大电影 (The Super Mario Galaxy Movie)
 DTSTART;VALUE=DATE:20260401
 DTEND;VALUE=DATE:20260402
-DTSTAMP:20260429T012141Z
+DTSTAMP:20260429T045016Z
 UID:movie-1226863@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Comedy\, Adventure\, Fantasy\, Animation\n\n　　重
@@ -121,7 +98,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 木乃伊 (Lee Cronin's The Mummy)
 DTSTART;VALUE=DATE:20260416
 DTEND;VALUE=DATE:20260417
-DTSTAMP:20260429T012141Z
+DTSTAMP:20260429T045016Z
 UID:movie-1304313@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Mystery\, Horror\n\n讲述一位记者的年幼女儿
@@ -143,7 +120,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 爱情抓马 (The Drama)
 DTSTART;VALUE=DATE:20260416
 DTEND;VALUE=DATE:20260417
-DTSTAMP:20260429T012141Z
+DTSTAMP:20260429T045016Z
 UID:movie-1325734@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Drama\, Comedy\, Romance\n\n艾玛（赞达亚 饰）
@@ -165,7 +142,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 NO GOOD！歐吉桑 (Uncle Odyssey)
 DTSTART;VALUE=DATE:20260416
 DTEND;VALUE=DATE:20260417
-DTSTAMP:20260429T012141Z
+DTSTAMP:20260429T045016Z
 UID:movie-1509802@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Comedy\n\nTMDB: https://www.themoviedb.org/movie/15098
@@ -184,7 +161,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 团战之夜 (Good Luck\, Have Fun\, Don't Die)
 DTSTART;VALUE=DATE:20260423
 DTEND;VALUE=DATE:20260424
-DTSTAMP:20260429T012141Z
+DTSTAMP:20260429T045016Z
 UID:movie-1119449@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Comedy\, Action\, Sci-Fi\n\n　　故事围绕着一
@@ -207,7 +184,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 穿普拉达的女王2 (The Devil Wears Prada 2)
 DTSTART;VALUE=DATE:20260430
 DTEND;VALUE=DATE:20260501
-DTSTAMP:20260429T012141Z
+DTSTAMP:20260429T045016Z
 UID:movie-1314481@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Drama\, Comedy\n\n　　随着传统出版业的式微
@@ -230,7 +207,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 Ждун 2 (Snorp: My Alien Friend 2)
 DTSTART;VALUE=DATE:20260430
 DTEND;VALUE=DATE:20260501
-DTSTAMP:20260429T012141Z
+DTSTAMP:20260429T045016Z
 UID:movie-1455109@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Comedy\, Fantasy\n\nTMDB: https://www.themoviedb.org/m
@@ -249,7 +226,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 Mädchen weinen nicht (Girls Don't Cry)
 DTSTART;VALUE=DATE:20260430
 DTEND;VALUE=DATE:20260501
-DTSTAMP:20260429T012141Z
+DTSTAMP:20260429T045016Z
 UID:movie-1444587@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Documentary\n\nTMDB: https://www.themoviedb.org/movie/
@@ -268,7 +245,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 真人快打2 (Mortal Kombat II)
 DTSTART;VALUE=DATE:20260507
 DTEND;VALUE=DATE:20260508
-DTSTAMP:20260429T012141Z
+DTSTAMP:20260429T045016Z
 UID:movie-931285@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Action\, Adventure\, Fantasy\n\n　　守护者们被
@@ -290,7 +267,7 @@ SUMMARY:🎬 惩罚者：最后一击 (A Marvel Television Special Present
  ation - The Punisher: One Last Kill)
 DTSTART;VALUE=DATE:20260513
 DTEND;VALUE=DATE:20260514
-DTSTAMP:20260429T012141Z
+DTSTAMP:20260429T045016Z
 UID:movie-1439930@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Crime\, Drama\, Action\n\nTMDB: https://www.themoviedb
@@ -309,7 +286,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 曼达洛人与古古 (Star Wars: The Mandalorian and Grogu)
 DTSTART;VALUE=DATE:20260521
 DTEND;VALUE=DATE:20260522
-DTSTAMP:20260429T012141Z
+DTSTAMP:20260429T045016Z
 UID:movie-1228710@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Action\, Adventure\, Sci-Fi\n\n“曼达洛人”丁·
@@ -330,7 +307,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 奥德赛 (The Odyssey)
 DTSTART;VALUE=DATE:20260716
 DTEND;VALUE=DATE:20260717
-DTSTAMP:20260429T012141Z
+DTSTAMP:20260429T045016Z
 UID:movie-1368337@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Drama\, Adventure\, Fantasy\n\n克里斯托弗·诺兰
@@ -352,7 +329,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 Les matins merveilleux (Marvelous Mornings)
 DTSTART;VALUE=DATE:20260729
 DTEND;VALUE=DATE:20260730
-DTSTAMP:20260429T012141Z
+DTSTAMP:20260429T045016Z
 UID:movie-1000135@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Comedy\, Romance\n\nTMDB: https://www.themoviedb.org/m
@@ -371,7 +348,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 蜘蛛侠：崭新之日 (Spider-Man: Brand New Day)
 DTSTART;VALUE=DATE:20260730
 DTEND;VALUE=DATE:20260731
-DTSTAMP:20260429T012141Z
+DTSTAMP:20260429T045016Z
 UID:movie-969681@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Action\, Adventure\, Sci-Fi\n\n重建普通生活后
@@ -395,7 +372,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 DCI 2026: Big\, Loud and Live
 DTSTART;VALUE=DATE:20260806
 DTEND;VALUE=DATE:20260807
-DTSTAMP:20260429T012141Z
+DTSTAMP:20260429T045016Z
 UID:movie-1683683@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Music\n\nTMDB: https://www.themoviedb.org/movie/168368
