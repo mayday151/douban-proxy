@@ -12,7 +12,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 杀的就是你 (They Will Kill You)
 DTSTART;VALUE=DATE:20260326
 DTEND;VALUE=DATE:20260327
-DTSTAMP:20260503T205829Z
+DTSTAMP:20260503T215036Z
 UID:movie-1292695@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Horror\, Comedy\, Action\n\n艾莎·里夫斯（莎姬
@@ -41,7 +41,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 准备好了没2：我来了 (Ready or Not 2: Here I Come)
 DTSTART;VALUE=DATE:20260326
 DTEND;VALUE=DATE:20260327
-DTSTAMP:20260503T205829Z
+DTSTAMP:20260503T215036Z
 UID:movie-1266127@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Comedy\, Horror\n\n　　格蕾丝侥幸逃过勒多
@@ -64,7 +64,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 超级马力欧银河大电影 (The Super Mario Galaxy Movie)
 DTSTART;VALUE=DATE:20260401
 DTEND;VALUE=DATE:20260402
-DTSTAMP:20260503T205829Z
+DTSTAMP:20260503T215036Z
 UID:movie-1226863@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Comedy\, Adventure\, Fantasy\, Animation\n\n　　重
@@ -86,7 +86,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 木乃伊 (Lee Cronin's The Mummy)
 DTSTART;VALUE=DATE:20260416
 DTEND;VALUE=DATE:20260417
-DTSTAMP:20260503T205829Z
+DTSTAMP:20260503T215036Z
 UID:movie-1304313@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Mystery\, Horror\n\n讲述一位记者的年幼女儿
@@ -108,7 +108,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 NO GOOD！歐吉桑 (Uncle Odyssey)
 DTSTART;VALUE=DATE:20260416
 DTEND;VALUE=DATE:20260417
-DTSTAMP:20260503T205829Z
+DTSTAMP:20260503T215036Z
 UID:movie-1509802@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Comedy\n\nTMDB: https://www.themoviedb.org/movie/15098
@@ -127,7 +127,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 穿普拉达的女王2 (The Devil Wears Prada 2)
 DTSTART;VALUE=DATE:20260430
 DTEND;VALUE=DATE:20260501
-DTSTAMP:20260503T205829Z
+DTSTAMP:20260503T215036Z
 UID:movie-1314481@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Drama\, Comedy\n\n　　随着传统出版业的式微
@@ -150,7 +150,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 真人快打2 (Mortal Kombat II)
 DTSTART;VALUE=DATE:20260507
 DTEND;VALUE=DATE:20260508
-DTSTAMP:20260503T205829Z
+DTSTAMP:20260503T215036Z
 UID:movie-931285@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Action\, Adventure\, Fantasy\n\n　　守护者们被
@@ -171,7 +171,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 Aliens
 DTSTART;VALUE=DATE:20260508
 DTEND;VALUE=DATE:20260509
-DTSTAMP:20260503T205829Z
+DTSTAMP:20260503T215036Z
 UID:movie-1683240@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Mystery\, Comedy\, Action\, Thriller\n\nTMDB: https://
@@ -187,10 +187,30 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:🎬 惩罚者：最后一击 (A Marvel Television Special Present
+ ation - The Punisher: One Last Kill)
+DTSTART;VALUE=DATE:20260513
+DTEND;VALUE=DATE:20260514
+DTSTAMP:20260503T215036Z
+UID:movie-1439930@sg-events-calendar
+CATEGORIES:Movies,Singapore
+DESCRIPTION:Genres: Crime\, Drama\, Action\n\nTMDB: https://www.themoviedb
+ .org/movie/1439930
+IMAGE;DISPLAY=THUMBNAIL;VALUE=URI:https://image.tmdb.org/t/p/w342/q8edtuak
+ hxxEffTHCEkRCJsuZ7b.jpg
+TRANSP:TRANSPARENT
+URL:https://www.themoviedb.org/movie/1439930
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Event Reminder
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:🎬 我々は宇宙人 (We Are Aliens)
 DTSTART;VALUE=DATE:20260514
 DTEND;VALUE=DATE:20260515
-DTSTAMP:20260503T205829Z
+DTSTAMP:20260503T215036Z
 UID:movie-1496928@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Animation\, Drama\, Sci-Fi\n\nTMDB: https://www.themov
@@ -209,7 +229,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 奥德赛 (The Odyssey)
 DTSTART;VALUE=DATE:20260716
 DTEND;VALUE=DATE:20260717
-DTSTAMP:20260503T205829Z
+DTSTAMP:20260503T215036Z
 UID:movie-1368337@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Drama\, Adventure\, Fantasy\n\n克里斯托弗·诺兰
@@ -228,10 +248,53 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:🎬 Les matins merveilleux (Marvelous Mornings)
+DTSTART;VALUE=DATE:20260729
+DTEND;VALUE=DATE:20260730
+DTSTAMP:20260503T215036Z
+UID:movie-1000135@sg-events-calendar
+CATEGORIES:Movies,Singapore
+DESCRIPTION:Genres: Comedy\, Romance\n\nTMDB: https://www.themoviedb.org/m
+ ovie/1000135
+IMAGE;DISPLAY=THUMBNAIL;VALUE=URI:https://image.tmdb.org/t/p/w342/8rKW42ta
+ DGC0ppGBrBGgqs3i4be.jpg
+TRANSP:TRANSPARENT
+URL:https://www.themoviedb.org/movie/1000135
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Event Reminder
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎬 蜘蛛侠：崭新之日 (Spider-Man: Brand New Day)
+DTSTART;VALUE=DATE:20260730
+DTEND;VALUE=DATE:20260731
+DTSTAMP:20260503T215036Z
+UID:movie-969681@sg-events-calendar
+CATEGORIES:Movies,Singapore
+DESCRIPTION:Genres: Action\, Adventure\, Sci-Fi\n\n重建普通生活后
+ ，彼得一边在大学完成学业、一边从事兼职以维持生计
+ ，同时仍肩负着守护纽约街头的蜘蛛侠责任。然而，当
+ 一个神秘力量从内部腐蚀这座城市的安全与秩序，彼得
+ 被迫再次披上战衣。他必须在强大的敌人与昔日纽带之
+ 间找到平衡，并重新定义英雄的意义。\n\nTMDB: https://www.t
+ hemoviedb.org/movie/969681
+IMAGE;DISPLAY=THUMBNAIL;VALUE=URI:https://image.tmdb.org/t/p/w342/9zFVOpQ0
+ QSg0pOHQdFtNj7NDamp.jpg
+TRANSP:TRANSPARENT
+URL:https://www.themoviedb.org/movie/969681
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Event Reminder
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:🎬 The Boy Who Collects Spider-Man
 DTSTART;VALUE=DATE:20260817
 DTEND;VALUE=DATE:20260818
-DTSTAMP:20260503T205829Z
+DTSTAMP:20260503T215036Z
 UID:movie-1685768@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Drama\, Comedy\n\nTMDB: https://www.themoviedb.org/mov
