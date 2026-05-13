@@ -9,21 +9,27 @@ X-WR-CALDESC:Upcoming movies and events in Singapore
 X-WR-CALNAME:Singapore Events
 X-WR-TIMEZONE:Asia/Singapore
 BEGIN:VEVENT
-SUMMARY:🎬 超级马力欧银河大电影
-DTSTART;VALUE=DATE:20260401
-DTEND;VALUE=DATE:20260402
-DTSTAMP:20260513T001603Z
-UID:movie-1226863@sg-events-calendar
+SUMMARY:🎬 Top Gun: Maverick
+DTSTART;VALUE=DATE:20220526
+DTEND;VALUE=DATE:20220527
+DTSTAMP:20260513T041557Z
+UID:movie-361743@sg-events-calendar
 CATEGORIES:Movies,Singapore
-DESCRIPTION:Genres: Comedy\, Adventure\, Fantasy\, Animation\n\n　　重
- 返奇妙世界，探索浩瀚宇宙，罗莎塔公主、酷霸Jr.、耀
- 西等更多惊喜角色登场，开拓更宏大酷炫的版图，呈现
- 更精彩纷呈的冒险。\n\nTMDB: https://www.themoviedb.org/movie/1226
- 863
-IMAGE;DISPLAY=THUMBNAIL;VALUE=URI:https://image.tmdb.org/t/p/w342/7tLVCMnG
- g0Q3rWlkoBjdKA0S57R.jpg
+DESCRIPTION:Genres: Drama\, Action\n\n壮志凌云2：独行侠 作为海
+ 军顶尖飞行员服役30多年后，皮特·米切尔（代号：“独
+ 行侠”）（汤姆·克鲁斯 饰演）决定打破体制的限制，
+ 成为一名试飞员接受更大的挑战。当他接到命令，为一
+ 项高难度特殊任务训练一群“高空利剑”项目的毕业生
+ 时，他遇到了已故的好友兼雷达截获官，代号“笨鹅”
+ 的尼克·布拉德肖中尉之子布莱德利·布拉德肖中尉（代
+ 号：“公鸡”）。  面对不确定的未来和难以释怀的心魔
+ ，独行侠必须战胜内心深处的恐惧。因此，他参与了一
+ 项需要巨大牺牲才能完成的任务\n\nTMDB: https://www.themoviedb
+ .org/movie/361743
+IMAGE;DISPLAY=THUMBNAIL;VALUE=URI:https://image.tmdb.org/t/p/w342/aHniPlfA
+ QykMFhmbUzfn5qtorC7.jpg
 TRANSP:TRANSPARENT
-URL:https://www.themoviedb.org/movie/1226863
+URL:https://www.themoviedb.org/movie/361743
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Event Reminder
@@ -34,16 +40,29 @@ BEGIN:VEVENT
 SUMMARY:🎬 爱情抓马 (The Drama)
 DTSTART;VALUE=DATE:20260416
 DTEND;VALUE=DATE:20260417
-DTSTAMP:20260513T001603Z
+DTSTAMP:20260513T041557Z
 UID:movie-1325734@sg-events-calendar
 CATEGORIES:Movies,Singapore
-DESCRIPTION:Genres: Drama\, Comedy\, Romance\n\n艾玛（赞达亚 饰）
- 和查理（罗伯特·帕丁森 饰）是一对即将完婚的情侣，
- 然而婚礼前夕忽然发生了让人意想不到的抓马故事，两
- 人的感情面临前所未有的考验。\n\nTMDB: https://www.themoviedb
- .org/movie/1325734
-IMAGE;DISPLAY=THUMBNAIL;VALUE=URI:https://image.tmdb.org/t/p/w342/m1UeQyd2
- 65vL6HcWnfaZmim23gg.jpg
+DESCRIPTION:Genres: Drama\, Comedy\, Romance\n\n来自波士顿的情侣
+ 艾玛·哈伍德（赞达亚·科尔曼 饰）和查理·汤普森（罗
+ 伯特·帕丁森 饰）既美丽又迷人，有着高雅而知性的气
+ 质，而且彼此深爱着对方。虽然他们恋爱的初期有些尴
+ 尬，比如查理在追求艾玛时犯了不少错，但这些都不过
+ 是浪漫故事中的有趣插曲罢了。他们即将步入婚姻的殿
+ 堂。但还有些最后的准备工作要做，比如确定婚礼菜单
+ 、撰写婚誓等等。可要想获得幸福的婚姻并不容易。他
+ 们的矛盾源于一场看似轻松愉快的派对游戏。艾玛和查
+ 理喝醉了，他们还想再喝一杯酒。他们的挚友瑞秋（阿
+ 拉娜·哈伊姆 饰）和她的丈夫迈克（马莫多·阿西 饰）
+ 也参与了这次聚会。瑞秋怂恿大家说出自己做过的最糟
+ 糕的事，这样就能让大家的心灵得到净化，为艾玛和查
+ 理的下一步行动铺平道路。迈克犯下的最糟糕的错误是
+ 缺乏绅士风度；瑞秋则回忆起了自己童年时犯下的小恶
+ 行；查理的经历则是一段比较无伤大雅的网络闹剧；而
+ 艾玛所揭露的内容却让众人震惊。\n\nTMDB: https://www.themovi
+ edb.org/movie/1325734
+IMAGE;DISPLAY=THUMBNAIL;VALUE=URI:https://image.tmdb.org/t/p/w342/aDI4QMrT
+ xNpo4l94mlJmGwslS67.jpg
 TRANSP:TRANSPARENT
 URL:https://www.themoviedb.org/movie/1325734
 BEGIN:VALARM
@@ -56,7 +75,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 木乃伊 (Lee Cronin's The Mummy)
 DTSTART;VALUE=DATE:20260416
 DTEND;VALUE=DATE:20260417
-DTSTAMP:20260513T001603Z
+DTSTAMP:20260513T041557Z
 UID:movie-1304313@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Mystery\, Horror\n\n讲述一位记者的年幼女儿
@@ -78,7 +97,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 NO GOOD！歐吉桑 (Uncle Odyssey)
 DTSTART;VALUE=DATE:20260416
 DTEND;VALUE=DATE:20260417
-DTSTAMP:20260513T001603Z
+DTSTAMP:20260513T041557Z
 UID:movie-1509802@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Comedy\n\nTMDB: https://www.themoviedb.org/movie/15098
@@ -97,7 +116,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 穿普拉达的女王2 (The Devil Wears Prada 2)
 DTSTART;VALUE=DATE:20260430
 DTEND;VALUE=DATE:20260501
-DTSTAMP:20260513T001603Z
+DTSTAMP:20260513T041557Z
 UID:movie-1314481@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Drama\, Comedy\n\n　　随着传统出版业的式微
@@ -120,7 +139,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 真人快打2 (Mortal Kombat II)
 DTSTART;VALUE=DATE:20260507
 DTEND;VALUE=DATE:20260508
-DTSTAMP:20260513T001603Z
+DTSTAMP:20260513T041557Z
 UID:movie-931285@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Action\, Adventure\, Fantasy\n\n　　过气好莱坞
@@ -146,7 +165,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 绵羊侦探团 (The Sheep Detectives)
 DTSTART;VALUE=DATE:20260507
 DTEND;VALUE=DATE:20260508
-DTSTAMP:20260513T001603Z
+DTSTAMP:20260513T041557Z
 UID:movie-1301421@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Mystery\, Comedy\n\n改编自Leonie Swann的畅销小
@@ -172,10 +191,44 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:🎬 壮志凌云 (Top Gun)
+DTSTART;VALUE=DATE:20260514
+DTEND;VALUE=DATE:20260515
+DTSTAMP:20260513T041557Z
+UID:movie-744@sg-events-calendar
+CATEGORIES:Movies,Singapore
+DESCRIPTION:Genres: Drama\, Action\, Romance\n\n“独行侠”皮特·米
+ 切尔（汤姆•克鲁斯饰）的父亲是个战功显赫的老飞行
+ 员，他决心也要成为父亲那样的英雄。终于机会来了，
+ 他与军官“笨鹅”尼克·布拉德肖（安东尼•爱德华兹 
+ 饰）一起被派到了Top Gun训练基地接受最严格的飞行训练
+ 。可是，“独行侠”的训练并不像预想中顺利，他的成
+ 绩一直不令人满意，一起训练的”冰人”汤姆·卡赞斯基
+ （方·基默饰）也对他也颇有微词。与此同时，“独行侠
+ ”遇到了美丽的女教官查莉（凯莉•麦吉利斯饰），两
+ 人对彼此暗生情愫，这令本来有些心灰意冷的“独行侠
+ ”重拾信心。在毕业前的一次训练中，“独行侠”搭档
+ “笨鹅”再次同驾一机，但由于马达发生故障，“独行
+ 侠”与“笨鹅”被迫跳海，结果“笨鹅”不幸身亡。这
+ 次事件给“独行侠”带来了沉重的打击，本来因学业不
+ 顺就郁郁寡欢的他更加消沉了，甚至想要彻底放弃成为
+ 飞行员的梦想。“独行侠”最终能否克服心障重回蓝天
+ ？\n\nTMDB: https://www.themoviedb.org/movie/744
+IMAGE;DISPLAY=THUMBNAIL;VALUE=URI:https://image.tmdb.org/t/p/w342/iqM04Mlj
+ gN7EQeM9zhqdO6kakX7.jpg
+TRANSP:TRANSPARENT
+URL:https://www.themoviedb.org/movie/744
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Event Reminder
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:🎬 我々は宇宙人 (We Are Aliens)
 DTSTART;VALUE=DATE:20260514
 DTEND;VALUE=DATE:20260515
-DTSTAMP:20260513T001603Z
+DTSTAMP:20260513T041557Z
 UID:movie-1496928@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Animation\, Drama\, Sci-Fi\n\nTMDB: https://www.themov
@@ -194,7 +247,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 Hong Kong ne répond plus
 DTSTART;VALUE=DATE:20260515
 DTEND;VALUE=DATE:20260516
-DTSTAMP:20260513T001603Z
+DTSTAMP:20260513T041557Z
 UID:movie-1691384@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Documentary\n\nTMDB: https://www.themoviedb.org/movie/
@@ -213,7 +266,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 Ultimate Spider-Man: Origins
 DTSTART;VALUE=DATE:20260515
 DTEND;VALUE=DATE:20260516
-DTSTAMP:20260513T001603Z
+DTSTAMP:20260513T041557Z
 UID:movie-1687502@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Sci-Fi\, Action\, Adventure\, Fantasy\n\nTMDB: https:/
@@ -232,7 +285,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 Sandcastle
 DTSTART;VALUE=DATE:20260515
 DTEND;VALUE=DATE:20260516
-DTSTAMP:20260513T001603Z
+DTSTAMP:20260513T041557Z
 UID:movie-1644928@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Drama\, Comedy\n\nTMDB: https://www.themoviedb.org/mov
@@ -252,7 +305,7 @@ SUMMARY:🎬 星球大战：曼达洛人与古古 (Star Wars: The Mandalor
  ian and Grogu)
 DTSTART;VALUE=DATE:20260521
 DTEND;VALUE=DATE:20260522
-DTSTAMP:20260513T001603Z
+DTSTAMP:20260513T041557Z
 UID:movie-1228710@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Adventure\, Action\, Sci-Fi\n\n“曼达洛人”丁·
@@ -273,7 +326,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 奥德赛 (The Odyssey)
 DTSTART;VALUE=DATE:20260716
 DTEND;VALUE=DATE:20260717
-DTSTAMP:20260513T001603Z
+DTSTAMP:20260513T041557Z
 UID:movie-1368337@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Adventure\, Action\, Fantasy\n\n克里斯托弗·诺
@@ -295,7 +348,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 Les matins merveilleux (Marvelous Mornings)
 DTSTART;VALUE=DATE:20260729
 DTEND;VALUE=DATE:20260730
-DTSTAMP:20260513T001603Z
+DTSTAMP:20260513T041557Z
 UID:movie-1000135@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Comedy\, Romance\n\nTMDB: https://www.themoviedb.org/m
@@ -314,7 +367,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 蜘蛛侠：崭新之日 (Spider-Man: Brand New Day)
 DTSTART;VALUE=DATE:20260730
 DTEND;VALUE=DATE:20260731
-DTSTAMP:20260513T001603Z
+DTSTAMP:20260513T041557Z
 UID:movie-969681@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Action\, Adventure\, Sci-Fi\n\n重建普通生活后
@@ -338,7 +391,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 DCI 2026: Big\, Loud and Live
 DTSTART;VALUE=DATE:20260806
 DTEND;VALUE=DATE:20260807
-DTSTAMP:20260513T001603Z
+DTSTAMP:20260513T041557Z
 UID:movie-1683683@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Music\n\nTMDB: https://www.themoviedb.org/movie/168368
@@ -357,7 +410,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 The Boy Who Collects Spider-Man
 DTSTART;VALUE=DATE:20260817
 DTEND;VALUE=DATE:20260818
-DTSTAMP:20260513T001603Z
+DTSTAMP:20260513T041557Z
 UID:movie-1685768@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Drama\, Comedy\n\nTMDB: https://www.themoviedb.org/mov
