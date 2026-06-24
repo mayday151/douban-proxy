@@ -12,7 +12,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 Top Gun: Maverick
 DTSTART;VALUE=DATE:20220526
 DTEND;VALUE=DATE:20220527
-DTSTAMP:20260624T000825Z
+DTSTAMP:20260624T042303Z
 UID:movie-361743@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Drama\, Action\n\n作为海军顶尖飞行员服役30
@@ -36,45 +36,11 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🎬 壮志凌云 (Top Gun)
-DTSTART;VALUE=DATE:20260514
-DTEND;VALUE=DATE:20260515
-DTSTAMP:20260624T000825Z
-UID:movie-744@sg-events-calendar
-CATEGORIES:Movies,Singapore
-DESCRIPTION:Genres: Drama\, Action\, Romance\n\n“独行侠”皮特·米
- 切尔（汤姆•克鲁斯饰）的父亲是个战功显赫的老飞行
- 员，他决心也要成为父亲那样的英雄。终于机会来了，
- 他与军官“笨鹅”尼克·布拉德肖（安东尼•爱德华兹 
- 饰）一起被派到了Top Gun训练基地接受最严格的飞行训练
- 。可是，“独行侠”的训练并不像预想中顺利，他的成
- 绩一直不令人满意，一起训练的”冰人”汤姆·卡赞斯基
- （方·基默饰）也对他也颇有微词。与此同时，“独行侠
- ”遇到了美丽的女教官查莉（凯莉•麦吉利斯饰），两
- 人对彼此暗生情愫，这令本来有些心灰意冷的“独行侠
- ”重拾信心。在毕业前的一次训练中，“独行侠”搭档
- “笨鹅”再次同驾一机，但由于马达发生故障，“独行
- 侠”与“笨鹅”被迫跳海，结果“笨鹅”不幸身亡。这
- 次事件给“独行侠”带来了沉重的打击，本来因学业不
- 顺就郁郁寡欢的他更加消沉了，甚至想要彻底放弃成为
- 飞行员的梦想。“独行侠”最终能否克服心障重回蓝天
- ？\n\nTMDB: https://www.themoviedb.org/movie/744
-IMAGE;DISPLAY=THUMBNAIL;VALUE=URI:https://image.tmdb.org/t/p/w342/iqM04Mlj
- gN7EQeM9zhqdO6kakX7.jpg
-TRANSP:TRANSPARENT
-URL:https://www.themoviedb.org/movie/744
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Event Reminder
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:🎬 星球大战：曼达洛人与古古 (The Mandalorian and Gro
  gu)
 DTSTART;VALUE=DATE:20260521
 DTEND;VALUE=DATE:20260522
-DTSTAMP:20260624T000825Z
+DTSTAMP:20260624T042303Z
 UID:movie-1228710@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Action\, Adventure\, Sci-Fi\n\n“曼达洛人”丁·
@@ -95,7 +61,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 尸杀禁区 (Colony)
 DTSTART;VALUE=DATE:20260527
 DTEND;VALUE=DATE:20260528
-DTSTAMP:20260624T000825Z
+DTSTAMP:20260624T042303Z
 UID:movie-1375646@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Horror\, Action\, Thriller\n\n因不明感染事件被
@@ -116,7 +82,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 诺曼底72小时 (Pressure)
 DTSTART;VALUE=DATE:20260528
 DTEND;VALUE=DATE:20260529
-DTSTAMP:20260624T000825Z
+DTSTAMP:20260624T042303Z
 UID:movie-1318413@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Thriller\n\n聚焦诺曼底登陆前夕的紧张局势
@@ -138,7 +104,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 宇宙巨人：希曼崛起 (Masters of the Universe)
 DTSTART;VALUE=DATE:20260604
 DTEND;VALUE=DATE:20260605
-DTSTAMP:20260624T000825Z
+DTSTAMP:20260624T042303Z
 UID:movie-454639@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Sci-Fi\, Action\, Fantasy\n\n亚当（尼古拉斯·
@@ -162,7 +128,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 惊声尖笑6 (Scary Movie)
 DTSTART;VALUE=DATE:20260604
 DTEND;VALUE=DATE:20260605
-DTSTAMP:20260624T000825Z
+DTSTAMP:20260624T042303Z
 UID:movie-1273221@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Horror\, Comedy\n\n在逃离那个似曾相识的面
@@ -183,7 +149,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 揭秘日 (Disclosure Day)
 DTSTART;VALUE=DATE:20260611
 DTEND;VALUE=DATE:20260612
-DTSTAMP:20260624T000825Z
+DTSTAMP:20260624T042303Z
 UID:movie-1275779@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Thriller\, Sci-Fi\n\n如果有人告诉你，我们并
@@ -205,7 +171,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 火遮眼 (The Furious)
 DTSTART;VALUE=DATE:20260611
 DTEND;VALUE=DATE:20260612
-DTSTAMP:20260624T000825Z
+DTSTAMP:20260624T042303Z
 UID:movie-1280738@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Crime\, Action\n\n女儿在街头被拐走，店主（
@@ -228,7 +194,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 玩具总动员5 (Toy Story 5)
 DTSTART;VALUE=DATE:20260618
 DTEND;VALUE=DATE:20260619
-DTSTAMP:20260624T000825Z
+DTSTAMP:20260624T042303Z
 UID:movie-1084244@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Animation\, Comedy\, Adventure\n\n胡迪、巴斯光
@@ -257,7 +223,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 后室 (Backrooms)
 DTSTART;VALUE=DATE:20260618
 DTEND;VALUE=DATE:20260619
-DTSTAMP:20260624T000825Z
+DTSTAMP:20260624T042303Z
 UID:movie-1083381@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Mystery\, Horror\, Sci-Fi\n\n一位心理治疗师的
@@ -279,7 +245,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 给阿嬷的情书 (Dear You)
 DTSTART;VALUE=DATE:20260618
 DTEND;VALUE=DATE:20260619
-DTSTAMP:20260624T000825Z
+DTSTAMP:20260624T042303Z
 UID:movie-1671548@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Drama\, Comedy\n\n潮汕阿嬷叶淑柔一直守着平
@@ -304,7 +270,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 超级少女 (Supergirl)
 DTSTART;VALUE=DATE:20260624
 DTEND;VALUE=DATE:20260625
-DTSTAMP:20260624T000825Z
+DTSTAMP:20260624T042303Z
 UID:movie-1081003@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Action\, Adventure\, Sci-Fi\n\n当一位冷酷无情
@@ -326,7 +292,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 小黄人与大怪兽 (Minions & Monsters)
 DTSTART;VALUE=DATE:20260701
 DTEND;VALUE=DATE:20260702
-DTSTAMP:20260624T000825Z
+DTSTAMP:20260624T042303Z
 UID:movie-1315772@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Comedy\, Adventure\, Fantasy\, Animation\n\n为了拍
@@ -348,7 +314,7 @@ SUMMARY:🎬 우리는 외계인을 기억하고 있었다 (We Never Forgo
  t the Alien)
 DTSTART;VALUE=DATE:20260703
 DTEND;VALUE=DATE:20260704
-DTSTAMP:20260624T000825Z
+DTSTAMP:20260624T042303Z
 UID:movie-1699066@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:TMDB: https://www.themoviedb.org/movie/1699066
@@ -366,7 +332,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 奥德赛 (The Odyssey)
 DTSTART;VALUE=DATE:20260716
 DTEND;VALUE=DATE:20260717
-DTSTAMP:20260624T000825Z
+DTSTAMP:20260624T042303Z
 UID:movie-1368337@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Adventure\, Action\, Fantasy\n\n特洛伊战争结束
@@ -386,7 +352,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 奇妙早晨 (Marvelous Mornings)
 DTSTART;VALUE=DATE:20260729
 DTEND;VALUE=DATE:20260730
-DTSTAMP:20260624T000825Z
+DTSTAMP:20260624T042303Z
 UID:movie-1000135@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Comedy\, Romance\n\n在他祖母的葬礼上，查理
@@ -413,7 +379,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 蜘蛛侠：崭新之日 (Spider-Man: Brand New Day)
 DTSTART;VALUE=DATE:20260730
 DTEND;VALUE=DATE:20260731
-DTSTAMP:20260624T000825Z
+DTSTAMP:20260624T042303Z
 UID:movie-969681@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Action\, Adventure\, Sci-Fi\n\n重建普通生活后
@@ -437,7 +403,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 DCI 2026: Big\, Loud and Live
 DTSTART;VALUE=DATE:20260806
 DTEND;VALUE=DATE:20260807
-DTSTAMP:20260624T000825Z
+DTSTAMP:20260624T042303Z
 UID:movie-1683683@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Music\n\nTMDB: https://www.themoviedb.org/movie/168368
@@ -456,7 +422,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 The Boy Who Collects Spider-Man
 DTSTART;VALUE=DATE:20260817
 DTEND;VALUE=DATE:20260818
-DTSTAMP:20260624T000825Z
+DTSTAMP:20260624T042303Z
 UID:movie-1685768@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Drama\, Comedy\n\nTMDB: https://www.themoviedb.org/mov
@@ -475,7 +441,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 Batman: Knightfall Part 1: Knightfall
 DTSTART;VALUE=DATE:20260825
 DTEND;VALUE=DATE:20260826
-DTSTAMP:20260624T000825Z
+DTSTAMP:20260624T042303Z
 UID:movie-1560520@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Animation\, Action\, Adventure\n\nTMDB: https://www.th
@@ -494,7 +460,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 Alien Heart
 DTSTART;VALUE=DATE:20260830
 DTEND;VALUE=DATE:20260831
-DTSTAMP:20260624T000825Z
+DTSTAMP:20260624T042303Z
 UID:movie-1701716@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:TMDB: https://www.themoviedb.org/movie/1701716
@@ -513,7 +479,7 @@ SUMMARY:🎬 安昂传奇：最后的气宗 (Avatar Aang: The Last Airbend
  er)
 DTSTART;VALUE=DATE:20261009
 DTEND;VALUE=DATE:20261010
-DTSTAMP:20260624T000825Z
+DTSTAMP:20260624T042303Z
 UID:movie-980431@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Animation\, Action\, Adventure\, Fantasy\n\n派拉蒙
