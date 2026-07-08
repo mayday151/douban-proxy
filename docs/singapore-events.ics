@@ -9,34 +9,10 @@ X-WR-CALDESC:Upcoming movies and events in Singapore
 X-WR-CALNAME:Singapore Events
 X-WR-TIMEZONE:Asia/Singapore
 BEGIN:VEVENT
-SUMMARY:🎬 鬼上车
-DTSTART;VALUE=DATE:20260528
-DTEND;VALUE=DATE:20260529
-DTSTAMP:20260708T061210Z
-UID:movie-1368314@sg-events-calendar
-CATEGORIES:Movies,Singapore
-DESCRIPTION:Genres: Horror\, Thriller\n\n　　一对年轻情侣目睹了
- 一场血肉横飞的高速公路惨剧后，原以为只是路上的惊
- 魂插曲，却未曾想到，一个名为“凶灵”的恶魔早已悄
- 然潜入他们的房车。当这个不散的恶灵开始步步紧逼，
- 誓要将两人拖入地狱深渊时，原本浪漫的房车旅行彻底
- 沦为一场挣脱不得的梦魇之旅。\n\nTMDB: https://www.themoviedb
- .org/movie/1368314
-IMAGE;DISPLAY=THUMBNAIL;VALUE=URI:https://image.tmdb.org/t/p/w342/6dpcofBx
- TEdPCSYGrLCQZp7djHO.jpg
-TRANSP:TRANSPARENT
-URL:https://www.themoviedb.org/movie/1368314
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Event Reminder
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:🎬 惊声尖笑6 (Scary Movie)
 DTSTART;VALUE=DATE:20260604
 DTEND;VALUE=DATE:20260605
-DTSTAMP:20260708T061210Z
+DTSTAMP:20260708T084557Z
 UID:movie-1273221@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Horror\, Comedy\n\n在逃离那个似曾相识的面
@@ -57,7 +33,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 宇宙巨人：希曼崛起 (Masters of the Universe)
 DTSTART;VALUE=DATE:20260604
 DTEND;VALUE=DATE:20260605
-DTSTAMP:20260708T061210Z
+DTSTAMP:20260708T084557Z
 UID:movie-454639@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Sci-Fi\, Action\, Fantasy\n\n亚当（尼古拉斯·
@@ -81,7 +57,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 揭秘日 (Disclosure Day)
 DTSTART;VALUE=DATE:20260611
 DTEND;VALUE=DATE:20260612
-DTSTAMP:20260708T061210Z
+DTSTAMP:20260708T084557Z
 UID:movie-1275779@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Thriller\, Sci-Fi\n\n如果有人告诉你，我们并
@@ -103,7 +79,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 火遮眼 (The Furious)
 DTSTART;VALUE=DATE:20260611
 DTEND;VALUE=DATE:20260612
-DTSTAMP:20260708T061210Z
+DTSTAMP:20260708T084557Z
 UID:movie-1280738@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Crime\, Action\, Thriller\n\n女儿在街头被拐走
@@ -126,7 +102,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 玩具总动员5 (Toy Story 5)
 DTSTART;VALUE=DATE:20260618
 DTEND;VALUE=DATE:20260619
-DTSTAMP:20260708T061210Z
+DTSTAMP:20260708T084557Z
 UID:movie-1084244@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Animation\, Comedy\, Adventure\n\n胡迪、巴斯光
@@ -155,7 +131,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 后室 (Backrooms)
 DTSTART;VALUE=DATE:20260618
 DTEND;VALUE=DATE:20260619
-DTSTAMP:20260708T061210Z
+DTSTAMP:20260708T084557Z
 UID:movie-1083381@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Mystery\, Horror\, Sci-Fi\n\n一位心理治疗师的
@@ -177,7 +153,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 超级少女 (Supergirl)
 DTSTART;VALUE=DATE:20260624
 DTEND;VALUE=DATE:20260625
-DTSTAMP:20260708T061210Z
+DTSTAMP:20260708T084557Z
 UID:movie-1081003@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Action\, Adventure\, Sci-Fi\n\n当一位冷酷无情
@@ -199,7 +175,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 痴迷 (Obsession)
 DTSTART;VALUE=DATE:20260625
 DTEND;VALUE=DATE:20260626
-DTSTAMP:20260708T061210Z
+DTSTAMP:20260708T084557Z
 UID:movie-1339713@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Horror\, Thriller\n\n在折断神秘的“心愿柳”
@@ -221,7 +197,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 小黄人与大怪兽 (Minions & Monsters)
 DTSTART;VALUE=DATE:20260701
 DTEND;VALUE=DATE:20260702
-DTSTAMP:20260708T061210Z
+DTSTAMP:20260708T084557Z
 UID:movie-1315772@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Comedy\, Adventure\, Fantasy\, Animation\n\n为了拍
@@ -242,7 +218,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 Lino D’Italia - Storia di un itALIENO
 DTSTART;VALUE=DATE:20260708
 DTEND;VALUE=DATE:20260709
-DTSTAMP:20260708T061210Z
+DTSTAMP:20260708T084557Z
 UID:movie-1723484@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Documentary\n\nTMDB: https://www.themoviedb.org/movie/
@@ -261,7 +237,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 海洋奇缘：启航 (Moana)
 DTSTART;VALUE=DATE:20260709
 DTEND;VALUE=DATE:20260710
-DTSTAMP:20260708T061210Z
+DTSTAMP:20260708T084557Z
 UID:movie-1108427@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Comedy\, Adventure\, Fantasy\n\n海的召唤，从未
@@ -278,10 +254,53 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:🎬 鬼玩人6：炼狱 (Evil Dead Burn)
+DTSTART;VALUE=DATE:20260709
+DTEND;VALUE=DATE:20260710
+DTSTAMP:20260708T084557Z
+UID:movie-1212763@sg-events-calendar
+CATEGORIES:Movies,Singapore
+DESCRIPTION:Genres: Horror\, Thriller\n\n丈夫去世后，一名女子前
+ 往娘家偏僻的祖宅寻求慰藉。随着家人一个个被转化为
+ “邪灵”，让这场聚会变成了来自地狱的家庭重逢，她
+ 逐渐发现，自己在生前许下的誓言，即便在死后依然索
+ 命不休。\n\nTMDB: https://www.themoviedb.org/movie/1212763
+IMAGE;DISPLAY=THUMBNAIL;VALUE=URI:https://image.tmdb.org/t/p/w342/vJGTgRfM
+ OgiuXQGkvo7uJR53C6P.jpg
+TRANSP:TRANSPARENT
+URL:https://www.themoviedb.org/movie/1212763
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Event Reminder
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎬 罗宾汉之死 (The Death of Robin Hood)
+DTSTART;VALUE=DATE:20260709
+DTEND;VALUE=DATE:20260710
+DTSTAMP:20260708T084557Z
+UID:movie-1284465@sg-events-calendar
+CATEGORIES:Movies,Singapore
+DESCRIPTION:Genres: Drama\, Action\, Adventure\, Thriller\n\n罗宾汉一
+ 生沉沦于罪恶和杀戮，饱受过往阴影的折磨。一场他以
+ 为是绝唱的战斗后，他身负重伤。一位神秘女子给了他
+ 救赎的希望。\n\nTMDB: https://www.themoviedb.org/movie/1284465
+IMAGE;DISPLAY=THUMBNAIL;VALUE=URI:https://image.tmdb.org/t/p/w342/3w3rBbs5
+ CeQW9GEsoXm0iX2rSYw.jpg
+TRANSP:TRANSPARENT
+URL:https://www.themoviedb.org/movie/1284465
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Event Reminder
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:🎬 香港奇案 (Hong Kong Crime Story)
 DTSTART;VALUE=DATE:20260710
 DTEND;VALUE=DATE:20260711
-DTSTAMP:20260708T061210Z
+DTSTAMP:20260708T084557Z
 UID:movie-1727765@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Crime\n\n影片由四个带有旧港气息的都市故
@@ -305,7 +324,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 奥德赛 (The Odyssey)
 DTSTART;VALUE=DATE:20260716
 DTEND;VALUE=DATE:20260717
-DTSTAMP:20260708T061210Z
+DTSTAMP:20260708T084557Z
 UID:movie-1368337@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Adventure\, Action\, Fantasy\n\n特洛伊战争结束
@@ -325,7 +344,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 Troma’s ODYSSEY
 DTSTART;VALUE=DATE:20260717
 DTEND;VALUE=DATE:20260718
-DTSTAMP:20260708T061210Z
+DTSTAMP:20260708T084557Z
 UID:movie-1726715@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Comedy\, Fantasy\n\nTMDB: https://www.themoviedb.org/m
@@ -344,7 +363,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 Downeast Hardcore: Stories From The Kave
 DTSTART;VALUE=DATE:20260718
 DTEND;VALUE=DATE:20260719
-DTSTAMP:20260708T061210Z
+DTSTAMP:20260708T084557Z
 UID:movie-1721794@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:TMDB: https://www.themoviedb.org/movie/1721794
@@ -362,7 +381,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 Alien Storm
 DTSTART;VALUE=DATE:20260721
 DTEND;VALUE=DATE:20260722
-DTSTAMP:20260708T061210Z
+DTSTAMP:20260708T084557Z
 UID:movie-1080959@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Horror\, Sci-Fi\n\nTMDB: https://www.themoviedb.org/mo
@@ -382,7 +401,7 @@ SUMMARY:🎬 安昂传奇：最后的气宗 (Avatar Aang: The Last Airbend
  er)
 DTSTART;VALUE=DATE:20260725
 DTEND;VALUE=DATE:20260726
-DTSTAMP:20260708T061210Z
+DTSTAMP:20260708T084557Z
 UID:movie-980431@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Animation\, Action\, Adventure\, Fantasy\n\n派拉蒙
@@ -405,7 +424,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 奇妙早晨 (Marvelous Mornings)
 DTSTART;VALUE=DATE:20260729
 DTEND;VALUE=DATE:20260730
-DTSTAMP:20260708T061210Z
+DTSTAMP:20260708T084557Z
 UID:movie-1000135@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Comedy\, Romance\n\n在他祖母的葬礼上，查理
@@ -432,7 +451,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 蜘蛛侠：崭新之日 (Spider-Man: Brand New Day)
 DTSTART;VALUE=DATE:20260730
 DTEND;VALUE=DATE:20260731
-DTSTAMP:20260708T061210Z
+DTSTAMP:20260708T084557Z
 UID:movie-969681@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Action\, Adventure\, Sci-Fi\n\n重建普通生活后
@@ -456,7 +475,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 DCI 2026: Big\, Loud and Live
 DTSTART;VALUE=DATE:20260806
 DTEND;VALUE=DATE:20260807
-DTSTAMP:20260708T061210Z
+DTSTAMP:20260708T084557Z
 UID:movie-1683683@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Music\n\nTMDB: https://www.themoviedb.org/movie/168368
@@ -475,7 +494,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 The Boy Who Collects Spider-Man
 DTSTART;VALUE=DATE:20260817
 DTEND;VALUE=DATE:20260818
-DTSTAMP:20260708T061210Z
+DTSTAMP:20260708T084557Z
 UID:movie-1685768@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Drama\, Comedy\n\nTMDB: https://www.themoviedb.org/mov
@@ -494,7 +513,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 Alien Heart
 DTSTART;VALUE=DATE:20260830
 DTEND;VALUE=DATE:20260831
-DTSTAMP:20260708T061210Z
+DTSTAMP:20260708T084557Z
 UID:movie-1701716@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:TMDB: https://www.themoviedb.org/movie/1701716
@@ -512,7 +531,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 我々は宇宙人 (We Are Aliens)
 DTSTART;VALUE=DATE:20260925
 DTEND;VALUE=DATE:20260926
-DTSTAMP:20260708T061210Z
+DTSTAMP:20260708T084557Z
 UID:movie-1496928@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Animation\, Drama\, Sci-Fi\n\nTMDB: https://www.themov
@@ -532,7 +551,7 @@ SUMMARY:🎬 フェス・ゴジラⅡ 東京消失 (Fest Godzilla II: Toky
  o Disappears)
 DTSTART;VALUE=DATE:20261103
 DTEND;VALUE=DATE:20261104
-DTSTAMP:20260708T061210Z
+DTSTAMP:20260708T084557Z
 UID:movie-1687303@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Horror\, Action\, Sci-Fi\n\nTMDB: https://www.themovie
@@ -549,7 +568,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 哥斯拉-0.0 (Godzilla Minus Zero)
 DTSTART;VALUE=DATE:20261103
 DTEND;VALUE=DATE:20261104
-DTSTAMP:20260708T061210Z
+DTSTAMP:20260708T084557Z
 UID:movie-1381071@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Horror\, Action\, Sci-Fi\n\n　　故事承接《哥
