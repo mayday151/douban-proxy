@@ -13,7 +13,7 @@ SUMMARY:🎬 哈利·波特与魔法石 (Harry Potter and the Philosopher'
  s Stone)
 DTSTART;VALUE=DATE:20011122
 DTEND;VALUE=DATE:20011123
-DTSTAMP:20260910T134848Z
+DTSTAMP:20260910T171817Z
 UID:movie-671@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Adventure\, Fantasy\n\n从小失去双亲的哈利·
@@ -42,7 +42,7 @@ SUMMARY:🎬 汪汪队立大功大电影3：勇闯恐龙岛 (PAW Patrol: T
  he Dino Movie)
 DTSTART;VALUE=DATE:20260806
 DTEND;VALUE=DATE:20260807
-DTSTAMP:20260910T134848Z
+DTSTAMP:20260910T171817Z
 UID:movie-1185806@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Comedy\, Adventure\, Fantasy\, Animation\n\n一场突
@@ -67,7 +67,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 一夜限定 (One Night Only)
 DTSTART;VALUE=DATE:20260813
 DTEND;VALUE=DATE:20260814
-DTSTAMP:20260910T134848Z
+DTSTAMP:20260910T171817Z
 UID:movie-1433367@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Comedy\, Romance\n\n在架空版本的纽约，当地
@@ -94,7 +94,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 逃出绝命街 (The End of Oak Street)
 DTSTART;VALUE=DATE:20260813
 DTEND;VALUE=DATE:20260814
-DTSTAMP:20260910T134848Z
+DTSTAMP:20260910T171817Z
 UID:movie-1101383@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Mystery\, Thriller\, Sci-Fi\n\n居住在花谷街的
@@ -116,7 +116,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 鲨笼绝境 (Above & Below)
 DTSTART;VALUE=DATE:20260820
 DTEND;VALUE=DATE:20260821
-DTSTAMP:20260910T134848Z
+DTSTAMP:20260910T171817Z
 UID:movie-1514682@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Crime\, Horror\, Action\, Thriller\n\n五位挚友相
@@ -148,7 +148,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 潜伏6：血域 (Insidious: Out of the Further)
 DTSTART;VALUE=DATE:20260820
 DTEND;VALUE=DATE:20260821
-DTSTAMP:20260910T134848Z
+DTSTAMP:20260910T171817Z
 UID:movie-1291595@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Horror\, Thriller\n\n　　三名潜行者悄然入侵
@@ -171,7 +171,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 末世行者 (The Dog Stars)
 DTSTART;VALUE=DATE:20260827
 DTEND;VALUE=DATE:20260828
-DTSTAMP:20260910T134848Z
+DTSTAMP:20260910T171817Z
 UID:movie-1384216@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Drama\, Adventure\, Sci-Fi\n\n一场大流行病席卷
@@ -194,7 +194,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 歪心狼对阵ACME (Coyote vs. Acme)
 DTSTART;VALUE=DATE:20260903
 DTEND;VALUE=DATE:20260904
-DTSTAMP:20260910T134848Z
+DTSTAMP:20260910T171817Z
 UID:movie-1204680@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Comedy\, Adventure\n\n　　故事讲述了乐一通
@@ -219,7 +219,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 魔法情缘 (Practical Magic 2)
 DTSTART;VALUE=DATE:20260910
 DTEND;VALUE=DATE:20260911
-DTSTAMP:20260910T134848Z
+DTSTAMP:20260910T171817Z
 UID:movie-1302904@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Comedy\, Romance\, Fantasy\n\n一个世代都是女巫
@@ -240,7 +240,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 希望 (Hope)
 DTSTART;VALUE=DATE:20260910
 DTEND;VALUE=DATE:20260911
-DTSTAMP:20260910T134848Z
+DTSTAMP:20260910T171817Z
 UID:movie-1058424@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Mystery\, Action\, Sci-Fi\n\n20世纪70至80年代，
@@ -260,7 +260,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 Mum\, I'm Alien Pregnant
 DTSTART;VALUE=DATE:20260910
 DTEND;VALUE=DATE:20260911
-DTSTAMP:20260910T134848Z
+DTSTAMP:20260910T171817Z
 UID:movie-1596301@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Comedy\, Horror\, Sci-Fi\n\nTMDB: https://www.themovie
@@ -279,7 +279,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 Alien Spa
 DTSTART;VALUE=DATE:20260916
 DTEND;VALUE=DATE:20260917
-DTSTAMP:20260910T134848Z
+DTSTAMP:20260910T171817Z
 UID:movie-1739499@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Comedy\, Horror\, Adventure\, Sci-Fi\n\nTMDB: https://
@@ -298,7 +298,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 生化危机：爆发夜 (Resident Evil)
 DTSTART;VALUE=DATE:20260917
 DTEND;VALUE=DATE:20260918
-DTSTAMP:20260910T134848Z
+DTSTAMP:20260910T171817Z
 UID:movie-1423191@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Horror\, Sci-Fi\n\n奉命奔赴浣熊市的医疗速
@@ -317,28 +317,11 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🎬 Charlie Kirk: A Star Wars Story
-DTSTART;VALUE=DATE:20260918
-DTEND;VALUE=DATE:20260919
-DTSTAMP:20260910T134848Z
-UID:movie-1767124@sg-events-calendar
-CATEGORIES:Movies,Singapore
-DESCRIPTION:Genres: Horror\, Romance\n\nTMDB: https://www.themoviedb.org/m
- ovie/1767124
-TRANSP:TRANSPARENT
-URL:https://www.themoviedb.org/movie/1767124
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Event Reminder
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:🎬 Uma Odisseia Criativa: Em Busca de Tolkien (A Creative Odysse
  y: In Search of Tolkien)
 DTSTART;VALUE=DATE:20260921
 DTEND;VALUE=DATE:20260922
-DTSTAMP:20260910T134848Z
+DTSTAMP:20260910T171817Z
 UID:movie-1762915@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Documentary\n\nTMDB: https://www.themoviedb.org/movie/
@@ -357,7 +340,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 Alien Girl!
 DTSTART;VALUE=DATE:20260923
 DTEND;VALUE=DATE:20260924
-DTSTAMP:20260910T134848Z
+DTSTAMP:20260910T171817Z
 UID:movie-1755265@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Animation\n\nTMDB: https://www.themoviedb.org/movie/17
@@ -376,7 +359,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 Spidey and the Avengers: Halloween Team-Up!
 DTSTART;VALUE=DATE:20260924
 DTEND;VALUE=DATE:20260925
-DTSTAMP:20260910T134848Z
+DTSTAMP:20260910T171817Z
 UID:movie-1750432@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Animation\, Adventure\, Fantasy\n\nTMDB: https://www.t
@@ -392,91 +375,10 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🎬 我们是外星人 (We Are Aliens)
-DTSTART;VALUE=DATE:20260925
-DTEND;VALUE=DATE:20260926
-DTSTAMP:20260910T134848Z
-UID:movie-1496928@sg-events-calendar
-CATEGORIES:Movies,Singapore
-DESCRIPTION:Genres: Animation\, Drama\, Sci-Fi\n\n　　平成时代的乡
- 下小镇，两个少年相遇。为“普通”而烦恼的翼，以及
- 身为“特别”存在的晓太郎。然而，日常的扭曲尽头所
- 发生的事件，将两人的关系彻底改变。这是他们的青春
- 故事？还是想要抹去的记忆？电影描绘跨越三十年友情
- ，无尽蔚蓝的启程物语。\n\nTMDB: https://www.themoviedb.org/movi
- e/1496928
-IMAGE;DISPLAY=THUMBNAIL;VALUE=URI:https://image.tmdb.org/t/p/w342/pDq9lDGl
- uzgbvS3lYbyLKnKo0mu.jpg
-TRANSP:TRANSPARENT
-URL:https://www.themoviedb.org/movie/1496928
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Event Reminder
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎬 Alien Diner
-DTSTART;VALUE=DATE:20260926
-DTEND;VALUE=DATE:20260927
-DTSTAMP:20260910T134848Z
-UID:movie-1761119@sg-events-calendar
-CATEGORIES:Movies,Singapore
-DESCRIPTION:Genres: Comedy\, Sci-Fi\n\nTMDB: https://www.themoviedb.org/mo
- vie/1761119
-IMAGE;DISPLAY=THUMBNAIL;VALUE=URI:https://image.tmdb.org/t/p/w342/g1Cjy6k7
- qRCbIZFTr0NJsVJRaoB.jpg
-TRANSP:TRANSPARENT
-URL:https://www.themoviedb.org/movie/1761119
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Event Reminder
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎬 Aliens in the Office
-DTSTART;VALUE=DATE:20261009
-DTEND;VALUE=DATE:20261010
-DTSTAMP:20260910T134848Z
-UID:movie-1765566@sg-events-calendar
-CATEGORIES:Movies,Singapore
-DESCRIPTION:Genres: Mystery\, Comedy\, Sci-Fi\n\nTMDB: https://www.themovi
- edb.org/movie/1765566
-IMAGE;DISPLAY=THUMBNAIL;VALUE=URI:https://image.tmdb.org/t/p/w342/yfK7DgtY
- W85XUCbepcr7iA9lKA6.jpg
-TRANSP:TRANSPARENT
-URL:https://www.themoviedb.org/movie/1765566
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Event Reminder
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎬 The Apex Predators Club
-DTSTART;VALUE=DATE:20261021
-DTEND;VALUE=DATE:20261022
-DTSTAMP:20260910T134848Z
-UID:movie-1440930@sg-events-calendar
-CATEGORIES:Movies,Singapore
-DESCRIPTION:Genres: Horror\, Action\n\nTMDB: https://www.themoviedb.org/mo
- vie/1440930
-IMAGE;DISPLAY=THUMBNAIL;VALUE=URI:https://image.tmdb.org/t/p/w342/j4GifpXl
- EP4QIaip2Ni9q2Lbl75.jpg
-TRANSP:TRANSPARENT
-URL:https://www.themoviedb.org/movie/1440930
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Event Reminder
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:🎬 象行记 (The Elephant Odyssey)
 DTSTART;VALUE=DATE:20261023
 DTEND;VALUE=DATE:20261024
-DTSTAMP:20260910T134848Z
+DTSTAMP:20260910T171817Z
 UID:movie-1732799@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Documentary\n\n　　影片旨在记录野生亚洲象
@@ -499,7 +401,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 猫鼬 (The Mongoose)
 DTSTART;VALUE=DATE:20261030
 DTEND;VALUE=DATE:20261031
-DTSTAMP:20260910T134848Z
+DTSTAMP:20260910T171817Z
 UID:movie-1294189@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Action\, Thriller\n\n一位被冤枉的战争英雄，
@@ -518,53 +420,11 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🎬 フェス・ゴジラⅡ 東京消失 (Fest Godzilla II: Toky
- o Disappears)
-DTSTART;VALUE=DATE:20261103
-DTEND;VALUE=DATE:20261104
-DTSTAMP:20260910T134848Z
-UID:movie-1687303@sg-events-calendar
-CATEGORIES:Movies,Singapore
-DESCRIPTION:Genres: Horror\, Action\, Sci-Fi\n\nTMDB: https://www.themovie
- db.org/movie/1687303
-TRANSP:TRANSPARENT
-URL:https://www.themoviedb.org/movie/1687303
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Event Reminder
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎬 哥斯拉-0.0 (Godzilla Minus Zero)
-DTSTART;VALUE=DATE:20261105
-DTEND;VALUE=DATE:20261106
-DTSTAMP:20260910T134848Z
-UID:movie-1381071@sg-events-calendar
-CATEGORIES:Movies,Singapore
-DESCRIPTION:Genres: Horror\, Action\, Sci-Fi\n\n人类的罪与罚。已
- 经，没法归零。战争将日本粉碎至“零”，哥斯拉的袭
- 击更将它推至“负”的绝境。时间来到两年后，人民历
- 尽痛苦磨难仍坚持复苏的步伐，看似终于可以回归正常
- 生活……然而此时，巨兽再次袭来。它彻底摧毁这份希
- 望，将人类推向新的绝望深渊！\n\nTMDB: https://www.themoviedb
- .org/movie/1381071
-IMAGE;DISPLAY=THUMBNAIL;VALUE=URI:https://image.tmdb.org/t/p/w342/51RBWzkF
- d4zEsOGg4ZIqYlNszHc.jpg
-TRANSP:TRANSPARENT
-URL:https://www.themoviedb.org/movie/1381071
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Event Reminder
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:🎬 Villeneuve: L'ascension d'une légende (Villeneuve: The Rise 
  of a Legend)
 DTSTART;VALUE=DATE:20261111
 DTEND;VALUE=DATE:20261112
-DTSTAMP:20260910T134848Z
+DTSTAMP:20260910T171817Z
 UID:movie-1247662@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Drama\n\nTMDB: https://www.themoviedb.org/movie/124766
@@ -583,7 +443,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 Cameron Winter at Carnegie Hall
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
-DTSTAMP:20260910T134848Z
+DTSTAMP:20260910T171817Z
 UID:movie-1597242@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Music\, Documentary\n\nTMDB: https://www.themoviedb.or
@@ -602,7 +462,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 Axolodyssey
 DTSTART;VALUE=DATE:20261123
 DTEND;VALUE=DATE:20261124
-DTSTAMP:20260910T134848Z
+DTSTAMP:20260910T171817Z
 UID:movie-1545540@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Animation\, Adventure\, Fantasy\n\nTMDB: https://www.t
@@ -618,10 +478,32 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:🎬 沙丘3 (Dune: Part Three)
+DTSTART;VALUE=DATE:20261217
+DTEND;VALUE=DATE:20261218
+DTSTAMP:20260910T171817Z
+UID:movie-1170608@sg-events-calendar
+CATEGORIES:Movies,Singapore
+DESCRIPTION:Genres: Adventure\, Sci-Fi\n\n讲述保罗·厄崔迪成为宇
+ 宙皇帝后，虽拥有预知未来的能力，却无法阻止以他之
+ 名发动的圣战席卷星系，在权力、信仰与个人命运的夹
+ 缝中，他逐渐走向无法回头的抉择与代价。\n\nTMDB: https:/
+ /www.themoviedb.org/movie/1170608
+IMAGE;DISPLAY=THUMBNAIL;VALUE=URI:https://image.tmdb.org/t/p/w342/itJtHn6U
+ 2lyJPaWNbWGx8Bam4b5.jpg
+TRANSP:TRANSPARENT
+URL:https://www.themoviedb.org/movie/1170608
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Event Reminder
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:🎬 复仇者联盟5 (Avengers: Doomsday)
 DTSTART;VALUE=DATE:20261217
 DTEND;VALUE=DATE:20261218
-DTSTAMP:20260910T134848Z
+DTSTAMP:20260910T171817Z
 UID:movie-1003596@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Action\, Adventure\, Sci-Fi\n\n来自三个截然不
@@ -640,9 +522,9 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🎭 Crossing Borders 2026
-DTSTART;TZID=Asia/Singapore:20260910T214845
-DTEND;TZID=Asia/Singapore:20260910T234845
-DTSTAMP:20260910T134848Z
+DTSTART;TZID=Asia/Singapore:20260911T011815
+DTEND;TZID=Asia/Singapore:20260911T031815
+DTSTAMP:20260910T171817Z
 UID:esplanade-crossing-borders-2026@sg-events-calendar
 CATEGORIES:Events,Singapore
 DESCRIPTION:Venue: Esplanade – Theatres on the Bay\n\nMore info: https:/
@@ -660,9 +542,9 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🎭 da:ns focus
-DTSTART;TZID=Asia/Singapore:20260910T214845
-DTEND;TZID=Asia/Singapore:20260910T234845
-DTSTAMP:20260910T134848Z
+DTSTART;TZID=Asia/Singapore:20260911T011815
+DTEND;TZID=Asia/Singapore:20260911T031815
+DTSTAMP:20260910T171817Z
 UID:esplanade-da-ns-focus@sg-events-calendar
 CATEGORIES:Events,Singapore
 DESCRIPTION:Venue: Esplanade – Theatres on the Bay\n\nMore info: https:/
@@ -678,9 +560,9 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🎭 Mosaic Music Series
-DTSTART;TZID=Asia/Singapore:20260910T214845
-DTEND;TZID=Asia/Singapore:20260910T234845
-DTSTAMP:20260910T134848Z
+DTSTART;TZID=Asia/Singapore:20260911T011815
+DTEND;TZID=Asia/Singapore:20260911T031815
+DTSTAMP:20260910T171817Z
 UID:esplanade-mosaic-music-series@sg-events-calendar
 CATEGORIES:Events,Singapore
 DESCRIPTION:Venue: Esplanade – Theatres on the Bay\n\nMore info: https:/
@@ -698,9 +580,9 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🎭 Octoburst! 2026
-DTSTART;TZID=Asia/Singapore:20260910T214845
-DTEND;TZID=Asia/Singapore:20260910T234845
-DTSTAMP:20260910T134848Z
+DTSTART;TZID=Asia/Singapore:20260911T011815
+DTEND;TZID=Asia/Singapore:20260911T031815
+DTSTAMP:20260910T171817Z
 UID:esplanade-octoburst--2026@sg-events-calendar
 CATEGORIES:Events,Singapore
 DESCRIPTION:Venue: Esplanade – Theatres on the Bay\n\nMore info: https:/
