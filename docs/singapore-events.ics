@@ -12,7 +12,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 复仇者联盟4：终局之战 (Avengers: Endgame)
 DTSTART;VALUE=DATE:20190424
 DTEND;VALUE=DATE:20190425
-DTSTAMP:20261008T085243Z
+DTSTAMP:20261008T160619Z
 UID:movie-299534@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Adventure\, Action\, Sci-Fi\n\n灭霸集齐六颗无
@@ -40,17 +40,13 @@ BEGIN:VEVENT
 SUMMARY:🎬 歪心狼对阵ACME (Coyote vs. Acme)
 DTSTART;VALUE=DATE:20260903
 DTEND;VALUE=DATE:20260904
-DTSTAMP:20261008T085243Z
+DTSTAMP:20261008T160619Z
 UID:movie-1204680@sg-events-calendar
 CATEGORIES:Movies,Singapore
-DESCRIPTION:Genres: Comedy\, Adventure\n\n　　故事讲述了乐一通
- 经典角色歪心狼（Wile E. Coyote）在长期使用Acme公司的产
- 品追捕BB鸟（Road Runner）失败并遭受身心创伤后，决定不
- 再忍受。他聘请了一位倒霉的人类律师，向Acme公司提起
- 诉讼，要求巨额赔偿。而Acme公司的首席律师则试图捍卫
- 公司利益，双方在法庭上展开了一场荒诞又爆笑的对决
- 。  影片改编自1990年《纽约客》的一篇同名文章。\n\nTMDB
- : https://www.themoviedb.org/movie/1204680
+DESCRIPTION:Genres: Comedy\, Adventure\n\n改编自1990年《纽约客》
+ 的一篇同名文章。饱受ACME产品故障之苦的歪心狼决定反
+ 击，与律师凯文·艾弗里联手，将这家唯利是图的跨国企
+ 业告上法庭。\n\nTMDB: https://www.themoviedb.org/movie/1204680
 IMAGE;DISPLAY=THUMBNAIL;VALUE=URI:https://image.tmdb.org/t/p/w342/xONOMna5
  Z102bw0jMPBM4H73B9m.jpg
 TRANSP:TRANSPARENT
@@ -65,7 +61,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 希望 (Hope)
 DTSTART;VALUE=DATE:20260910
 DTEND;VALUE=DATE:20260911
-DTSTAMP:20261008T085243Z
+DTSTAMP:20261008T160619Z
 UID:movie-1058424@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Mystery\, Action\, Sci-Fi\n\n20世纪70至80年代，
@@ -85,7 +81,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 魔法情缘 (Practical Magic 2)
 DTSTART;VALUE=DATE:20260910
 DTEND;VALUE=DATE:20260911
-DTSTAMP:20261008T085243Z
+DTSTAMP:20261008T160619Z
 UID:movie-1302904@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Comedy\, Romance\, Fantasy\n\n一个世代都是女巫
@@ -106,7 +102,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 生化危机：爆发夜 (Resident Evil)
 DTSTART;VALUE=DATE:20260917
 DTEND;VALUE=DATE:20260918
-DTSTAMP:20261008T085243Z
+DTSTAMP:20261008T160619Z
 UID:movie-1423191@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Horror\, Adventure\, Sci-Fi\n\n奉命奔赴浣熊市
@@ -128,7 +124,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 起义 (The Uprising)
 DTSTART;VALUE=DATE:20260917
 DTEND;VALUE=DATE:20260918
-DTSTAMP:20261008T085243Z
+DTSTAMP:20261008T160619Z
 UID:movie-977942@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Drama\, Action\n\n在中世纪的英格兰，一位无
@@ -150,7 +146,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 护肝人 (Runner)
 DTSTART;VALUE=DATE:20260924
 DTEND;VALUE=DATE:20260925
-DTSTAMP:20261008T085243Z
+DTSTAMP:20261008T160619Z
 UID:movie-1377237@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Comedy\, Action\n\n高端特种押运员汉克·马龙
@@ -173,7 +169,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 野兽之心 (Heart of the Beast)
 DTSTART;VALUE=DATE:20260924
 DTEND;VALUE=DATE:20260925
-DTSTAMP:20261008T085243Z
+DTSTAMP:20261008T160619Z
 UID:movie-1263337@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Adventure\, Thriller\n\n一名前陆军特种部队士
@@ -194,7 +190,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 忘却之岛 (Forgotten Island)
 DTSTART;VALUE=DATE:20260924
 DTEND;VALUE=DATE:20260925
-DTSTAMP:20261008T085243Z
+DTSTAMP:20261008T160619Z
 UID:movie-1465063@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Comedy\, Adventure\, Fantasy\, Animation\n\n　　一
@@ -219,7 +215,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 挖掘者 (Digger)
 DTSTART;VALUE=DATE:20261001
 DTEND;VALUE=DATE:20261002
-DTSTAMP:20261008T085243Z
+DTSTAMP:20261008T160619Z
 UID:movie-1248832@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Drama\, Comedy\n\n世界上最有权势的男子极力
@@ -239,7 +235,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 不存在的罪人 (Verity)
 DTSTART;VALUE=DATE:20261001
 DTEND;VALUE=DATE:20261002
-DTSTAMP:20261008T085243Z
+DTSTAMP:20261008T160619Z
 UID:movie-1283515@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Mystery\, Thriller\n\n影片改编自柯琳·胡佛的
@@ -262,7 +258,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 逃无止境 (It Ends)
 DTSTART;VALUE=DATE:20261001
 DTEND;VALUE=DATE:20261002
-DTSTAMP:20261008T085243Z
+DTSTAMP:20261008T160619Z
 UID:movie-1422011@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Mystery\, Horror\n\n一群刚毕业的年轻人深夜
@@ -283,7 +279,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 另一个妈咪 (Other Mommy)
 DTSTART;VALUE=DATE:20261008
 DTEND;VALUE=DATE:20261009
-DTSTAMP:20261008T085243Z
+DTSTAMP:20261008T160619Z
 UID:movie-1400837@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Horror\, Thriller\n\n故事讲述八岁女孩贝拉住
@@ -311,7 +307,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 社交清算 (The Social Reckoning)
 DTSTART;VALUE=DATE:20261008
 DTEND;VALUE=DATE:20261009
-DTSTAMP:20261008T085243Z
+DTSTAMP:20261008T160619Z
 UID:movie-1281331@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Drama\, Thriller\n\nTMDB: https://www.themoviedb.org/m
@@ -330,7 +326,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 RECKONING - A Minecraft Film
 DTSTART;VALUE=DATE:20261009
 DTEND;VALUE=DATE:20261010
-DTSTAMP:20261008T085243Z
+DTSTAMP:20261008T160619Z
 UID:movie-1791150@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Adventure\, Fantasy\, Animation\, Thriller\, Action\n\
@@ -346,29 +342,10 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🎬 Aliens in the Office
-DTSTART;VALUE=DATE:20261009
-DTEND;VALUE=DATE:20261010
-DTSTAMP:20261008T085243Z
-UID:movie-1765566@sg-events-calendar
-CATEGORIES:Movies,Singapore
-DESCRIPTION:Genres: Mystery\, Comedy\, Sci-Fi\n\nTMDB: https://www.themovi
- edb.org/movie/1765566
-IMAGE;DISPLAY=THUMBNAIL;VALUE=URI:https://image.tmdb.org/t/p/w342/yfK7DgtY
- W85XUCbepcr7iA9lKA6.jpg
-TRANSP:TRANSPARENT
-URL:https://www.themoviedb.org/movie/1765566
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Event Reminder
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:🎬 Illegal Aliens
 DTSTART;VALUE=DATE:20261010
 DTEND;VALUE=DATE:20261011
-DTSTAMP:20261008T085243Z
+DTSTAMP:20261008T160619Z
 UID:movie-1786219@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Horror\, Sci-Fi\n\nTMDB: https://www.themoviedb.org/mo
@@ -384,52 +361,10 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🎬 The Apex Predators Club
-DTSTART;VALUE=DATE:20261021
-DTEND;VALUE=DATE:20261022
-DTSTAMP:20261008T085243Z
-UID:movie-1440930@sg-events-calendar
-CATEGORIES:Movies,Singapore
-DESCRIPTION:Genres: Horror\, Action\n\nTMDB: https://www.themoviedb.org/mo
- vie/1440930
-IMAGE;DISPLAY=THUMBNAIL;VALUE=URI:https://image.tmdb.org/t/p/w342/j4GifpXl
- EP4QIaip2Ni9q2Lbl75.jpg
-TRANSP:TRANSPARENT
-URL:https://www.themoviedb.org/movie/1440930
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Event Reminder
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎬 象行记 (The Elephant Odyssey)
-DTSTART;VALUE=DATE:20261023
-DTEND;VALUE=DATE:20261024
-DTSTAMP:20261008T085243Z
-UID:movie-1732799@sg-events-calendar
-CATEGORIES:Movies,Singapore
-DESCRIPTION:Genres: Documentary\n\n　　影片旨在记录野生亚洲象
- 群于2020年开启的一场举世瞩目的迁移之旅，并呈现野生
- 象群（当地佤族语中尊称大象为Dá）的栖息地——中国
- 云南隐匿于世的绝美风光，揭示人类与野生大象之间的
- 动人故事和鲜为人知的秘密。\n\nTMDB: https://www.themoviedb.or
- g/movie/1732799
-IMAGE;DISPLAY=THUMBNAIL;VALUE=URI:https://image.tmdb.org/t/p/w342/frLlMYq9
- 8hKOxtAF8MOu6jU6PYq.jpg
-TRANSP:TRANSPARENT
-URL:https://www.themoviedb.org/movie/1732799
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Event Reminder
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎬 猫鼬
+SUMMARY:🎬 猫鼬 (The Mongoose)
 DTSTART;VALUE=DATE:20261029
 DTEND;VALUE=DATE:20261030
-DTSTAMP:20261008T085243Z
+DTSTAMP:20261008T160619Z
 UID:movie-1294189@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Action\, Thriller\n\n一位被冤枉的战争英雄，
@@ -448,11 +383,10 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🎬 Villeneuve: L'ascension d'une légende (Villeneuve: The Rise 
- of a Legend)
+SUMMARY:🎬 Villeneuve: L'ascension d'une légende
 DTSTART;VALUE=DATE:20261111
 DTEND;VALUE=DATE:20261112
-DTSTAMP:20261008T085243Z
+DTSTAMP:20261008T160619Z
 UID:movie-1247662@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Drama\n\nTMDB: https://www.themoviedb.org/movie/124766
@@ -471,7 +405,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 Cameron Winter at Carnegie Hall
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
-DTSTAMP:20261008T085243Z
+DTSTAMP:20261008T160619Z
 UID:movie-1597242@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Music\, Documentary\n\nTMDB: https://www.themoviedb.or
@@ -487,10 +421,29 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:🎬 Axolodyssey
+DTSTART;VALUE=DATE:20261123
+DTEND;VALUE=DATE:20261124
+DTSTAMP:20261008T160619Z
+UID:movie-1545540@sg-events-calendar
+CATEGORIES:Movies,Singapore
+DESCRIPTION:Genres: Animation\, Adventure\, Fantasy\n\nTMDB: https://www.t
+ hemoviedb.org/movie/1545540
+IMAGE;DISPLAY=THUMBNAIL;VALUE=URI:https://image.tmdb.org/t/p/w342/fbX705aP
+ 0Cqwp1wK6x9qGHMAuSj.jpg
+TRANSP:TRANSPARENT
+URL:https://www.themoviedb.org/movie/1545540
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Event Reminder
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:🎬 Batman: Knightfall Part 2: Knightquest
 DTSTART;VALUE=DATE:20261208
 DTEND;VALUE=DATE:20261209
-DTSTAMP:20261008T085243Z
+DTSTAMP:20261008T160619Z
 UID:movie-1389765@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Animation\, Action\, Adventure\n\nTMDB: https://www.th
@@ -509,7 +462,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 沙丘3 (Dune: Part Three)
 DTSTART;VALUE=DATE:20261217
 DTEND;VALUE=DATE:20261218
-DTSTAMP:20261008T085243Z
+DTSTAMP:20261008T160619Z
 UID:movie-1170608@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Adventure\, Sci-Fi\n\n保罗·厄崔迪成为宇宙皇
@@ -531,7 +484,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 复仇者联盟5 (Avengers: Doomsday)
 DTSTART;VALUE=DATE:20261217
 DTEND;VALUE=DATE:20261218
-DTSTAMP:20261008T085243Z
+DTSTAMP:20261008T160619Z
 UID:movie-1003596@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Action\, Adventure\, Sci-Fi\n\n来自三个截然不
@@ -550,9 +503,9 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🎭 Popaholic 2026
-DTSTART;TZID=Asia/Singapore:20261008T165240
-DTEND;TZID=Asia/Singapore:20261008T185240
-DTSTAMP:20261008T085243Z
+DTSTART;TZID=Asia/Singapore:20261009T000614
+DTEND;TZID=Asia/Singapore:20261009T020614
+DTSTAMP:20261008T160619Z
 UID:esplanade-popaholic-2026@sg-events-calendar
 CATEGORIES:Events,Singapore
 DESCRIPTION:Venue: Esplanade – Theatres on the Bay\n\nMore info: https:/
@@ -569,9 +522,9 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🎭 da:ns focus
-DTSTART;TZID=Asia/Singapore:20261008T165240
-DTEND;TZID=Asia/Singapore:20261008T185240
-DTSTAMP:20261008T085243Z
+DTSTART;TZID=Asia/Singapore:20261009T000614
+DTEND;TZID=Asia/Singapore:20261009T020614
+DTSTAMP:20261008T160619Z
 UID:esplanade-da-ns-focus@sg-events-calendar
 CATEGORIES:Events,Singapore
 DESCRIPTION:Venue: Esplanade – Theatres on the Bay\n\nMore info: https:/
@@ -587,9 +540,9 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🎭 Mosaic Music Series
-DTSTART;TZID=Asia/Singapore:20261008T165240
-DTEND;TZID=Asia/Singapore:20261008T185240
-DTSTAMP:20261008T085243Z
+DTSTART;TZID=Asia/Singapore:20261009T000614
+DTEND;TZID=Asia/Singapore:20261009T020614
+DTSTAMP:20261008T160619Z
 UID:esplanade-mosaic-music-series@sg-events-calendar
 CATEGORIES:Events,Singapore
 DESCRIPTION:Venue: Esplanade – Theatres on the Bay\n\nMore info: https:/
@@ -607,9 +560,9 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🎭 Kalaa Utsavam – Indian Festival of Arts 2026
-DTSTART;TZID=Asia/Singapore:20261008T165240
-DTEND;TZID=Asia/Singapore:20261008T185240
-DTSTAMP:20261008T085243Z
+DTSTART;TZID=Asia/Singapore:20261009T000614
+DTEND;TZID=Asia/Singapore:20261009T020614
+DTSTAMP:20261008T160619Z
 UID:esplanade-kalaa-utsavam---indian-festival-of-arts-2026@sg-events-calen
  dar
 CATEGORIES:Events,Singapore
@@ -628,9 +581,9 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🎭 Voices – A Festival of Song
-DTSTART;TZID=Asia/Singapore:20261008T165240
-DTEND;TZID=Asia/Singapore:20261008T185240
-DTSTAMP:20261008T085243Z
+DTSTART;TZID=Asia/Singapore:20261009T000614
+DTEND;TZID=Asia/Singapore:20261009T020614
+DTSTAMP:20261008T160619Z
 UID:esplanade-voices---a-festival-of-song@sg-events-calendar
 CATEGORIES:Events,Singapore
 DESCRIPTION:Venue: Esplanade – Theatres on the Bay\n\nMore info: https:/
