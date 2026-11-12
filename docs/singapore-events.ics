@@ -9,10 +9,32 @@ X-WR-CALDESC:Upcoming movies and events in Singapore
 X-WR-CALNAME:Singapore Events
 X-WR-TIMEZONE:Asia/Singapore
 BEGIN:VEVENT
+SUMMARY:🎬 社交清算 (The Social Reckoning)
+DTSTART;VALUE=DATE:20261008
+DTEND;VALUE=DATE:20261009
+DTSTAMP:20261112T085022Z
+UID:movie-1281331@sg-events-calendar
+CATEGORIES:Movies,Singapore
+DESCRIPTION:Genres: Drama\, Thriller\n\n《社交网络》的延续作品
+ ，受真实事件启发。年轻的Facebook工程师弗朗西斯·豪根
+ 在《华尔街日报》记者杰夫·霍维茨的协助下，踏上一段
+ 危险的旅程，揭露这个社交网络最隐秘的内幕。\n\nTMDB: h
+ ttps://www.themoviedb.org/movie/1281331
+IMAGE;DISPLAY=THUMBNAIL;VALUE=URI:https://image.tmdb.org/t/p/w342/on14cDF7
+ G7lHYiLzxH4yHMKGPsO.jpg
+TRANSP:TRANSPARENT
+URL:https://www.themoviedb.org/movie/1281331
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Event Reminder
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:🎬 封锁蛛楼 (Crawlers)
 DTSTART;VALUE=DATE:20261015
 DTEND;VALUE=DATE:20261016
-DTSTAMP:20261112T014007Z
+DTSTAMP:20261112T085022Z
 UID:movie-1376400@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Horror\, Thriller\n\n一种剧毒蜘蛛入侵高层公
@@ -35,7 +57,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 街头霸王 (Street Fighter)
 DTSTART;VALUE=DATE:20261015
 DTEND;VALUE=DATE:20261016
-DTSTAMP:20261112T014007Z
+DTSTAMP:20261112T085022Z
 UID:movie-1153576@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Action\, Fantasy\n\n改编自卡普空同名系列格
@@ -57,7 +79,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 鲸口脱险 (Whalefall)
 DTSTART;VALUE=DATE:20261015
 DTEND;VALUE=DATE:20261016
-DTSTAMP:20261112T014007Z
+DTSTAMP:20261112T085022Z
 UID:movie-1255833@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Thriller\n\n一场突如其来的意外，让他被巨
@@ -79,7 +101,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 荒野丛林 (Wildwood)
 DTSTART;VALUE=DATE:20261022
 DTEND;VALUE=DATE:20261023
-DTSTAMP:20261112T014007Z
+DTSTAMP:20261112T085022Z
 UID:movie-791523@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Animation\, Drama\, Adventure\, Fantasy\n\n普鲁和
@@ -102,7 +124,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 泥面人 (Clayface)
 DTSTART;VALUE=DATE:20261022
 DTEND;VALUE=DATE:20261023
-DTSTAMP:20261112T014007Z
+DTSTAMP:20261112T085022Z
 UID:movie-1400940@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Horror\, Thriller\, Sci-Fi\n\n好莱坞新星马特·
@@ -123,7 +145,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 猫鼬 (The Mongoose)
 DTSTART;VALUE=DATE:20261029
 DTEND;VALUE=DATE:20261030
-DTSTAMP:20261112T014007Z
+DTSTAMP:20261112T085022Z
 UID:movie-1294189@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Action\, Thriller\n\n一位被冤枉的战争英雄，
@@ -145,7 +167,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 哥斯拉-0.0 (Godzilla Minus Zero)
 DTSTART;VALUE=DATE:20261105
 DTEND;VALUE=DATE:20261106
-DTSTAMP:20261112T014007Z
+DTSTAMP:20261112T085022Z
 UID:movie-1381071@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Horror\, Action\, Sci-Fi\n\n人类的罪与罚。已
@@ -169,7 +191,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 戴帽子的猫 (The Cat in the Hat)
 DTSTART;VALUE=DATE:20261105
 DTEND;VALUE=DATE:20261106
-DTSTAMP:20261112T014007Z
+DTSTAMP:20261112T085022Z
 UID:movie-1117898@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Comedy\, Adventure\, Fantasy\, Animation\n\n改编自
@@ -192,7 +214,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 寒夜怪谈 (Ebenezer)
 DTSTART;VALUE=DATE:20261112
 DTEND;VALUE=DATE:20261113
-DTSTAMP:20261112T014007Z
+DTSTAMP:20261112T085022Z
 UID:movie-1567605@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Comedy\, Fantasy\n\n改编自查尔斯·狄更斯小
@@ -211,10 +233,32 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:🎬 如何干一票大的 (How to Rob a Bank)
+DTSTART;VALUE=DATE:20261112
+DTEND;VALUE=DATE:20261113
+DTSTAMP:20261112T085022Z
+UID:movie-1437511@sg-events-calendar
+CATEGORIES:Movies,Singapore
+DESCRIPTION:Genres: Crime\, Action\, Thriller\n\n别人抢劫东躲西藏
+ ，他们直播全网教学，别人抢劫只想暴富，他们只为分
+ 给需要的人！当规则不再公平，欲望横流的金钱游戏，
+ 谁才是真的掠夺者？\n\nTMDB: https://www.themoviedb.org/movie/1437
+ 511
+IMAGE;DISPLAY=THUMBNAIL;VALUE=URI:https://image.tmdb.org/t/p/w342/qAoG1zAf
+ c3Phd0u4A6TY2JjikyW.jpg
+TRANSP:TRANSPARENT
+URL:https://www.themoviedb.org/movie/1437511
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Event Reminder
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:🎬 Bedcrumbs
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
-DTSTAMP:20261112T014007Z
+DTSTAMP:20261112T085022Z
 UID:movie-1808402@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Drama\, Comedy\, Romance\n\nTMDB: https://www.themovie
@@ -234,7 +278,7 @@ SUMMARY:🎬 饥饿游戏：收获日出 (The Hunger Games: Sunrise on the
   Reaping)
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261120
-DTSTAMP:20261112T014007Z
+DTSTAMP:20261112T085022Z
 UID:movie-1300968@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Action\, Adventure\, Sci-Fi\n\n改编自苏珊·柯林
@@ -256,7 +300,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 Cameron Winter at Carnegie Hall
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
-DTSTAMP:20261112T014007Z
+DTSTAMP:20261112T085022Z
 UID:movie-1597242@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Music\, Documentary\n\nTMDB: https://www.themoviedb.or
@@ -275,7 +319,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 Axolodyssey
 DTSTART;VALUE=DATE:20261123
 DTEND;VALUE=DATE:20261124
-DTSTAMP:20261112T014007Z
+DTSTAMP:20261112T085022Z
 UID:movie-1545540@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Animation\, Adventure\, Fantasy\n\nTMDB: https://www.t
@@ -294,7 +338,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 Zerstörung eines Mädchens
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
-DTSTAMP:20261112T014007Z
+DTSTAMP:20261112T085022Z
 UID:movie-1819730@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Drama\, Horror\n\nTMDB: https://www.themoviedb.org/mov
@@ -313,7 +357,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 Batman: Knightfall Part 2: Knightquest
 DTSTART;VALUE=DATE:20261215
 DTEND;VALUE=DATE:20261216
-DTSTAMP:20261112T014007Z
+DTSTAMP:20261112T085022Z
 UID:movie-1389765@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Animation\, Action\, Adventure\n\nTMDB: https://www.th
@@ -329,33 +373,10 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🎬 沙丘3 (Dune: Part Three)
-DTSTART;VALUE=DATE:20261216
-DTEND;VALUE=DATE:20261217
-DTSTAMP:20261112T014007Z
-UID:movie-1170608@sg-events-calendar
-CATEGORIES:Movies,Singapore
-DESCRIPTION:Genres: Adventure\, Sci-Fi\n\n改编自弗兰克·赫伯特的
- 科幻小说《沙丘2：沙丘救世主》。保罗·厄崔迪夺取帝
- 国统治权近二十年后，成为冷酷的皇帝。面对旧盟友回
- 归、新威胁浮现与暗中背叛，保罗深陷一场阴谋，并必
- 须直面权力的代价与所爱之人的命运。\n\nTMDB: https://www.t
- hemoviedb.org/movie/1170608
-IMAGE;DISPLAY=THUMBNAIL;VALUE=URI:https://image.tmdb.org/t/p/w342/KDlLzHTT
- E7vjplaXT5SfRZahwZ.jpg
-TRANSP:TRANSPARENT
-URL:https://www.themoviedb.org/movie/1170608
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Event Reminder
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:🎬 复仇者联盟5：毁灭之日 (Avengers: Doomsday)
 DTSTART;VALUE=DATE:20261217
 DTEND;VALUE=DATE:20261218
-DTSTAMP:20261112T014007Z
+DTSTAMP:20261112T085022Z
 UID:movie-1003596@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Action\, Adventure\, Sci-Fi\n\n来自三个截然不
@@ -376,7 +397,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 Trevor And Andy Vs Aliens
 DTSTART;VALUE=DATE:20270101
 DTEND;VALUE=DATE:20270102
-DTSTAMP:20261112T014007Z
+DTSTAMP:20261112T085022Z
 UID:movie-1746171@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Comedy\, Adventure\, Sci-Fi\n\nTMDB: https://www.themo
@@ -395,7 +416,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 Milan Baroš: Srdcař
 DTSTART;VALUE=DATE:20270121
 DTEND;VALUE=DATE:20270122
-DTSTAMP:20261112T014007Z
+DTSTAMP:20261112T085022Z
 UID:movie-1792358@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Documentary\n\nTMDB: https://www.themoviedb.org/movie/
@@ -412,7 +433,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 Mädchen in Uniform
 DTSTART;VALUE=DATE:20270225
 DTEND;VALUE=DATE:20270226
-DTSTAMP:20261112T014007Z
+DTSTAMP:20261112T085022Z
 UID:movie-1449002@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Drama\, Romance\n\nTMDB: https://www.themoviedb.org/mo
@@ -427,9 +448,9 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🎭 Soundtracks 2026
-DTSTART;TZID=Asia/Singapore:20261112T094003
-DTEND;TZID=Asia/Singapore:20261112T114003
-DTSTAMP:20261112T014007Z
+DTSTART;TZID=Asia/Singapore:20261112T165020
+DTEND;TZID=Asia/Singapore:20261112T185020
+DTSTAMP:20261112T085022Z
 UID:esplanade-soundtracks-2026@sg-events-calendar
 CATEGORIES:Events,Singapore
 DESCRIPTION:Venue: Esplanade – Theatres on the Bay\n\nMore info: https:/
@@ -447,9 +468,9 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🎭 Kalaa Utsavam – Indian Festival of Arts 2026
-DTSTART;TZID=Asia/Singapore:20261112T094003
-DTEND;TZID=Asia/Singapore:20261112T114003
-DTSTAMP:20261112T014007Z
+DTSTART;TZID=Asia/Singapore:20261112T165020
+DTEND;TZID=Asia/Singapore:20261112T185020
+DTSTAMP:20261112T085022Z
 UID:esplanade-kalaa-utsavam---indian-festival-of-arts-2026@sg-events-calen
  dar
 CATEGORIES:Events,Singapore
@@ -468,9 +489,9 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🎭 Mosaic Music Series
-DTSTART;TZID=Asia/Singapore:20261112T094003
-DTEND;TZID=Asia/Singapore:20261112T114003
-DTSTAMP:20261112T014007Z
+DTSTART;TZID=Asia/Singapore:20261112T165020
+DTEND;TZID=Asia/Singapore:20261112T185020
+DTSTAMP:20261112T085022Z
 UID:esplanade-mosaic-music-series@sg-events-calendar
 CATEGORIES:Events,Singapore
 DESCRIPTION:Venue: Esplanade – Theatres on the Bay\n\nMore info: https:/
@@ -488,9 +509,9 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🎭 Voices – A Festival of Song
-DTSTART;TZID=Asia/Singapore:20261112T094003
-DTEND;TZID=Asia/Singapore:20261112T114003
-DTSTAMP:20261112T014007Z
+DTSTART;TZID=Asia/Singapore:20261112T165020
+DTEND;TZID=Asia/Singapore:20261112T185020
+DTSTAMP:20261112T085022Z
 UID:esplanade-voices---a-festival-of-song@sg-events-calendar
 CATEGORIES:Events,Singapore
 DESCRIPTION:Venue: Esplanade – Theatres on the Bay\n\nMore info: https:/
@@ -508,9 +529,9 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🎭 Muara Festival
-DTSTART;TZID=Asia/Singapore:20261112T094003
-DTEND;TZID=Asia/Singapore:20261112T114003
-DTSTAMP:20261112T014007Z
+DTSTART;TZID=Asia/Singapore:20261112T165020
+DTEND;TZID=Asia/Singapore:20261112T185020
+DTSTAMP:20261112T085022Z
 UID:esplanade-muara-festival@sg-events-calendar
 CATEGORIES:Events,Singapore
 DESCRIPTION:Venue: Esplanade – Theatres on the Bay\n\nMore info: https:/
