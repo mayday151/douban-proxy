@@ -12,7 +12,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 荒野丛林 (Wildwood)
 DTSTART;VALUE=DATE:20261022
 DTEND;VALUE=DATE:20261023
-DTSTAMP:20261125T173956Z
+DTSTAMP:20261126T010953Z
 UID:movie-791523@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Animation\, Adventure\, Fantasy\n\n普鲁和同班同
@@ -35,7 +35,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 泥面人 (Clayface)
 DTSTART;VALUE=DATE:20261022
 DTEND;VALUE=DATE:20261023
-DTSTAMP:20261125T173956Z
+DTSTAMP:20261126T010953Z
 UID:movie-1400940@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Horror\, Thriller\, Sci-Fi\n\n好莱坞新星马特·
@@ -56,7 +56,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 猫鼬 (The Mongoose)
 DTSTART;VALUE=DATE:20261029
 DTEND;VALUE=DATE:20261030
-DTSTAMP:20261125T173956Z
+DTSTAMP:20261126T010953Z
 UID:movie-1294189@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Action\, Thriller\n\n一位被冤枉的战争英雄，
@@ -78,7 +78,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 哥斯拉-0.0 (Godzilla Minus Zero)
 DTSTART;VALUE=DATE:20261105
 DTEND;VALUE=DATE:20261106
-DTSTAMP:20261125T173956Z
+DTSTAMP:20261126T010953Z
 UID:movie-1381071@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Horror\, Action\, Sci-Fi\n\n人类的罪与罚。已
@@ -102,7 +102,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 戴帽子的猫 (The Cat in the Hat)
 DTSTART;VALUE=DATE:20261105
 DTEND;VALUE=DATE:20261106
-DTSTAMP:20261125T173956Z
+DTSTAMP:20261126T010953Z
 UID:movie-1117898@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Comedy\, Adventure\, Fantasy\, Animation\n\n改编自
@@ -122,10 +122,31 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:🎬 野兽座驾 (The Beast)
+DTSTART;VALUE=DATE:20261112
+DTEND;VALUE=DATE:20261113
+DTSTAMP:20261126T010953Z
+UID:movie-1185344@sg-events-calendar
+CATEGORIES:Movies,Singapore
+DESCRIPTION:Genres: Action\, Thriller\n\n当一支身份不明的敌军策
+ 划改变反对美国时，总统为了挽救自己的生命和美国的
+ 安危，揭露了“野兽”高度机密的进攻能力。\n\nTMDB: http
+ s://www.themoviedb.org/movie/1185344
+IMAGE;DISPLAY=THUMBNAIL;VALUE=URI:https://image.tmdb.org/t/p/w342/7OkvH3Ps
+ OpWJRWX5zJhlK2O9kra.jpg
+TRANSP:TRANSPARENT
+URL:https://www.themoviedb.org/movie/1185344
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Event Reminder
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:🎬 寒夜怪谈 (Ebenezer)
 DTSTART;VALUE=DATE:20261112
 DTEND;VALUE=DATE:20261113
-DTSTAMP:20261125T173956Z
+DTSTAMP:20261126T010953Z
 UID:movie-1567605@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Comedy\, Fantasy\n\n改编自查尔斯·狄更斯小
@@ -144,31 +165,10 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🎬 野兽座驾 (The Beast)
-DTSTART;VALUE=DATE:20261112
-DTEND;VALUE=DATE:20261113
-DTSTAMP:20261125T173956Z
-UID:movie-1185344@sg-events-calendar
-CATEGORIES:Movies,Singapore
-DESCRIPTION:Genres: Action\, Thriller\n\n当一支身份不明的敌军策
- 划改变反对美国时，总统为了挽救自己的生命和美国的
- 安危，揭露了“野兽”高度机密的进攻能力。\n\nTMDB: http
- s://www.themoviedb.org/movie/1185344
-IMAGE;DISPLAY=THUMBNAIL;VALUE=URI:https://image.tmdb.org/t/p/w342/7OkvH3Ps
- OpWJRWX5zJhlK2O9kra.jpg
-TRANSP:TRANSPARENT
-URL:https://www.themoviedb.org/movie/1185344
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Event Reminder
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:🎬 如何干一票大的 (How to Rob a Bank)
 DTSTART;VALUE=DATE:20261112
 DTEND;VALUE=DATE:20261113
-DTSTAMP:20261125T173956Z
+DTSTAMP:20261126T010953Z
 UID:movie-1437511@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Crime\, Action\, Thriller\n\n别人抢劫东躲西藏
@@ -190,7 +190,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 天才谋杀法 (A Talent for Murder)
 DTSTART;VALUE=DATE:20261112
 DTEND;VALUE=DATE:20261113
-DTSTAMP:20261125T173956Z
+DTSTAMP:20261126T010953Z
 UID:movie-1084409@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Crime\, Drama\, Thriller\n\n爱德华打断了海史
@@ -216,7 +216,7 @@ SUMMARY:🎬 饥饿游戏：收获日出 (The Hunger Games: Sunrise on the
   Reaping)
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261120
-DTSTAMP:20261125T173956Z
+DTSTAMP:20261126T010953Z
 UID:movie-1300968@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Action\, Adventure\, Sci-Fi\n\n改编自苏珊·柯林
@@ -238,7 +238,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 魔法秘境 (Hexed)
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
-DTSTAMP:20261125T173956Z
+DTSTAMP:20261126T010953Z
 UID:movie-1538497@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Comedy\, Adventure\, Fantasy\, Animation\n\n一名冲
@@ -260,21 +260,16 @@ BEGIN:VEVENT
 SUMMARY:🎬 拜见岳父大人4 (Focker In-Law)
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
-DTSTAMP:20261125T173956Z
+DTSTAMP:20261126T010953Z
 UID:movie-1400336@sg-events-calendar
 CATEGORIES:Movies,Singapore
-DESCRIPTION:Genres: Comedy\, Romance\n\n　　格雷格·福克和帕姆·
- 伯恩斯的儿子亨利已经长大成人，并决定与一位看似与
- 他完全不合拍的女性奥利维亚·琼斯结婚。奥利维亚曾是
- 一名FBI人质谈判专家。她自信地表示，这份职业经历让
- 她完全有能力将亨利从被“情感绑架”的状态中“解救
- ”出来。奥利维亚这种直率强势的性格让格雷格感到不
- 安和不满。然而，前CIA特工杰克·伯恩斯——那位以严苛
- 考验女婿闻名的岳父却因此对奥利维亚刮目相看，甚至
- 欣赏她，并想邀请她加入家族的“信任圈”。\n\nTMDB: http
- s://www.themoviedb.org/movie/1400336
-IMAGE;DISPLAY=THUMBNAIL;VALUE=URI:https://image.tmdb.org/t/p/w342/rJnakSV9
- oxKCrCOWftkLzZISns4.jpg
+DESCRIPTION:Genres: Comedy\, Romance\n\n格雷格得知儿子亨利准备
+ 向女友奥利维亚求婚后，焦虑不已。全家都接纳了奥利
+ 维亚，连岳父杰克也对她青睐有加。心存怀疑的格雷格
+ 试图揭穿她的真面目，一场混乱的周末引发新的家庭纷
+ 争。\n\nTMDB: https://www.themoviedb.org/movie/1400336
+IMAGE;DISPLAY=THUMBNAIL;VALUE=URI:https://image.tmdb.org/t/p/w342/1hUfXjYY
+ hJE0WOoj9weOUEcr2il.jpg
 TRANSP:TRANSPARENT
 URL:https://www.themoviedb.org/movie/1400336
 BEGIN:VALARM
@@ -287,7 +282,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 Zerstörung eines Mädchens
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
-DTSTAMP:20261125T173956Z
+DTSTAMP:20261126T010953Z
 UID:movie-1819730@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Drama\, Horror\n\nTMDB: https://www.themoviedb.org/mov
@@ -303,14 +298,18 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🎬 Batman: Knightfall Part 2: Knightquest
+SUMMARY:🎬 蝙蝠侠：骑士陨落 第二部 (Batman: Knightfall Part 2
+ : Knightquest)
 DTSTART;VALUE=DATE:20261215
 DTEND;VALUE=DATE:20261216
-DTSTAMP:20261125T173956Z
+DTSTAMP:20261126T010953Z
 UID:movie-1389765@sg-events-calendar
 CATEGORIES:Movies,Singapore
-DESCRIPTION:Genres: Animation\, Action\, Adventure\n\nTMDB: https://www.th
- emoviedb.org/movie/1389765
+DESCRIPTION:Genres: Animation\, Action\, Adventure\n\n让-保罗·瓦利
+ （又名阿兹瑞尔）继承了黑暗骑士的衣钵，他冷酷无情
+ 的手段将重新定义哥谭市的义警传统。布鲁斯·韦恩将开
+ 始艰难的康复过程，并最终尝试重新夺回蝙蝠侠的身份
+ 。\n\nTMDB: https://www.themoviedb.org/movie/1389765
 IMAGE;DISPLAY=THUMBNAIL;VALUE=URI:https://image.tmdb.org/t/p/w342/9jGwTCEY
  aOg3xxnKFaL5ukVexLp.jpg
 TRANSP:TRANSPARENT
@@ -325,7 +324,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 沙丘3 (Dune: Part Three)
 DTSTART;VALUE=DATE:20261216
 DTEND;VALUE=DATE:20261217
-DTSTAMP:20261125T173956Z
+DTSTAMP:20261126T010953Z
 UID:movie-1170608@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Adventure\, Sci-Fi\n\n改编自弗兰克·赫伯特的
@@ -348,7 +347,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 复仇者联盟5 (Avengers: Doomsday)
 DTSTART;VALUE=DATE:20261217
 DTEND;VALUE=DATE:20261218
-DTSTAMP:20261125T173956Z
+DTSTAMP:20261126T010953Z
 UID:movie-1003596@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Action\, Adventure\, Sci-Fi\n\n来自三个截然不
@@ -369,7 +368,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 Trevor And Andy Vs Aliens
 DTSTART;VALUE=DATE:20270101
 DTEND;VALUE=DATE:20270102
-DTSTAMP:20261125T173956Z
+DTSTAMP:20261126T010953Z
 UID:movie-1746171@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Comedy\, Adventure\, Sci-Fi\n\nTMDB: https://www.themo
@@ -388,7 +387,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 Milan Baroš: Srdcař
 DTSTART;VALUE=DATE:20270121
 DTEND;VALUE=DATE:20270122
-DTSTAMP:20261125T173956Z
+DTSTAMP:20261126T010953Z
 UID:movie-1792358@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Documentary\n\nTMDB: https://www.themoviedb.org/movie/
@@ -405,7 +404,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 Mädchen in Uniform
 DTSTART;VALUE=DATE:20270225
 DTEND;VALUE=DATE:20270226
-DTSTAMP:20261125T173956Z
+DTSTAMP:20261126T010953Z
 UID:movie-1449002@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Drama\, Romance\n\nTMDB: https://www.themoviedb.org/mo
@@ -422,7 +421,7 @@ BEGIN:VEVENT
 SUMMARY:🎬 Godzilla x Kong: Supernova
 DTSTART;VALUE=DATE:20270325
 DTEND;VALUE=DATE:20270326
-DTSTAMP:20261125T173956Z
+DTSTAMP:20261126T010953Z
 UID:movie-1288438@sg-events-calendar
 CATEGORIES:Movies,Singapore
 DESCRIPTION:Genres: Action\, Adventure\, Sci-Fi\n\nTMDB: https://www.themo
@@ -439,9 +438,9 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🎭 Kalaa Utsavam – Indian Festival of Arts 2026
-DTSTART;TZID=Asia/Singapore:20261126T013953
-DTEND;TZID=Asia/Singapore:20261126T033953
-DTSTAMP:20261125T173956Z
+DTSTART;TZID=Asia/Singapore:20261126T090952
+DTEND;TZID=Asia/Singapore:20261126T110952
+DTSTAMP:20261126T010953Z
 UID:esplanade-kalaa-utsavam---indian-festival-of-arts-2026@sg-events-calen
  dar
 CATEGORIES:Events,Singapore
@@ -460,9 +459,9 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🎭 Mosaic Music Series
-DTSTART;TZID=Asia/Singapore:20261126T013953
-DTEND;TZID=Asia/Singapore:20261126T033953
-DTSTAMP:20261125T173956Z
+DTSTART;TZID=Asia/Singapore:20261126T090952
+DTEND;TZID=Asia/Singapore:20261126T110952
+DTSTAMP:20261126T010953Z
 UID:esplanade-mosaic-music-series@sg-events-calendar
 CATEGORIES:Events,Singapore
 DESCRIPTION:Venue: Esplanade – Theatres on the Bay\n\nMore info: https:/
@@ -480,9 +479,9 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🎭 Soundtracks 2026
-DTSTART;TZID=Asia/Singapore:20261126T013953
-DTEND;TZID=Asia/Singapore:20261126T033953
-DTSTAMP:20261125T173956Z
+DTSTART;TZID=Asia/Singapore:20261126T090952
+DTEND;TZID=Asia/Singapore:20261126T110952
+DTSTAMP:20261126T010953Z
 UID:esplanade-soundtracks-2026@sg-events-calendar
 CATEGORIES:Events,Singapore
 DESCRIPTION:Venue: Esplanade – Theatres on the Bay\n\nMore info: https:/
@@ -500,9 +499,9 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🎭 Voices – A Festival of Song
-DTSTART;TZID=Asia/Singapore:20261126T013953
-DTEND;TZID=Asia/Singapore:20261126T033953
-DTSTAMP:20261125T173956Z
+DTSTART;TZID=Asia/Singapore:20261126T090952
+DTEND;TZID=Asia/Singapore:20261126T110952
+DTSTAMP:20261126T010953Z
 UID:esplanade-voices---a-festival-of-song@sg-events-calendar
 CATEGORIES:Events,Singapore
 DESCRIPTION:Venue: Esplanade – Theatres on the Bay\n\nMore info: https:/
@@ -520,9 +519,9 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🎭 Huayi – Chinese Festival of Arts 2027
-DTSTART;TZID=Asia/Singapore:20261126T013953
-DTEND;TZID=Asia/Singapore:20261126T033953
-DTSTAMP:20261125T173956Z
+DTSTART;TZID=Asia/Singapore:20261126T090952
+DTEND;TZID=Asia/Singapore:20261126T110952
+DTSTAMP:20261126T010953Z
 UID:esplanade-huayi---chinese-festival-of-arts-2027@sg-events-calendar
 CATEGORIES:Events,Singapore
 DESCRIPTION:Venue: Esplanade – Theatres on the Bay\n\nMore info: https:/
